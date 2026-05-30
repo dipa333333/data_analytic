@@ -36,28 +36,51 @@
             </div>
 
             <div class="flex flex-col justify-end">
-                <button type="submit" class="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 active:scale-95 text-gray-950 font-extrabold p-4 rounded-xl transition duration-200 shadow-[0_0_15px_rgba(6,182,212,0.4)] h-[58px]">
-                    🔍 Cari Rute Optimal
+                <button type="submit" id="submitBtn" class="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 active:scale-95 text-gray-950 font-extrabold p-4 rounded-xl transition duration-200 shadow-[0_0_15px_rgba(6,182,212,0.4)] h-[58px] flex items-center justify-center gap-2">
+                    <span id="btnIcon">🔍</span>
+                    <span id="btnText">Cari Rute Optimal</span>
                 </button>
             </div>
         </form>
     </div>
 
+    <div id="loadingState" class="hidden bg-gray-900 border border-gray-800 rounded-2xl p-10 shadow-xl relative overflow-hidden">
+        <div class="flex flex-col items-center justify-center space-y-5">
+            <svg class="animate-spin h-14 w-14 text-cyan-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            
+            <div class="text-center">
+                <h3 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 animate-pulse">Menganalisis Rute Jaringan...</h3>
+                <p class="text-sm text-gray-500 mt-2">Menghitung node dan bobot dengan algoritma Dijkstra</p>
+            </div>
+            
+            <div class="w-full max-w-md mt-4 space-y-3">
+                <div class="h-2 bg-gray-800 rounded-full w-full overflow-hidden">
+                    <div class="h-full bg-cyan-500/50 rounded-full w-1/2 animate-[ping_1.5s_cubic-bezier(0,0,0.2,1)_infinite]"></div>
+                </div>
+                <div class="h-2 bg-gray-800 rounded-full w-4/5 mx-auto animate-pulse"></div>
+            </div>
+        </div>
+    </div>
+
     {% if path_result %}
-    <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 shadow-xl animate-fade-in">
+    <div id="resultState" class="bg-gray-900 border border-gray-800 rounded-2xl p-6 shadow-xl animate-slide-up">
         <h3 class="text-xl font-bold mb-6 text-gray-200 flex items-center gap-2">
             <span>📊</span> Hasil Analisis Jalur Penerbangan
         </h3>
 
         {% if path_result == ["No Path Found"] %}
-        <div class="bg-red-500/10 border border-red-500/30 text-red-400 p-5 rounded-xl text-center flex flex-col items-center gap-2">
+        <div class="bg-red-500/10 border border-red-500/30 text-red-400 p-5 rounded-xl text-center flex flex-col items-center gap-2 animate-slide-up" style="animation-delay: 0.2s; opacity: 0;">
             <span class="text-3xl">⚠️</span>
             <strong>Penerbangan Tidak Ditemukan!</strong>
             <p class="text-sm">Tidak ada jalur penerbangan langsung maupun transit yang menghubungkan kedua kota tersebut.</p>
         </div>
         {% else %}
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div class="lg:col-span-2 bg-gray-800/40 border border-gray-800 p-6 rounded-xl flex flex-col justify-center relative overflow-hidden">
+            
+            <div class="lg:col-span-2 bg-gray-800/40 border border-gray-800 p-6 rounded-xl flex flex-col justify-center relative overflow-hidden animate-slide-up" style="animation-delay: 0.2s; opacity: 0;">
                 <div class="absolute right-0 top-0 w-32 h-32 bg-cyan-500/5 rounded-full blur-3xl"></div>
                 <p class="text-xs text-gray-400 uppercase font-bold mb-5 tracking-wider relative z-10">Rute Perjalanan (Transit Node)</p>
                 <div class="flex flex-wrap items-center gap-3 relative z-10">
@@ -73,13 +96,15 @@
                 </div>
             </div>
 
-            <div class="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 p-6 rounded-xl flex flex-col justify-between shadow-lg relative overflow-hidden">
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 p-6 rounded-xl flex flex-col justify-between shadow-lg relative overflow-hidden animate-slide-up" style="animation-delay: 0.4s; opacity: 0;">
                 <div class="absolute -right-4 -bottom-4 text-8xl opacity-5">{% if request.form.get('weight_type') == 'price' %}₹{% else %}⏱️{% endif %}</div>
                 <div class="relative z-10">
                     <p class="text-xs text-gray-400 uppercase font-bold tracking-wider">Total Transisi Rute</p>
                     <div class="mt-2 inline-flex items-center gap-2 bg-gray-950 px-3 py-1.5 rounded-lg border border-gray-800">
                         <span class="text-xl">{% if path_result|length > 2 %}🔀{% else %}✈️{% endif %}</span>
-                        <h4 class="text-sm text-gray-300 font-semibold">Total Transit: <span class="font-bold text-cyan-400">{{ path_result|length - 2 if path_result|length > 2 else 'Langsung (0)' }}</span></h4>
+                        <h4 class="text-sm text-gray-300 font-semibold">Total Transit: 
+                            <span class="font-bold text-cyan-400 animate-count" data-value="{{ path_result|length - 2 if path_result|length > 2 else 0 }}">0</span>
+                        </h4>
                     </div>
                 </div>
                 
@@ -90,16 +115,16 @@
                     
                     <p class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r {% if request.form.get('weight_type') == 'price' %}from-green-400 to-emerald-600{% else %}from-cyan-400 to-blue-500{% endif %} mt-1 font-mono drop-shadow-sm">
                         {% if request.form.get('weight_type') == 'price' %}
-                            ₹ {{ "{:,.0f}".format(total_cost) if total_cost is number else total_cost }}
+                            <span class="animate-count" data-value="{{ total_cost }}" data-prefix="₹">0</span>
                         {% else %}
                             {% set total_mins = total_cost | int %}
                             {% set hours = (total_mins // 60) | int %}
                             {% set mins = (total_mins % 60) | int %}
                             
                             {% if hours > 0 %}
-                                {{ hours }}<span class="text-lg text-gray-400 font-sans mx-1">Jam</span>
+                                <span class="animate-count" data-value="{{ hours }}">0</span><span class="text-lg text-gray-400 font-sans mx-1">Jam</span>
                             {% endif %}
-                            {{ mins }}<span class="text-lg text-gray-400 font-sans ml-1">Menit</span>
+                            <span class="animate-count" data-value="{{ mins }}">0</span><span class="text-lg text-gray-400 font-sans ml-1">Menit</span>
                         {% endif %}
                     </p>
                 </div>
@@ -112,18 +137,53 @@
 
 <script>
     document.getElementById('routeForm').addEventListener('submit', function(e) {
+        // TAHAN DULU!
+        e.preventDefault(); 
+
         var source = document.getElementById('sourceCity').value;
         var target = document.getElementById('targetCity').value;
         
+        var btn = document.getElementById('submitBtn');
+        var btnIcon = document.getElementById('btnIcon');
+        var btnText = document.getElementById('btnText');
+        
         if (source === target) {
-            e.preventDefault(); // Mencegah form dikirim ke backend
             alert("⚠️ Waduh! Kota Asal dan Kota Tujuan tidak boleh sama ya. Silakan pilih rute yang benar.");
+        } else {
+            // 1. Animasi loading di Tombol
+            btn.classList.add('cursor-not-allowed', 'opacity-80');
+            btnIcon.innerHTML = `<svg class="animate-spin h-5 w-5 text-gray-950" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>`;
+            btnText.innerText = "Mengkalkulasi...";
+
+            // 2. MUNCULKAN KOTAK LOADING DI AREA HASIL BAWAH
+            var loadingState = document.getElementById('loadingState');
+            loadingState.classList.remove('hidden');
+
+            // 3. SEMBUNYIKAN HASIL LAMA (Jika sebelumnya user sudah pernah mencari rute)
+            var resultState = document.getElementById('resultState');
+            if (resultState) {
+                resultState.classList.add('hidden');
+            }
+
+            // 4. Scroll layar sedikit ke bawah supaya animasi loadingnya kelihatan
+            loadingState.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // 5. Tahan selama 1,5 detik, baru benar-benar dikirim ke backend Python
+            setTimeout(function() {
+                document.getElementById('routeForm').submit();
+            }, 1500);
         }
     });
 </script>
 
 <style>
-    .animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    /* CSS Animasi Slide-Up Bertahap (Staggered) */
+    .animate-slide-up { 
+        animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
+    }
+    @keyframes slideUp { 
+        from { opacity: 0; transform: translateY(30px); } 
+        to { opacity: 1; transform: translateY(0); } 
+    }
 </style>
 {% endblock %}
