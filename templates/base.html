@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Network Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-gray-950 text-white">
+
+    <div class="flex min-h-screen">
+        <aside class="w-72 bg-gray-900 border-r border-gray-800 p-6 flex flex-col justify-between">
+            <div>
+                <h1 class="text-3xl font-bold mb-10 text-cyan-400 flex items-center gap-2">
+                    <span>✈️</span> Flight Analytics
+                </h1>
+
+                <nav class="space-y-2">
+                    <a href="/" class="flex items-center px-4 py-3 rounded-xl font-medium transition {% if request.path == '/' %} bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 {% else %} text-gray-400 hover:bg-gray-800 hover:text-white {% endif %}">
+                        Dashboard
+                    </a>
+                    
+                    <a href="/graph" class="flex items-center px-4 py-3 rounded-xl font-medium transition {% if request.path == '/graph' %} bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 {% else %} text-gray-400 hover:bg-gray-800 hover:text-white {% endif %}">
+                        Network Graph
+                    </a>
+                    
+                    <a href="/centrality" class="flex items-center px-4 py-3 rounded-xl font-medium transition {% if request.path == '/centrality' %} bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 {% else %} text-gray-400 hover:bg-gray-800 hover:text-white {% endif %}">
+                        Centrality (Hubs)
+                    </a>
+                    
+                    <a href="/shortest_path" class="flex items-center px-4 py-3 rounded-xl font-medium transition {% if request.path == '/shortest_path' %} bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 {% else %} text-gray-400 hover:bg-gray-800 hover:text-white {% endif %}">
+                        Shortest Path
+                    </a>
+                    
+                    <a href="/pricing" class="flex items-center px-4 py-3 rounded-xl font-medium transition {% if request.path == '/pricing' %} bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 {% else %} text-gray-400 hover:bg-gray-800 hover:text-white {% endif %}">
+                        Ticket Analysis
+                    </a>
+                </nav>
+            </div>
+            
+            <div class="text-xs text-gray-500 text-center border-t border-gray-800 pt-4">
+                CRISP-DM Flight Analytics Project &copy; 2026
+            </div>
+        </aside>
+
+        <main class="flex-1 p-8 overflow-auto">
+            <div class="flex justify-between items-center mb-8 border-b border-gray-900 pb-4">
+                <div>
+                    <h2 class="text-4xl font-bold tracking-tight">
+                        {% if request.path == '/' %} Overview Dashboard
+                        {% elif request.path == '/graph' %} Interactive Network Graph
+                        {% elif request.path == '/centrality' %} Centrality Analysis
+                        {% elif request.path == '/shortest_path' %} Path Finder Algorithm
+                        {% elif request.path == '/pricing' %} Ticket Price Analysis
+                        {% endif %}
+                    </h2>
+                    <p class="text-gray-400 mt-1 text-sm">
+                        Network Analysis & Flight Optimization System
+                    </p>
+                </div>
+            </div>
+
+            {% block content %}
+            {% endblock %}
+        </main>
+    </div>
+
+</body>
+</html>

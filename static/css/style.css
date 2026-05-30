@@ -1,0 +1,12 @@
+.sidebar-link {
+    display: block;
+    padding: 12px 16px;
+    border-radius: 12px;
+    transition: 0.3s;
+    color: #d1d5db;
+}
+
+.sidebar-link:hover {
+    background-color: #06b6d4;
+    color: white;
+}

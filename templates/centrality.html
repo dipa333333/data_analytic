@@ -1,0 +1,167 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="space-y-6">
+    
+    <div class="bg-gray-900 rounded-2xl border border-gray-800 p-6 shadow-xl">
+        <h2 class="text-3xl font-bold mb-2">Centrality Analysis (Flight Hubs)</h2>
+        <p class="text-gray-400 text-sm">Pemetaan hierarki bandara menggunakan metrik algoritma jaringan untuk mendeteksi pusat transit paling krusial.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+            <div class="bg-gray-800/50 p-4 rounded-xl border border-cyan-500/20">
+                <span class="text-cyan-400 font-bold flex items-center gap-2"><span>🎯</span> Degree</span>
+                <p class="text-[11px] text-gray-400 mt-1">Mengukur persentase rute langsung yang dimiliki. Skor 1.0 (100%) berarti kota ini terhubung langsung ke semua kota lain tanpa transit.</p>
+            </div>
+            <div class="bg-gray-800/50 p-4 rounded-xl border border-purple-500/20">
+                <span class="text-purple-400 font-bold flex items-center gap-2"><span>🔀</span> Betweenness</span>
+                <p class="text-[11px] text-gray-400 mt-1">Mengukur seberapa sering kota ini menjadi "jembatan wajib" bagi kota lain. Tanpa kota ini, jaringan akan terputus.</p>
+            </div>
+            <div class="bg-gray-800/50 p-4 rounded-xl border border-green-500/20">
+                <span class="text-green-400 font-bold flex items-center gap-2"><span>⚡</span> Closeness</span>
+                <p class="text-[11px] text-gray-400 mt-1">Mengukur seberapa cepat (jumlah transit tersedikit) untuk mencapai seluruh kota dari titik ini. Mendekati 1.0 = Sangat strategis.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-900 rounded-2xl border border-gray-800 p-6 shadow-xl">
+        <h3 class="text-lg font-bold mb-4 text-white">Top 5 Bandara Pusat (Berdasarkan Degree Centrality)</h3>
+        <div class="relative h-[250px] w-full">
+            <canvas id="hubChart"></canvas>
+        </div>
+    </div>
+
+    <div class="bg-gray-900 rounded-2xl border border-gray-800 shadow-xl overflow-hidden">
+        <div class="p-6 border-b border-gray-800 flex justify-between items-center">
+            <h3 class="text-lg font-bold text-gray-200">Peringkat Lengkap Kota</h3>
+            <span class="bg-gray-800 text-gray-400 text-xs px-3 py-1 rounded-full border border-gray-700">Terurut berdasarkan nilai tertinggi</span>
+        </div>
+        
+        <div class="overflow-x-auto">
+            <table class="w-full text-sm text-left">
+                <thead class="text-[10px] text-gray-400 uppercase tracking-wider bg-gray-950">
+                    <tr>
+                        <th scope="col" class="px-6 py-4">Peringkat & Kota</th>
+                        <th scope="col" class="px-6 py-4 text-cyan-400">Degree Score</th>
+                        <th scope="col" class="px-6 py-4 text-purple-400">Betweenness</th>
+                        <th scope="col" class="px-6 py-4 text-green-400">Closeness</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-800">
+                    {% for row in top_centrality %}
+                    <tr class="hover:bg-gray-800/30 transition duration-150">
+                        <td class="px-6 py-4">
+                            <div class="flex items-center gap-3">
+                                <span class="text-gray-500 font-mono text-xs w-4">#{{ loop.index }}</span>
+                                <div>
+                                    <div class="font-bold text-white text-base">{{ row.city }}</div>
+                                    <div class="mt-1">
+                                        {% if row.degree >= 0.6 %}
+                                            <span class="bg-red-500/10 text-red-400 border border-red-500/20 px-2 py-0.5 rounded text-[10px] font-bold uppercase">Mega Hub</span>
+                                        {% elif row.degree >= 0.3 %}
+                                            <span class="bg-purple-500/10 text-purple-400 border border-purple-500/20 px-2 py-0.5 rounded text-[10px] font-bold uppercase">Regional Transit</span>
+                                        {% else %}
+                                            <span class="bg-gray-700/50 text-gray-400 border border-gray-600 px-2 py-0.5 rounded text-[10px] font-bold uppercase">Feeder</span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="px-6 py-4">
+                            <div class="flex items-center gap-3">
+                                <span class="font-mono text-cyan-400 w-12">{{ "%.4f"|format(row.degree) }}</span>
+                                <div class="w-24 bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                                    <div class="bg-cyan-500 h-full rounded-full" style="width: {{ row.degree * 100 }}%"></div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="px-6 py-4">
+                            <div class="flex items-center gap-3">
+                                <span class="font-mono text-purple-400 w-12">{{ "%.4f"|format(row.betweenness) }}</span>
+                                <div class="w-24 bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                                    <div class="bg-purple-500 h-full rounded-full" style="width: {{ (row.betweenness * 100) * 1.5 }}%"></div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="px-6 py-4">
+                            <div class="flex items-center gap-3">
+                                <span class="font-mono text-green-400 w-12">{{ "%.4f"|format(row.closeness) }}</span>
+                                <div class="w-24 bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                                    <div class="bg-green-500 h-full rounded-full" style="width: {{ row.closeness * 100 }}%"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Ambil data langsung dari Python ke JavaScript dengan aman
+    const rawData = '{{ top_centrality | tojson | safe }}';
+    const centralityData = JSON.parse(rawData);
+
+    // Ambil 5 data teratas saja untuk grafik
+    const top5Data = centralityData.slice(0, 5);
+    const labels = top5Data.map(item => item.city);
+    const dataValues = top5Data.map(item => item.degree);
+
+    const ctx = document.getElementById('hubChart').getContext('2d');
+
+    // Gradasi Horizontal
+    const gradient = ctx.createLinearGradient(0, 0, 400, 0);
+    gradient.addColorStop(0, 'rgba(6, 182, 212, 0.2)');   // Cyan transparan
+    gradient.addColorStop(1, 'rgba(6, 182, 212, 0.9)');   // Cyan solid
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Degree Centrality Score',
+                data: dataValues,
+                backgroundColor: gradient,
+                borderColor: '#06b6d4',
+                borderWidth: 1,
+                borderRadius: 4,
+                barPercentage: 0.6
+            }]
+        },
+        options: {
+            indexAxis: 'y', // MENGUBAH JADI GRAFIK HORIZONTAL
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    backgroundColor: '#1f2937',
+                    titleColor: '#fff',
+                    bodyColor: '#22d3ee',
+                    callbacks: {
+                        label: function(context) {
+                            return ' Konektivitas: ' + (context.raw * 100).toFixed(1) + '%';
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: 'rgba(75, 85, 99, 0.15)' },
+                    ticks: { color: '#9ca3af' },
+                    max: 1.0 // Sumbu X maksimal di 1.0 (100%)
+                },
+                y: {
+                    grid: { display: false },
+                    ticks: { color: '#e5e7eb', font: { weight: 'bold' } }
+                }
+            }
+        }
+    });
+</script>
+{% endblock %}

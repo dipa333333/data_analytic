@@ -1,0 +1,1000 @@
+Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Duration,Total_Stops,Price
+AirAsia India,2024-02-25,Guwahati,Indore,GUW-NAG-MUM-RAI-IND,01:39,14:15,12:36:00 PM,3 stops,14170
+TruJet,2021-03-01,Nagpur,Pune,NAG-PUN,06:48,03:21,08:33:00 PM,non-stop,10295
+Star Air,2024-04-11,Ahmedabad,Varanasi,AHM-PUN-BAN-VAR,08:54,15:50,06:56:00 AM,2 stops,9165
+SpiceJet,2019-03-13,Patna,Indore,PAT-LUC-GOA-BHU-IND,18:09,08:23,02:14:00 PM,3 stops,9944
+SpiceJet,2023-06-22,Raipur,Mumbai,RAI-GOA-MUM,15:05,05:52,02:47:00 PM,1 stop,9474
+SpiceJet,2025-03-25,Kolkata,Bhubaneswar,KOL-BHU,11:09,03:49,04:40:00 PM,non-stop,5106
+GoAir,2025-10-15,Indore,Surat,IND-SUR,22:38,02:12,03:34:00 AM,non-stop,9730
+SpiceJet,2020-10-02,Ahmedabad,Bangalore,AHM-GUW-BAN,16:15,12:11,07:56:00 PM,1 stop,6436
+Air India,2023-05-03,Lucknow,Guwahati,LUC-NAG-GOA-GUW,15:25,07:28,04:03:00 PM,2 stops,7770
+GoAir,2025-12-01,Bangalore,Kolkata,BAN-KOL,06:49,08:44,01:55:00 AM,non-stop,3000
+Alliance Air,2021-02-04,Delhi,Jaipur,DEL-PUN-JAI,20:33,10:46,02:13:00 PM,1 stop,5394
+Star Air,2023-08-06,Guwahati,Indore,GUW-LUC-IND,23:43,14:15,02:32:00 PM,1 stop,7067
+Star Air,2021-09-15,Lucknow,Bangalore,LUC-KOL-VAR-BAN,15:07,17:32,02:25:00 AM,2 stops,10415
+GoAir,2024-06-02,Raipur,Guwahati,RAI-NAG-BAN-KOL-GUW,01:33,00:24,10:51:00 PM,3 stops,17272
+AirAsia India,2019-11-03,Nagpur,Mumbai,NAG-CHE-AHM-SUR-MUM,09:04,06:32,09:28:00 PM,3 stops,12749
+Alliance Air,2022-10-16,Goa,Varanasi,GOA-JAI-BHU-VAR,21:49,10:05,12:16:00 PM,2 stops,10971
+TruJet,2022-09-08,Ahmedabad,Jaipur,AHM-NAG-BHU-JAI,16:35,05:59,01:24:00 PM,2 stops,10015
+Akasa Air,2023-04-18,Guwahati,Varanasi,GUW-DEL-VAR,00:35,03:42,03:07:00 AM,1 stop,7522
+Air India,2023-04-22,Mumbai,Raipur,MUM-GOA-RAI,06:38,19:38,01:00:00 PM,1 stop,6893
+TruJet,2023-08-27,Nagpur,Chennai,NAG-LUC-JAI-CHE,19:52,00:10,04:18:00 AM,2 stops,9673
+SpiceJet,2022-08-24,Patna,Jaipur,PAT-IND-JAI,10:31,01:54,03:23:00 PM,1 stop,9300
+SpiceJet,2020-09-20,Jaipur,Mumbai,JAI-KOL-RAI-HYD-MUM,19:47,17:49,10:02:00 PM,3 stops,11215
+SpiceJet,2024-12-27,Guwahati,Delhi,GUW-IND-PAT-DEL,20:03,16:50,08:47:00 PM,2 stops,11405
+IndiGo,2020-07-27,Goa,Nagpur,GOA-NAG,20:53,22:57,02:04:00 AM,non-stop,11337
+Akasa Air,2022-06-25,Raipur,Goa,RAI-VAR-AHM-HYD-GOA,20:32,22:03,01:31:00 AM,3 stops,15145
+TruJet,2022-03-22,Indore,Lucknow,IND-GOA-LUC,09:48,02:15,04:27:00 PM,1 stop,9802
+Akasa Air,2022-01-03,Patna,Ahmedabad,PAT-GOA-JAI-AHM,08:47,02:30,05:43:00 PM,2 stops,15377
+TruJet,2024-12-20,Indore,Jaipur,IND-JAI,15:19,01:51,10:32:00 AM,non-stop,4502
+SpiceJet,2020-06-27,Patna,Bangalore,PAT-LUC-KOL-BAN,00:21,16:08,03:47:00 PM,2 stops,10033
+Akasa Air,2024-01-21,Patna,Jaipur,PAT-PUN-GOA-HYD-JAI,18:43,01:42,06:59:00 AM,3 stops,11359
+Vistara,2019-04-05,Indore,Bangalore,IND-DEL-COC-BAN,12:20,10:02,09:42:00 PM,2 stops,8683
+Air India,2025-03-19,Hyderabad,Pune,HYD-CHE-BHU-MUM-PUN,03:30,20:07,04:37:00 PM,3 stops,9103
+IndiGo,2024-02-09,Bhubaneswar,Goa,BHU-SUR-IND-GOA,17:48,19:34,01:46:00 AM,2 stops,8269
+Air India,2019-08-06,Varanasi,Pune,VAR-NAG-PUN,06:45,15:34,08:49:00 AM,1 stop,9993
+SpiceJet,2024-06-03,Patna,Jaipur,PAT-BHU-CHE-COC-JAI,15:10,11:43,08:33:00 PM,3 stops,10606
+Vistara,2019-12-25,Delhi,Surat,DEL-NAG-SUR,20:41,19:37,10:56:00 PM,1 stop,7459
+SpiceJet,2020-04-02,Cochin,Goa,COC-BHU-NAG-GOA,17:54,02:14,08:20:00 AM,2 stops,11818
+Air India,2020-11-04,Patna,Guwahati,PAT-GUW,03:55,04:11,12:16:00 AM,non-stop,2630
+SpiceJet,2023-05-13,Hyderabad,Lucknow,HYD-VAR-RAI-LUC,21:00,16:00,07:00:00 PM,2 stops,10879
+TruJet,2024-02-13,Varanasi,Bhubaneswar,VAR-PUN-JAI-BHU,04:41,20:36,03:55:00 PM,2 stops,4894
+Alliance Air,2024-02-04,Delhi,Jaipur,DEL-LUC-PAT-JAI,15:03,04:53,01:50:00 PM,2 stops,15374
+GoAir,2024-08-02,Nagpur,Kolkata,NAG-CHE-KOL,20:57,07:04,10:07:00 AM,1 stop,9614
+Alliance Air,2020-03-16,Lucknow,Pune,LUC-PUN,18:36,13:49,07:13:00 PM,non-stop,10631
+GoAir,2022-01-04,Raipur,Delhi,RAI-KOL-GOA-BAN-DEL,21:49,20:58,11:09:00 PM,3 stops,15121
+GoAir,2024-12-01,Patna,Cochin,PAT-COC,05:16,02:51,09:35:00 PM,non-stop,10305
+Akasa Air,2023-08-16,Mumbai,Nagpur,MUM-CHE-NAG,15:49,09:43,05:54:00 PM,1 stop,12317
+Star Air,2019-09-19,Pune,Hyderabad,PUN-JAI-HYD,17:20,01:12,07:52:00 AM,1 stop,8526
+GoAir,2025-05-15,Cochin,Chennai,COC-JAI-KOL-CHE,14:18,19:29,05:11:00 AM,2 stops,6334
+Akasa Air,2025-07-21,Raipur,Pune,RAI-HYD-PUN,06:00,22:12,04:12:00 PM,1 stop,12174
+IndiGo,2019-06-11,Indore,Chennai,IND-MUM-BHU-PUN-CHE,11:29,21:07,09:38:00 AM,3 stops,13732
+TruJet,2019-07-24,Guwahati,Ahmedabad,GUW-AHM,08:57,23:30,02:33:00 PM,non-stop,10483
+SpiceJet,2025-01-04,Nagpur,Indore,NAG-IND,03:06,04:49,01:43:00 AM,non-stop,5472
+IndiGo,2024-04-10,Pune,Raipur,PUN-COC-DEL-RAI,11:18,03:17,03:59:00 PM,2 stops,13996
+Vistara,2022-10-23,Jaipur,Guwahati,JAI-GUW,04:20,03:07,10:47:00 PM,non-stop,9233
+AirAsia India,2025-07-18,Ahmedabad,Hyderabad,AHM-PUN-HYD,08:49,09:36,12:47:00 AM,1 stop,10713
+Vistara,2025-01-06,Chennai,Ahmedabad,CHE-HYD-AHM,08:49,17:17,08:28:00 AM,1 stop,9626
+SpiceJet,2022-10-19,Raipur,Kolkata,RAI-JAI-CHE-GOA-KOL,17:43,04:15,10:32:00 AM,3 stops,6884
+GoAir,2022-08-09,Mumbai,Hyderabad,MUM-PUN-BHU-HYD,23:43,09:35,09:52:00 AM,2 stops,10022
+Akasa Air,2024-03-07,Cochin,Delhi,COC-GUW-BAN-DEL,09:24,12:24,03:00:00 AM,2 stops,8681
+Vistara,2020-03-02,Raipur,Delhi,RAI-GOA-DEL,15:23,14:25,11:02:00 PM,1 stop,10440
+IndiGo,2019-09-03,Bhubaneswar,Varanasi,BHU-COC-VAR,07:33,21:02,01:29:00 PM,1 stop,10585
+Air India,2021-05-14,Raipur,Delhi,RAI-GOA-VAR-DEL,04:25,11:22,06:57:00 AM,2 stops,12646
+Star Air,2021-09-23,Goa,Bhubaneswar,GOA-JAI-RAI-BHU,07:33,07:52,12:19:00 AM,2 stops,10282
+Star Air,2025-12-18,Ahmedabad,Varanasi,AHM-CHE-VAR,09:53,18:40,08:47:00 AM,1 stop,11894
+Air India,2023-04-13,Hyderabad,Bangalore,HYD-MUM-BAN,00:01,20:17,08:16:00 PM,1 stop,12153
+Air India,2024-01-20,Surat,Goa,SUR-KOL-AHM-GOA,01:52,04:38,02:46:00 AM,2 stops,8112
+GoAir,2021-05-05,Ahmedabad,Delhi,AHM-DEL,06:35,01:02,06:27:00 PM,non-stop,5022
+SpiceJet,2024-11-12,Mumbai,Lucknow,MUM-HYD-PUN-LUC,13:05,22:23,09:18:00 AM,2 stops,9006
+Akasa Air,2021-01-16,Lucknow,Kolkata,LUC-DEL-KOL,03:11,02:17,11:06:00 PM,1 stop,12163
+Air India,2022-09-18,Chennai,Lucknow,CHE-BHU-DEL-RAI-LUC,21:27,08:37,11:10:00 AM,3 stops,9317
+Alliance Air,2020-06-24,Raipur,Patna,RAI-LUC-PAT,20:19,16:18,07:59:00 PM,1 stop,8324
+Vistara,2021-06-08,Indore,Cochin,IND-PUN-COC,19:16,02:56,07:40:00 AM,1 stop,11660
+GoAir,2022-05-01,Delhi,Raipur,DEL-LUC-AHM-RAI,20:28,05:46,09:18:00 AM,2 stops,6153
+GoAir,2024-10-07,Varanasi,Ahmedabad,VAR-COC-BHU-AHM,05:33,20:48,03:15:00 PM,2 stops,9254
+SpiceJet,2025-04-16,Mumbai,Raipur,MUM-CHE-RAI,11:29,14:14,02:45:00 AM,1 stop,8439
+Akasa Air,2022-06-08,Delhi,Varanasi,DEL-BHU-RAI-LUC-VAR,00:41,15:36,02:55:00 PM,3 stops,15770
+Vistara,2021-06-11,Pune,Jaipur,PUN-BAN-IND-NAG-JAI,15:01,01:33,10:32:00 AM,3 stops,11818
+Vistara,2025-12-18,Cochin,Lucknow,COC-LUC,01:51,03:11,01:20:00 AM,non-stop,7469
+GoAir,2020-09-11,Pune,Cochin,PUN-IND-COC,13:03,15:30,02:27:00 AM,1 stop,4493
+Air India,2020-11-01,Delhi,Patna,DEL-IND-HYD-BHU-PAT,13:18,11:17,09:59:00 PM,3 stops,13279
+SpiceJet,2023-10-16,Patna,Mumbai,PAT-SUR-KOL-HYD-MUM,18:14,23:29,05:15:00 AM,3 stops,7874
+Star Air,2021-03-01,Mumbai,Bhubaneswar,MUM-BAN-BHU,21:30,12:55,03:25:00 PM,1 stop,7589
+Alliance Air,2023-09-28,Guwahati,Nagpur,GUW-PAT-AHM-CHE-NAG,15:28,17:01,01:33:00 AM,3 stops,14186
+AirAsia India,2024-03-17,Bhubaneswar,Patna,BHU-MUM-IND-PAT,21:24,19:38,10:14:00 PM,2 stops,13644
+TruJet,2020-03-07,Pune,Delhi,PUN-DEL,18:20,02:35,08:15:00 AM,non-stop,3464
+GoAir,2025-01-04,Jaipur,Raipur,JAI-HYD-DEL-RAI,14:16,01:43,11:27:00 AM,2 stops,13559
+SpiceJet,2023-02-01,Bhubaneswar,Guwahati,BHU-COC-GOA-GUW,21:02,06:42,09:40:00 AM,2 stops,13107
+Akasa Air,2021-06-15,Raipur,Pune,RAI-PUN,15:40,01:06,09:26:00 AM,non-stop,6513
+Alliance Air,2023-12-14,Bhubaneswar,Goa,BHU-DEL-GOA,00:34,14:10,01:36:00 PM,1 stop,4178
+Star Air,2023-06-24,Surat,Kolkata,SUR-BHU-BAN-GOA-KOL,05:11,03:27,10:16:00 PM,3 stops,11075
+SpiceJet,2025-02-13,Surat,Chennai,SUR-PUN-RAI-BHU-CHE,13:06,05:14,04:08:00 PM,3 stops,15534
+Akasa Air,2023-01-27,Patna,Bhubaneswar,PAT-GUW-BAN-VAR-BHU,22:02,22:12,12:10:00 AM,3 stops,9708
+Alliance Air,2020-02-27,Guwahati,Raipur,GUW-COC-JAI-MUM-RAI,09:42,21:26,11:44:00 AM,3 stops,15837
+GoAir,2022-04-22,Kolkata,Surat,KOL-GOA-SUR,16:20,17:29,01:09:00 AM,1 stop,5995
+AirAsia India,2019-12-12,Chennai,Delhi,CHE-IND-DEL,05:53,08:45,02:52:00 AM,1 stop,11381
+Star Air,2024-05-18,Chennai,Delhi,CHE-KOL-SUR-VAR-DEL,18:38,05:19,10:41:00 AM,3 stops,12598
+GoAir,2022-10-19,Ahmedabad,Surat,AHM-JAI-GOA-MUM-SUR,12:23,13:32,01:09:00 AM,3 stops,11196
+TruJet,2019-03-25,Cochin,Mumbai,COC-MUM,17:17,00:28,07:11:00 AM,non-stop,9850
+Star Air,2020-09-27,Varanasi,Kolkata,VAR-BAN-LUC-AHM-KOL,12:02,01:33,01:31:00 PM,3 stops,14675
+AirAsia India,2023-10-09,Bangalore,Varanasi,BAN-DEL-VAR,09:00,20:48,11:48:00 AM,1 stop,8748
+Air India,2022-07-06,Patna,Kolkata,PAT-IND-GUW-CHE-KOL,16:07,07:54,03:47:00 PM,3 stops,7366
+Akasa Air,2021-04-06,Cochin,Mumbai,COC-IND-VAR-MUM,01:42,23:24,09:42:00 PM,2 stops,13377
+Star Air,2022-10-20,Hyderabad,Lucknow,HYD-GOA-IND-PAT-LUC,04:43,05:52,01:09:00 AM,3 stops,7962
+Alliance Air,2025-08-04,Patna,Indore,PAT-IND,22:21,06:23,08:02:00 AM,non-stop,3020
+Alliance Air,2019-08-11,Mumbai,Chennai,MUM-CHE,16:34,12:18,07:44:00 PM,non-stop,9918
+Vistara,2023-10-06,Pune,Bhubaneswar,PUN-KOL-IND-BHU,08:13,11:29,03:16:00 AM,2 stops,12681
+SpiceJet,2021-05-18,Ahmedabad,Hyderabad,AHM-HYD,11:47,19:26,07:39:00 AM,non-stop,8361
+TruJet,2021-02-04,Guwahati,Surat,GUW-JAI-PAT-BHU-SUR,09:19,11:19,02:00:00 AM,3 stops,8459
+Air India,2022-01-11,Bangalore,Raipur,BAN-KOL-VAR-NAG-RAI,22:31,05:25,06:54:00 AM,3 stops,11179
+Vistara,2022-04-21,Cochin,Patna,COC-BHU-RAI-JAI-PAT,18:03,09:04,03:01:00 PM,3 stops,9778
+GoAir,2025-01-17,Nagpur,Pune,NAG-SUR-PUN,14:18,06:49,04:31:00 PM,1 stop,10031
+IndiGo,2022-09-08,Pune,Ahmedabad,PUN-CHE-GOA-AHM,11:41,13:30,01:49:00 AM,2 stops,13649
+TruJet,2022-04-19,Varanasi,Mumbai,VAR-MUM,17:01,11:35,06:34:00 PM,non-stop,8146
+GoAir,2023-10-13,Bhubaneswar,Nagpur,BHU-SUR-KOL-NAG,14:45,05:32,02:47:00 PM,2 stops,5737
+Air India,2020-09-21,Pune,Indore,PUN-JAI-BAN-IND,09:32,02:30,04:58:00 PM,2 stops,8555
+Vistara,2023-05-23,Varanasi,Delhi,VAR-BHU-SUR-GUW-DEL,13:01,23:55,10:54:00 AM,3 stops,14452
+IndiGo,2021-05-23,Bangalore,Surat,BAN-SUR,14:07,03:54,01:47:00 PM,non-stop,7029
+SpiceJet,2021-03-23,Surat,Goa,SUR-AHM-PUN-GOA,12:14,02:48,02:34:00 PM,2 stops,6322
+SpiceJet,2019-11-18,Surat,Raipur,SUR-GUW-RAI,22:59,07:18,08:19:00 AM,1 stop,12765
+Vistara,2024-01-27,Bhubaneswar,Lucknow,BHU-LUC,04:45,13:52,09:07:00 AM,non-stop,8816
+Air India,2020-11-17,Goa,Kolkata,GOA-KOL,18:15,07:01,12:46:00 PM,non-stop,5863
+Air India,2025-06-12,Chennai,Raipur,CHE-COC-SUR-RAI,14:55,21:19,06:24:00 AM,2 stops,7725
+Star Air,2024-05-19,Nagpur,Patna,NAG-KOL-BAN-PAT,07:09,23:17,04:08:00 PM,2 stops,7149
+AirAsia India,2023-07-22,Surat,Indore,SUR-GOA-MUM-IND,21:10,05:34,08:24:00 AM,2 stops,7620
+TruJet,2020-04-20,Varanasi,Guwahati,VAR-HYD-PUN-CHE-GUW,13:02,11:33,10:31:00 PM,3 stops,13825
+AirAsia India,2020-04-11,Goa,Cochin,GOA-CHE-HYD-COC,21:05,13:29,04:24:00 PM,2 stops,7858
+TruJet,2024-05-13,Jaipur,Hyderabad,JAI-NAG-LUC-HYD,12:23,09:17,08:54:00 PM,2 stops,15172
+Alliance Air,2024-11-05,Ahmedabad,Nagpur,AHM-NAG,06:58,23:20,04:22:00 PM,non-stop,11519
+TruJet,2025-02-05,Ahmedabad,Hyderabad,AHM-IND-HYD,02:18,14:34,12:16:00 PM,1 stop,12554
+TruJet,2025-05-09,Jaipur,Varanasi,JAI-BAN-GOA-HYD-VAR,11:23,02:56,03:33:00 PM,3 stops,16028
+TruJet,2025-08-15,Patna,Chennai,PAT-MUM-CHE,18:12,13:37,07:25:00 PM,1 stop,9640
+Vistara,2022-10-19,Varanasi,Lucknow,VAR-PAT-BHU-LUC,16:29,00:32,08:03:00 AM,2 stops,12483
+Alliance Air,2020-02-28,Bangalore,Lucknow,BAN-CHE-PAT-RAI-LUC,12:56,23:49,10:53:00 AM,3 stops,14612
+TruJet,2022-10-07,Raipur,Guwahati,RAI-DEL-GUW,08:18,14:55,06:37:00 AM,1 stop,8012
+Star Air,2023-01-27,Surat,Raipur,SUR-RAI,12:06,02:57,02:51:00 PM,non-stop,3565
+Air India,2021-07-08,Indore,Jaipur,IND-CHE-JAI,08:30,01:49,05:19:00 PM,1 stop,3513
+GoAir,2024-05-14,Goa,Kolkata,GOA-KOL,09:12,23:27,02:15:00 PM,non-stop,2560
+AirAsia India,2020-06-21,Mumbai,Raipur,MUM-IND-RAI,16:06,18:49,02:43:00 AM,1 stop,8875
+GoAir,2025-07-28,Varanasi,Kolkata,VAR-KOL,02:07,16:04,01:57:00 PM,non-stop,10500
+Alliance Air,2023-02-28,Jaipur,Nagpur,JAI-NAG,23:30,01:38,02:08:00 AM,non-stop,8036
+TruJet,2020-09-27,Goa,Bhubaneswar,GOA-IND-JAI-BHU,23:07,11:39,12:32:00 PM,2 stops,8282
+Vistara,2025-11-04,Raipur,Kolkata,RAI-PUN-PAT-CHE-KOL,09:21,11:16,01:55:00 AM,3 stops,5833
+Alliance Air,2023-08-08,Hyderabad,Kolkata,HYD-IND-VAR-KOL,07:32,08:40,01:08:00 AM,2 stops,7831
+GoAir,2024-08-27,Hyderabad,Chennai,HYD-CHE,18:29,19:19,12:50:00 AM,non-stop,9288
+Air India,2021-08-13,Varanasi,Pune,VAR-MUM-BHU-PUN,08:03,23:05,03:02:00 PM,2 stops,7267
+SpiceJet,2024-04-05,Lucknow,Ahmedabad,LUC-BHU-AHM,21:04,23:16,02:12:00 AM,1 stop,11036
+Air India,2021-04-10,Cochin,Kolkata,COC-KOL,02:01,18:40,04:39:00 PM,non-stop,7588
+Star Air,2023-05-05,Varanasi,Nagpur,VAR-BAN-CHE-PAT-NAG,17:51,23:19,05:28:00 AM,3 stops,7784
+Vistara,2020-02-11,Ahmedabad,Jaipur,AHM-JAI,20:26,14:59,06:33:00 PM,non-stop,7371
+SpiceJet,2022-12-06,Bangalore,Bhubaneswar,BAN-LUC-COC-BHU,23:39,21:24,09:45:00 PM,2 stops,9849
+Star Air,2023-10-12,Cochin,Patna,COC-PAT,11:52,07:29,07:37:00 PM,non-stop,2511
+GoAir,2024-02-19,Patna,Surat,PAT-NAG-BHU-CHE-SUR,21:34,01:25,03:51:00 AM,3 stops,16909
+TruJet,2022-10-08,Surat,Chennai,SUR-KOL-CHE,12:42,03:47,03:05:00 PM,1 stop,10230
+Alliance Air,2021-06-02,Pune,Ahmedabad,PUN-AHM,20:57,12:46,03:49:00 PM,non-stop,8450
+Star Air,2022-03-16,Guwahati,Bhubaneswar,GUW-RAI-DEL-BHU,21:32,21:46,12:14:00 AM,2 stops,11830
+Star Air,2024-04-20,Patna,Chennai,PAT-CHE,08:27,12:28,04:01:00 AM,non-stop,11356
+Air India,2022-12-02,Jaipur,Goa,JAI-PAT-NAG-GOA,22:48,05:13,06:25:00 AM,2 stops,13093
+TruJet,2020-05-09,Guwahati,Ahmedabad,GUW-JAI-AHM,20:16,02:00,05:44:00 AM,1 stop,9561
+Alliance Air,2020-10-02,Lucknow,Cochin,LUC-PAT-BHU-COC,10:48,11:32,12:44:00 AM,2 stops,10522
+Akasa Air,2020-07-10,Nagpur,Bhubaneswar,NAG-BHU,08:59,18:25,09:26:00 AM,non-stop,7483
+Alliance Air,2022-10-02,Surat,Indore,SUR-AHM-GUW-LUC-IND,00:50,12:15,11:25:00 AM,3 stops,6943
+IndiGo,2020-02-01,Chennai,Ahmedabad,CHE-DEL-AHM,18:01,14:06,08:05:00 PM,1 stop,8410
+IndiGo,2023-05-23,Bangalore,Surat,BAN-DEL-IND-SUR,11:42,13:57,02:15:00 AM,2 stops,11750
+AirAsia India,2020-12-04,Bangalore,Hyderabad,BAN-BHU-HYD,21:40,19:43,10:03:00 PM,1 stop,8080
+TruJet,2023-11-07,Hyderabad,Mumbai,HYD-GUW-LUC-MUM,05:20,20:00,02:40:00 PM,2 stops,11702
+GoAir,2020-07-26,Surat,Jaipur,SUR-PUN-LUC-NAG-JAI,02:02,16:31,02:29:00 PM,3 stops,12009
+Akasa Air,2025-07-07,Chennai,Lucknow,CHE-SUR-VAR-LUC,04:47,00:21,07:34:00 PM,2 stops,6278
+TruJet,2024-03-18,Nagpur,Lucknow,NAG-MUM-GOA-LUC,02:46,02:15,11:29:00 PM,2 stops,4829
+Alliance Air,2019-09-02,Ahmedabad,Jaipur,AHM-BAN-JAI,23:18,12:20,01:02:00 PM,1 stop,7272
+SpiceJet,2020-10-28,Nagpur,Goa,NAG-PAT-VAR-SUR-GOA,11:37,04:08,04:31:00 PM,3 stops,13125
+Star Air,2021-08-21,Jaipur,Ahmedabad,JAI-AHM,16:51,15:16,10:25:00 PM,non-stop,3398
+IndiGo,2019-06-14,Kolkata,Raipur,KOL-MUM-VAR-RAI,05:20,22:58,05:38:00 PM,2 stops,11123
+Alliance Air,2020-01-15,Ahmedabad,Bhubaneswar,AHM-VAR-NAG-BHU,08:05,02:59,06:54:00 PM,2 stops,10523
+GoAir,2023-07-08,Goa,Nagpur,GOA-BHU-NAG,10:01,19:18,09:17:00 AM,1 stop,5998
+Alliance Air,2019-12-04,Kolkata,Nagpur,KOL-COC-AHM-NAG,07:04,17:15,10:11:00 AM,2 stops,7456
+Alliance Air,2022-11-27,Jaipur,Mumbai,JAI-MUM,01:10,13:12,12:02:00 PM,non-stop,11894
+Star Air,2022-07-11,Pune,Chennai,PUN-GOA-VAR-HYD-CHE,18:41,22:29,03:48:00 AM,3 stops,7715
+Vistara,2020-08-23,Jaipur,Chennai,JAI-IND-CHE,21:50,09:46,11:56:00 AM,1 stop,6437
+TruJet,2022-10-28,Guwahati,Ahmedabad,GUW-AHM,22:56,23:01,12:05:00 AM,non-stop,7585
+SpiceJet,2023-08-24,Mumbai,Guwahati,MUM-JAI-GUW,10:13,14:39,04:26:00 AM,1 stop,11565
+Akasa Air,2020-12-18,Goa,Guwahati,GOA-AHM-PAT-GUW,11:43,11:45,12:02:00 AM,2 stops,13540
+Star Air,2024-02-28,Bhubaneswar,Indore,BHU-RAI-AHM-GOA-IND,17:41,08:01,02:20:00 PM,3 stops,7421
+TruJet,2024-06-21,Patna,Pune,PAT-MUM-NAG-CHE-PUN,11:37,19:20,07:43:00 AM,3 stops,8303
+TruJet,2023-02-09,Jaipur,Indore,JAI-PUN-IND,10:40,18:33,07:53:00 AM,1 stop,4217
+IndiGo,2024-04-04,Raipur,Goa,RAI-BHU-GOA,14:24,11:21,08:57:00 PM,1 stop,13461
+TruJet,2023-01-02,Guwahati,Pune,GUW-RAI-GOA-CHE-PUN,23:18,13:20,02:02:00 PM,3 stops,13674
+Akasa Air,2020-08-10,Mumbai,Bhubaneswar,MUM-BAN-BHU,16:39,03:21,10:42:00 AM,1 stop,3925
+Akasa Air,2021-09-27,Delhi,Bangalore,DEL-AHM-BHU-BAN,23:55,08:52,08:57:00 AM,2 stops,11438
+Star Air,2020-11-28,Bhubaneswar,Pune,BHU-IND-AHM-PUN,18:54,08:01,01:07:00 PM,2 stops,13843
+SpiceJet,2024-09-16,Cochin,Kolkata,COC-RAI-KOL,13:21,06:18,04:57:00 PM,1 stop,9903
+Vistara,2020-04-21,Goa,Hyderabad,GOA-JAI-HYD,20:50,23:13,02:23:00 AM,1 stop,6387
+Akasa Air,2023-05-10,Lucknow,Ahmedabad,LUC-AHM,07:56,08:32,12:36:00 AM,non-stop,8030
+Air India,2024-02-01,Varanasi,Raipur,VAR-LUC-GUW-SUR-RAI,00:52,17:15,04:23:00 PM,3 stops,15071
+SpiceJet,2022-02-19,Pune,Raipur,PUN-COC-IND-MUM-RAI,06:43,08:57,02:14:00 AM,3 stops,13793
+TruJet,2022-04-12,Guwahati,Lucknow,GUW-VAR-KOL-HYD-LUC,06:47,16:20,09:33:00 AM,3 stops,14639
+SpiceJet,2024-03-23,Chennai,Bhubaneswar,CHE-GUW-LUC-KOL-BHU,01:02,07:25,06:23:00 AM,3 stops,13326
+AirAsia India,2023-04-26,Nagpur,Lucknow,NAG-MUM-LUC,10:32,04:15,05:43:00 PM,1 stop,6145
+SpiceJet,2024-12-27,Raipur,Hyderabad,RAI-HYD,14:14,15:15,01:01:00 AM,non-stop,11464
+Alliance Air,2020-03-26,Bhubaneswar,Delhi,BHU-DEL,15:06,15:17,12:11:00 AM,non-stop,5057
+Star Air,2024-01-10,Hyderabad,Pune,HYD-AHM-GUW-PUN,02:27,18:40,04:13:00 PM,2 stops,8038
+TruJet,2024-04-11,Kolkata,Bangalore,KOL-SUR-NAG-BAN,20:00,06:50,10:50:00 AM,2 stops,5967
+Alliance Air,2025-07-27,Surat,Bhubaneswar,SUR-GOA-JAI-BHU,07:19,14:35,07:16:00 AM,2 stops,11979
+TruJet,2022-04-26,Indore,Chennai,IND-GOA-PAT-AHM-CHE,00:53,12:29,11:36:00 AM,3 stops,9304
+Alliance Air,2021-11-20,Pune,Kolkata,PUN-CHE-KOL,06:05,21:57,03:52:00 PM,1 stop,11178
+Alliance Air,2022-11-23,Chennai,Guwahati,CHE-BHU-COC-GUW,11:49,02:33,02:44:00 PM,2 stops,13129
+AirAsia India,2019-01-12,Varanasi,Patna,VAR-DEL-PAT,13:15,13:25,12:10:00 AM,1 stop,12847
+Star Air,2022-02-08,Bhubaneswar,Cochin,BHU-BAN-GUW-COC,11:31,18:03,06:32:00 AM,2 stops,7571
+Alliance Air,2023-07-01,Nagpur,Varanasi,NAG-VAR,04:38,17:31,12:53:00 PM,non-stop,7800
+SpiceJet,2019-01-25,Lucknow,Chennai,LUC-CHE,23:48,03:41,03:53:00 AM,non-stop,11313
+Vistara,2024-11-01,Pune,Chennai,PUN-GUW-BHU-CHE,16:35,17:51,01:16:00 AM,2 stops,10842
+Vistara,2025-04-22,Pune,Lucknow,PUN-MUM-PAT-LUC,02:16,03:18,01:02:00 AM,2 stops,13529
+Vistara,2024-02-12,Kolkata,Varanasi,KOL-COC-VAR,16:22,19:12,02:50:00 AM,1 stop,4472
+AirAsia India,2021-05-20,Varanasi,Hyderabad,VAR-BHU-PUN-RAI-HYD,03:33,00:59,09:26:00 PM,3 stops,13411
+Air India,2023-02-14,Chennai,Guwahati,CHE-NAG-GUW,16:19,20:04,03:45:00 AM,1 stop,5620
+Star Air,2021-04-16,Goa,Kolkata,GOA-CHE-KOL,08:50,00:46,03:56:00 PM,1 stop,4359
+TruJet,2021-07-06,Pune,Lucknow,PUN-NAG-LUC,05:39,00:50,07:11:00 PM,1 stop,7137
+Alliance Air,2022-03-25,Surat,Patna,SUR-DEL-MUM-PAT,05:31,19:44,02:13:00 PM,2 stops,9276
+Star Air,2019-06-13,Jaipur,Goa,JAI-PUN-GUW-KOL-GOA,10:55,12:44,01:49:00 AM,3 stops,7700
+AirAsia India,2021-01-22,Mumbai,Kolkata,MUM-DEL-GUW-HYD-KOL,22:39,19:11,08:32:00 PM,3 stops,15937
+Vistara,2025-02-05,Raipur,Kolkata,RAI-MUM-JAI-KOL,20:24,04:47,08:23:00 AM,2 stops,5047
+Alliance Air,2025-04-19,Indore,Cochin,IND-BHU-COC,11:10,22:40,11:30:00 AM,1 stop,5291
+Akasa Air,2020-05-10,Mumbai,Goa,MUM-PUN-NAG-IND-GOA,10:41,10:50,12:09:00 AM,3 stops,8036
+Star Air,2019-04-01,Hyderabad,Bhubaneswar,HYD-BHU,06:14,08:36,02:22:00 AM,non-stop,5627
+SpiceJet,2022-03-20,Mumbai,Ahmedabad,MUM-AHM,08:19,09:24,01:05:00 AM,non-stop,4887
+Alliance Air,2024-06-23,Kolkata,Hyderabad,KOL-MUM-GUW-HYD,15:23,16:45,01:22:00 AM,2 stops,11055
+TruJet,2020-11-27,Bhubaneswar,Jaipur,BHU-DEL-MUM-JAI,13:45,18:51,05:06:00 AM,2 stops,9485
+GoAir,2020-12-01,Ahmedabad,Kolkata,AHM-DEL-JAI-KOL,13:39,05:59,04:20:00 PM,2 stops,8556
+Alliance Air,2021-01-12,Cochin,Indore,COC-IND,19:50,13:50,06:00:00 PM,non-stop,3781
+TruJet,2025-07-04,Patna,Bhubaneswar,PAT-BAN-BHU,04:06,22:47,06:41:00 PM,1 stop,8939
+Alliance Air,2022-12-23,Surat,Nagpur,SUR-HYD-BAN-JAI-NAG,11:34,00:37,01:03:00 PM,3 stops,11297
+Akasa Air,2024-05-26,Nagpur,Hyderabad,NAG-BHU-LUC-HYD,05:36,04:10,10:34:00 PM,2 stops,9456
+GoAir,2020-11-01,Guwahati,Pune,GUW-SUR-PUN,19:23,16:49,09:26:00 PM,1 stop,7151
+SpiceJet,2020-03-14,Pune,Chennai,PUN-CHE,13:52,11:33,09:41:00 PM,non-stop,3152
+IndiGo,2025-02-03,Lucknow,Mumbai,LUC-MUM,07:03,13:21,06:18:00 AM,non-stop,6124
+Vistara,2020-08-28,Cochin,Kolkata,COC-BAN-GUW-JAI-KOL,17:31,09:32,04:01:00 PM,3 stops,10859
+GoAir,2023-02-14,Varanasi,Lucknow,VAR-LUC,12:20,12:59,12:39:00 AM,non-stop,6471
+Air India,2019-09-19,Delhi,Patna,DEL-PAT,18:20,16:52,10:32:00 PM,non-stop,3718
+Akasa Air,2022-07-14,Cochin,Nagpur,COC-LUC-NAG,08:01,22:22,02:21:00 PM,1 stop,9469
+Air India,2022-06-21,Mumbai,Delhi,MUM-CHE-DEL,18:50,02:59,08:09:00 AM,1 stop,7122
+Air India,2020-01-26,Mumbai,Patna,MUM-BAN-CHE-PUN-PAT,10:20,23:39,01:19:00 PM,3 stops,13581
+IndiGo,2019-03-03,Varanasi,Lucknow,VAR-PUN-LUC,19:32,03:54,08:22:00 AM,1 stop,9491
+AirAsia India,2019-06-05,Kolkata,Ahmedabad,KOL-IND-MUM-AHM,16:17,18:53,02:36:00 AM,2 stops,13797
+GoAir,2024-05-20,Bangalore,Pune,BAN-PUN,03:40,08:26,04:46:00 AM,non-stop,5031
+Akasa Air,2022-05-03,Pune,Lucknow,PUN-JAI-VAR-LUC,07:17,12:10,04:53:00 AM,2 stops,14397
+SpiceJet,2020-12-05,Surat,Varanasi,SUR-LUC-BAN-GOA-VAR,06:36,13:38,07:02:00 AM,3 stops,13108
+SpiceJet,2022-05-19,Hyderabad,Mumbai,HYD-BHU-CHE-GUW-MUM,12:35,18:17,05:42:00 AM,3 stops,11143
+AirAsia India,2019-05-10,Lucknow,Chennai,LUC-KOL-BHU-MUM-CHE,04:13,21:36,05:23:00 PM,3 stops,9652
+GoAir,2021-02-05,Pune,Chennai,PUN-CHE,07:06,06:13,11:07:00 PM,non-stop,4718
+IndiGo,2021-02-19,Kolkata,Cochin,KOL-GOA-VAR-NAG-COC,14:34,14:03,11:29:00 PM,3 stops,15508
+TruJet,2021-07-05,Varanasi,Bangalore,VAR-NAG-BAN,18:00,22:24,04:24:00 AM,1 stop,9377
+Star Air,2023-03-21,Hyderabad,Varanasi,HYD-VAR,04:46,02:52,10:06:00 PM,non-stop,3773
+SpiceJet,2019-05-12,Nagpur,Raipur,NAG-HYD-AHM-VAR-RAI,20:55,20:42,11:47:00 PM,3 stops,12385
+IndiGo,2021-12-17,Patna,Cochin,PAT-CHE-IND-COC,17:08,19:16,02:08:00 AM,2 stops,10236
+TruJet,2020-07-25,Cochin,Jaipur,COC-CHE-JAI,11:57,04:56,04:59:00 PM,1 stop,7061
+SpiceJet,2022-07-16,Mumbai,Nagpur,MUM-CHE-PUN-DEL-NAG,13:07,05:49,04:42:00 PM,3 stops,7152
+TruJet,2020-01-12,Chennai,Surat,CHE-COC-GUW-SUR,20:14,14:41,06:27:00 PM,2 stops,6848
+AirAsia India,2019-12-27,Surat,Ahmedabad,SUR-GOA-NAG-AHM,03:06,20:52,05:46:00 PM,2 stops,7770
+Alliance Air,2022-09-28,Patna,Bhubaneswar,PAT-VAR-BHU,10:08,18:54,08:46:00 AM,1 stop,10260
+Star Air,2020-09-17,Ahmedabad,Mumbai,AHM-PUN-JAI-MUM,18:29,06:27,11:58:00 AM,2 stops,12117
+Air India,2019-12-01,Mumbai,Patna,MUM-COC-NAG-VAR-PAT,08:34,21:04,12:30:00 PM,3 stops,12902
+SpiceJet,2022-06-24,Varanasi,Chennai,VAR-CHE,22:51,17:21,06:30:00 PM,non-stop,9481
+SpiceJet,2024-09-12,Pune,Ahmedabad,PUN-BAN-BHU-GUW-AHM,10:59,07:55,08:56:00 PM,3 stops,11386
+Air India,2024-02-02,Chennai,Pune,CHE-KOL-COC-PUN,12:05,18:39,06:34:00 AM,2 stops,12671
+SpiceJet,2020-11-13,Chennai,Patna,CHE-PAT,19:44,02:56,07:12:00 AM,non-stop,5322
+AirAsia India,2022-08-10,Ahmedabad,Kolkata,AHM-MUM-COC-LUC-KOL,14:49,12:02,09:13:00 PM,3 stops,14994
+Alliance Air,2024-02-08,Chennai,Ahmedabad,CHE-MUM-DEL-KOL-AHM,05:05,13:32,08:27:00 AM,3 stops,10722
+GoAir,2022-09-05,Indore,Bhubaneswar,IND-JAI-AHM-KOL-BHU,23:35,18:51,07:16:00 PM,3 stops,10533
+Akasa Air,2020-04-19,Nagpur,Kolkata,NAG-PUN-PAT-KOL,08:19,04:32,08:13:00 PM,2 stops,6028
+Star Air,2020-07-23,Guwahati,Bangalore,GUW-GOA-BAN,01:13,16:40,03:27:00 PM,1 stop,6953
+Air India,2019-10-19,Varanasi,Lucknow,VAR-LUC,01:03,03:40,02:37:00 AM,non-stop,8869
+Air India,2019-07-04,Pune,Nagpur,PUN-COC-IND-NAG,03:46,12:54,09:08:00 AM,2 stops,7449
+Akasa Air,2021-04-28,Nagpur,Patna,NAG-SUR-BAN-VAR-PAT,19:36,07:33,11:57:00 AM,3 stops,14967
+AirAsia India,2021-05-08,Cochin,Raipur,COC-HYD-JAI-BHU-RAI,04:09,00:30,08:21:00 PM,3 stops,7127
+Alliance Air,2025-07-07,Chennai,Kolkata,CHE-LUC-IND-KOL,23:27,02:56,03:29:00 AM,2 stops,9720
+Air India,2020-01-13,Bangalore,Ahmedabad,BAN-SUR-RAI-AHM,00:13,21:36,09:23:00 PM,2 stops,11027
+TruJet,2023-11-06,Delhi,Indore,DEL-GOA-IND,10:12,04:25,06:13:00 PM,1 stop,10264
+GoAir,2020-03-11,Bhubaneswar,Delhi,BHU-DEL,14:07,14:42,12:35:00 AM,non-stop,10683
+AirAsia India,2022-10-14,Nagpur,Lucknow,NAG-VAR-PAT-GUW-LUC,08:03,15:25,07:22:00 AM,3 stops,9217
+SpiceJet,2022-05-23,Hyderabad,Indore,HYD-MUM-PAT-IND,04:20,07:31,03:11:00 AM,2 stops,12084
+SpiceJet,2025-07-25,Pune,Raipur,PUN-RAI,04:42,04:58,12:16:00 AM,non-stop,8619
+AirAsia India,2024-08-17,Chennai,Cochin,CHE-SUR-DEL-COC,19:20,18:39,11:19:00 PM,2 stops,6603
+Alliance Air,2023-09-21,Bangalore,Hyderabad,BAN-GUW-MUM-HYD,18:35,23:04,04:29:00 AM,2 stops,5530
+Alliance Air,2021-11-08,Mumbai,Bhubaneswar,MUM-GUW-BHU,12:05,15:15,03:10:00 AM,1 stop,7451
+Akasa Air,2023-03-15,Kolkata,Delhi,KOL-JAI-VAR-DEL,23:16,15:07,03:51:00 PM,2 stops,11635
+AirAsia India,2019-05-09,Nagpur,Cochin,NAG-LUC-RAI-COC,12:44,07:39,06:55:00 PM,2 stops,9379
+Vistara,2025-11-08,Ahmedabad,Kolkata,AHM-BAN-KOL,07:55,05:53,09:58:00 PM,1 stop,6697
+TruJet,2024-04-01,Cochin,Delhi,COC-BAN-MUM-AHM-DEL,13:01,04:01,03:00:00 PM,3 stops,6651
+Air India,2023-01-17,Surat,Guwahati,SUR-GUW,19:03,22:37,03:34:00 AM,non-stop,10021
+Alliance Air,2023-02-02,Delhi,Mumbai,DEL-MUM,00:19,13:34,01:15:00 PM,non-stop,4464
+Air India,2025-04-24,Bhubaneswar,Goa,BHU-DEL-NAG-GOA,15:42,15:08,11:26:00 PM,2 stops,13609
+IndiGo,2025-04-08,Guwahati,Indore,GUW-KOL-PAT-NAG-IND,03:22,08:07,04:45:00 AM,3 stops,7534
+Air India,2024-05-12,Surat,Guwahati,SUR-HYD-AHM-GUW,13:58,21:13,07:15:00 AM,2 stops,11785
+SpiceJet,2022-05-10,Lucknow,Delhi,LUC-VAR-NAG-HYD-DEL,07:39,15:53,08:14:00 AM,3 stops,9032
+AirAsia India,2024-01-04,Nagpur,Delhi,NAG-DEL,11:36,05:57,06:21:00 PM,non-stop,5304
+SpiceJet,2022-09-02,Jaipur,Delhi,JAI-SUR-PUN-DEL,12:04,10:40,10:36:00 PM,2 stops,14999
+SpiceJet,2023-07-19,Pune,Guwahati,PUN-PAT-GUW,05:52,22:17,04:25:00 PM,1 stop,12764
+Vistara,2019-06-15,Cochin,Bhubaneswar,COC-BHU,07:44,05:13,09:29:00 PM,non-stop,4282
+Star Air,2021-01-07,Indore,Bhubaneswar,IND-BHU,18:45,02:12,07:27:00 AM,non-stop,11861
+Air India,2022-08-17,Indore,Chennai,IND-KOL-CHE,04:01,03:35,11:34:00 PM,1 stop,12885
+IndiGo,2024-07-24,Delhi,Goa,DEL-GOA,00:53,00:17,11:24:00 PM,non-stop,5911
+Star Air,2019-07-16,Raipur,Bangalore,RAI-BHU-AHM-DEL-BAN,00:26,01:57,01:31:00 AM,3 stops,6447
+Vistara,2021-12-04,Kolkata,Nagpur,KOL-NAG,19:24,14:49,07:25:00 PM,non-stop,8125
+IndiGo,2023-04-14,Bhubaneswar,Hyderabad,BHU-VAR-SUR-GOA-HYD,19:34,19:44,12:10:00 AM,3 stops,14219
+SpiceJet,2022-04-22,Lucknow,Guwahati,LUC-BAN-PAT-SUR-GUW,03:30,09:00,05:30:00 AM,3 stops,8990
+IndiGo,2020-10-28,Goa,Mumbai,GOA-LUC-SUR-MUM,01:58,22:09,08:11:00 PM,2 stops,14321
+Akasa Air,2019-11-06,Jaipur,Indore,JAI-BAN-GUW-CHE-IND,10:22,12:10,01:48:00 AM,3 stops,6100
+Star Air,2023-02-17,Varanasi,Patna,VAR-RAI-PAT,01:39,02:10,12:31:00 AM,1 stop,7560
+Alliance Air,2023-09-20,Cochin,Delhi,COC-DEL,17:24,04:56,11:32:00 AM,non-stop,8795
+SpiceJet,2022-10-06,Nagpur,Chennai,NAG-BAN-CHE,10:15,14:22,04:07:00 AM,1 stop,5773
+Akasa Air,2019-04-01,Lucknow,Bhubaneswar,LUC-SUR-BAN-JAI-BHU,02:57,11:57,09:00:00 AM,3 stops,15012
+SpiceJet,2024-01-26,Ahmedabad,Pune,AHM-HYD-IND-PUN,17:38,18:55,01:17:00 AM,2 stops,11252
+TruJet,2020-03-21,Hyderabad,Mumbai,HYD-COC-GOA-IND-MUM,03:17,02:13,10:56:00 PM,3 stops,7986
+Air India,2025-10-07,Ahmedabad,Surat,AHM-BAN-CHE-SUR,21:22,04:41,07:19:00 AM,2 stops,13356
+Akasa Air,2023-10-15,Bangalore,Cochin,BAN-PAT-SUR-COC,06:59,09:42,02:43:00 AM,2 stops,8634
+IndiGo,2021-08-28,Lucknow,Pune,LUC-PUN,05:51,17:00,11:09:00 AM,non-stop,8851
+Akasa Air,2021-08-10,Cochin,Chennai,COC-PAT-HYD-CHE,04:57,07:32,02:35:00 AM,2 stops,7198
+Vistara,2025-02-06,Hyderabad,Lucknow,HYD-PAT-NAG-LUC,03:59,13:41,09:42:00 AM,2 stops,13848
+Vistara,2022-09-11,Kolkata,Ahmedabad,KOL-GOA-AHM,13:04,03:04,02:00:00 PM,1 stop,4800
+Akasa Air,2021-02-12,Pune,Surat,PUN-CHE-VAR-SUR,03:58,22:06,06:08:00 PM,2 stops,13592
+Star Air,2024-01-07,Lucknow,Bangalore,LUC-PAT-COC-AHM-BAN,07:44,13:40,05:56:00 AM,3 stops,8729
+IndiGo,2021-03-10,Hyderabad,Guwahati,HYD-AHM-GUW,06:45,18:15,11:30:00 AM,1 stop,10962
+SpiceJet,2020-04-01,Lucknow,Ahmedabad,LUC-MUM-AHM,12:46,21:02,08:16:00 AM,1 stop,8354
+SpiceJet,2021-03-21,Kolkata,Nagpur,KOL-NAG,11:25,19:09,07:44:00 AM,non-stop,7414
+Akasa Air,2025-12-27,Mumbai,Pune,MUM-LUC-BHU-VAR-PUN,15:27,19:57,04:30:00 AM,3 stops,8568
+Akasa Air,2019-02-27,Nagpur,Pune,NAG-PUN,01:40,10:10,08:30:00 AM,non-stop,11724
+AirAsia India,2023-10-08,Kolkata,Nagpur,KOL-IND-GOA-NAG,23:17,23:48,12:31:00 AM,2 stops,7903
+Akasa Air,2024-04-12,Chennai,Bhubaneswar,CHE-AHM-BHU,11:03,02:44,03:41:00 PM,1 stop,10296
+Star Air,2025-01-16,Cochin,Pune,COC-PUN,02:00,11:37,09:37:00 AM,non-stop,11180
+IndiGo,2023-03-10,Surat,Goa,SUR-CHE-GOA,05:54,08:13,02:19:00 AM,1 stop,13104
+TruJet,2022-03-12,Goa,Pune,GOA-KOL-COC-PUN,00:16,08:13,07:57:00 AM,2 stops,13559
+Air India,2024-04-16,Lucknow,Varanasi,LUC-IND-VAR,23:56,05:19,05:23:00 AM,1 stop,10297
+IndiGo,2022-03-11,Surat,Varanasi,SUR-PAT-NAG-VAR,05:45,04:38,10:53:00 PM,2 stops,15001
+Akasa Air,2021-07-01,Mumbai,Chennai,MUM-LUC-CHE,17:50,00:33,06:43:00 AM,1 stop,4798
+TruJet,2022-07-15,Hyderabad,Bangalore,HYD-BAN,07:52,09:22,01:30:00 AM,non-stop,11451
+SpiceJet,2021-07-14,Delhi,Kolkata,DEL-GUW-BHU-PUN-KOL,21:38,12:35,02:57:00 PM,3 stops,12215
+Alliance Air,2022-09-02,Bhubaneswar,Kolkata,BHU-NAG-KOL,12:45,06:34,05:49:00 PM,1 stop,9192
+Air India,2022-11-06,Jaipur,Surat,JAI-HYD-PUN-AHM-SUR,06:53,23:17,04:24:00 PM,3 stops,9456
+Star Air,2022-12-09,Raipur,Mumbai,RAI-GUW-HYD-MUM,21:05,16:48,07:43:00 PM,2 stops,6855
+IndiGo,2020-08-22,Goa,Jaipur,GOA-SUR-GUW-CHE-JAI,19:08,15:08,08:00:00 PM,3 stops,10216
+IndiGo,2020-10-05,Ahmedabad,Hyderabad,AHM-COC-LUC-HYD,22:18,11:12,12:54:00 PM,2 stops,8243
+AirAsia India,2023-02-11,Jaipur,Varanasi,JAI-COC-GUW-VAR,04:43,11:17,06:34:00 AM,2 stops,12357
+IndiGo,2019-05-25,Delhi,Varanasi,DEL-BHU-VAR,03:35,21:28,05:53:00 PM,1 stop,8174
+GoAir,2019-09-03,Indore,Guwahati,IND-VAR-RAI-SUR-GUW,12:44,05:51,05:07:00 PM,3 stops,11830
+Akasa Air,2021-01-08,Delhi,Pune,DEL-JAI-PAT-GUW-PUN,03:36,13:54,10:18:00 AM,3 stops,10193
+IndiGo,2021-05-20,Chennai,Ahmedabad,CHE-KOL-RAI-GUW-AHM,02:24,01:15,10:51:00 PM,3 stops,12290
+Air India,2020-12-08,Goa,Delhi,GOA-HYD-BAN-DEL,19:57,04:53,08:56:00 AM,2 stops,12785
+Air India,2022-07-08,Raipur,Bangalore,RAI-BAN,00:45,13:07,12:22:00 PM,non-stop,10497
+Air India,2020-07-01,Indore,Delhi,IND-VAR-DEL,08:15,09:08,12:53:00 AM,1 stop,7042
+Air India,2024-01-01,Nagpur,Mumbai,NAG-JAI-DEL-MUM,09:31,10:35,01:04:00 AM,2 stops,5169
+GoAir,2020-12-25,Cochin,Bangalore,COC-BHU-BAN,15:18,15:29,12:11:00 AM,1 stop,4385
+AirAsia India,2024-01-19,Patna,Delhi,PAT-DEL,11:08,20:07,08:59:00 AM,non-stop,7959
+GoAir,2025-12-10,Raipur,Bangalore,RAI-HYD-PUN-BAN,05:23,07:50,02:27:00 AM,2 stops,12458
+AirAsia India,2024-04-09,Chennai,Bangalore,CHE-COC-GOA-IND-BAN,23:39,03:41,04:02:00 AM,3 stops,9502
+Alliance Air,2022-10-07,Jaipur,Kolkata,JAI-LUC-SUR-GUW-KOL,04:44,19:19,02:35:00 PM,3 stops,11996
+IndiGo,2019-05-21,Guwahati,Pune,GUW-BAN-SUR-DEL-PUN,16:30,00:18,07:48:00 AM,3 stops,8883
+Air India,2024-02-17,Kolkata,Nagpur,KOL-DEL-NAG,09:03,13:03,04:00:00 AM,1 stop,12080
+Air India,2022-05-06,Varanasi,Surat,VAR-GUW-BHU-SUR,21:40,17:15,07:35:00 PM,2 stops,10447
+Akasa Air,2021-01-20,Raipur,Goa,RAI-PAT-GUW-GOA,09:58,14:41,04:43:00 AM,2 stops,8899
+TruJet,2022-01-27,Jaipur,Indore,JAI-CHE-COC-BHU-IND,21:04,21:36,12:32:00 AM,3 stops,10514
+TruJet,2023-06-21,Goa,Surat,GOA-AHM-GUW-COC-SUR,15:20,05:25,02:05:00 PM,3 stops,13535
+Air India,2019-11-17,Patna,Pune,PAT-PUN,01:18,15:20,02:02:00 PM,non-stop,8051
+Air India,2021-05-28,Nagpur,Varanasi,NAG-MUM-BAN-GUW-VAR,03:14,13:35,10:21:00 AM,3 stops,9949
+Star Air,2021-08-24,Bangalore,Lucknow,BAN-HYD-GUW-KOL-LUC,10:07,20:16,10:09:00 AM,3 stops,14890
+Air India,2023-09-11,Varanasi,Patna,VAR-PAT,05:22,17:30,12:08:00 PM,non-stop,10338
+Akasa Air,2020-07-03,Indore,Kolkata,IND-PAT-KOL,16:29,22:06,05:37:00 AM,1 stop,4488
+TruJet,2022-07-14,Delhi,Hyderabad,DEL-HYD,12:15,14:25,02:10:00 AM,non-stop,3801
+IndiGo,2022-12-11,Delhi,Lucknow,DEL-LUC,11:15,03:39,04:24:00 PM,non-stop,4973
+Alliance Air,2020-06-09,Lucknow,Kolkata,LUC-RAI-MUM-VAR-KOL,14:16,18:00,03:44:00 AM,3 stops,12503
+AirAsia India,2022-08-17,Cochin,Goa,COC-KOL-LUC-GOA,04:00,08:25,04:25:00 AM,2 stops,9571
+IndiGo,2021-03-10,Indore,Mumbai,IND-MUM,20:04,15:15,07:11:00 PM,non-stop,8876
+SpiceJet,2019-11-23,Goa,Ahmedabad,GOA-AHM,18:39,09:08,02:29:00 PM,non-stop,4998
+Vistara,2019-06-08,Ahmedabad,Guwahati,AHM-KOL-PUN-COC-GUW,18:17,00:23,06:06:00 AM,3 stops,11447
+SpiceJet,2023-12-07,Varanasi,Nagpur,VAR-IND-NAG,06:52,23:34,04:42:00 PM,1 stop,6685
+Alliance Air,2020-10-06,Surat,Jaipur,SUR-GOA-PUN-JAI,13:15,17:28,04:13:00 AM,2 stops,10452
+Star Air,2025-03-10,Varanasi,Cochin,VAR-SUR-BHU-COC,19:32,11:22,03:50:00 PM,2 stops,13565
+TruJet,2023-02-04,Indore,Bhubaneswar,IND-KOL-RAI-BHU,22:52,22:56,12:04:00 AM,2 stops,6068
+TruJet,2024-06-07,Ahmedabad,Jaipur,AHM-HYD-JAI,21:10,04:43,07:33:00 AM,1 stop,4849
+Alliance Air,2022-04-17,Delhi,Kolkata,DEL-MUM-HYD-KOL,06:13,15:00,08:47:00 AM,2 stops,10944
+Vistara,2020-12-08,Ahmedabad,Bangalore,AHM-BAN,22:34,08:50,10:16:00 AM,non-stop,8541
+Air India,2020-09-06,Delhi,Cochin,DEL-BHU-COC,17:09,09:57,04:48:00 PM,1 stop,10027
+Akasa Air,2025-03-04,Patna,Indore,PAT-KOL-IND,07:07,06:35,11:28:00 PM,1 stop,9683
+TruJet,2020-09-17,Ahmedabad,Lucknow,AHM-HYD-LUC,09:08,18:53,09:45:00 AM,1 stop,8008
+Vistara,2020-12-23,Delhi,Bhubaneswar,DEL-VAR-NAG-LUC-BHU,13:01,06:53,05:52:00 PM,3 stops,7513
+IndiGo,2021-07-08,Surat,Mumbai,SUR-RAI-AHM-PUN-MUM,15:12,21:15,06:03:00 AM,3 stops,10937
+Vistara,2019-07-14,Chennai,Hyderabad,CHE-HYD,15:54,09:22,05:28:00 PM,non-stop,5240
+IndiGo,2023-04-27,Lucknow,Pune,LUC-PUN,15:50,07:05,03:15:00 PM,non-stop,10038
+GoAir,2021-04-13,Cochin,Indore,COC-SUR-VAR-HYD-IND,05:51,20:07,02:16:00 PM,3 stops,12402
+IndiGo,2025-09-13,Delhi,Pune,DEL-HYD-BHU-VAR-PUN,18:17,17:36,11:19:00 PM,3 stops,12378
+SpiceJet,2022-06-04,Mumbai,Raipur,MUM-COC-RAI,19:18,17:02,09:44:00 PM,1 stop,12499
+SpiceJet,2022-05-22,Hyderabad,Jaipur,HYD-IND-RAI-MUM-JAI,10:45,00:05,01:20:00 PM,3 stops,12334
+Akasa Air,2022-04-11,Mumbai,Pune,MUM-VAR-BHU-SUR-PUN,18:06,17:51,11:45:00 PM,3 stops,7137
+SpiceJet,2021-12-27,Cochin,Chennai,COC-NAG-CHE,23:15,10:23,11:08:00 AM,1 stop,6234
+IndiGo,2021-06-07,Pune,Lucknow,PUN-LUC,16:39,01:12,08:33:00 AM,non-stop,11303
+IndiGo,2023-06-03,Indore,Varanasi,IND-HYD-BHU-LUC-VAR,00:28,11:17,10:49:00 AM,3 stops,10303
+IndiGo,2020-02-24,Lucknow,Hyderabad,LUC-MUM-IND-CHE-HYD,14:31,07:23,04:52:00 PM,3 stops,8000
+SpiceJet,2020-05-15,Guwahati,Goa,GUW-PAT-RAI-VAR-GOA,23:10,13:11,02:01:00 PM,3 stops,15214
+Akasa Air,2024-06-24,Bhubaneswar,Bangalore,BHU-BAN,10:02,04:31,06:29:00 PM,non-stop,8884
+SpiceJet,2021-04-19,Hyderabad,Mumbai,HYD-VAR-RAI-MUM,22:59,20:22,09:23:00 PM,2 stops,13989
+Akasa Air,2019-03-19,Pune,Lucknow,PUN-JAI-MUM-LUC,12:24,20:28,08:04:00 AM,2 stops,12742
+Air India,2019-06-04,Cochin,Raipur,COC-JAI-BHU-RAI,19:47,12:46,04:59:00 PM,2 stops,9557
+AirAsia India,2023-09-22,Kolkata,Hyderabad,KOL-BAN-HYD,09:14,17:04,07:50:00 AM,1 stop,4429
+Vistara,2022-02-10,Bhubaneswar,Kolkata,BHU-KOL,06:31,04:18,09:47:00 PM,non-stop,4651
+Star Air,2025-07-20,Hyderabad,Raipur,HYD-RAI,13:27,19:48,06:21:00 AM,non-stop,7663
+Akasa Air,2020-08-24,Goa,Chennai,GOA-JAI-CHE,21:53,15:55,06:02:00 PM,1 stop,11969
+Air India,2022-03-22,Patna,Kolkata,PAT-BHU-GOA-KOL,16:46,00:36,07:50:00 AM,2 stops,9453
+Akasa Air,2020-07-26,Indore,Bhubaneswar,IND-BAN-GUW-MUM-BHU,22:37,10:20,11:43:00 AM,3 stops,9709
+SpiceJet,2021-03-28,Kolkata,Lucknow,KOL-JAI-COC-CHE-LUC,17:16,16:54,11:38:00 PM,3 stops,5658
+Alliance Air,2019-01-20,Raipur,Hyderabad,RAI-HYD,04:21,05:41,01:20:00 AM,non-stop,10461
+Akasa Air,2023-12-24,Raipur,Ahmedabad,RAI-BHU-SUR-AHM,20:30,04:55,08:25:00 AM,2 stops,10320
+Star Air,2023-04-08,Bhubaneswar,Hyderabad,BHU-VAR-HYD,22:50,09:12,10:22:00 AM,1 stop,9541
+SpiceJet,2023-12-26,Delhi,Cochin,DEL-RAI-COC,20:02,01:41,05:39:00 AM,1 stop,5904
+Star Air,2021-04-17,Bangalore,Surat,BAN-SUR,05:28,17:12,11:44:00 AM,non-stop,2588
+IndiGo,2022-07-12,Delhi,Kolkata,DEL-BAN-KOL,12:02,20:00,07:58:00 AM,1 stop,5016
+SpiceJet,2021-09-15,Raipur,Jaipur,RAI-BAN-DEL-MUM-JAI,11:16,18:40,07:24:00 AM,3 stops,13676
+GoAir,2025-03-15,Hyderabad,Raipur,HYD-PAT-RAI,08:32,04:02,07:30:00 PM,1 stop,9886
+SpiceJet,2024-09-04,Guwahati,Nagpur,GUW-PUN-VAR-NAG,15:31,16:32,01:01:00 AM,2 stops,11410
+IndiGo,2023-02-03,Nagpur,Cochin,NAG-VAR-DEL-COC,13:21,11:55,10:34:00 PM,2 stops,12806
+IndiGo,2020-06-18,Ahmedabad,Lucknow,AHM-LUC,17:40,03:59,10:19:00 AM,non-stop,8393
+Akasa Air,2019-08-12,Varanasi,Nagpur,VAR-LUC-NAG,20:02,14:32,06:30:00 PM,1 stop,10386
+Star Air,2023-01-01,Jaipur,Kolkata,JAI-HYD-KOL,19:05,13:05,06:00:00 PM,1 stop,11441
+GoAir,2025-10-10,Goa,Raipur,GOA-KOL-CHE-IND-RAI,10:18,07:14,08:56:00 PM,3 stops,13891
+SpiceJet,2021-07-16,Mumbai,Pune,MUM-SUR-VAR-PUN,12:50,00:44,11:54:00 AM,2 stops,13945
+Vistara,2022-06-10,Varanasi,Ahmedabad,VAR-LUC-AHM,19:13,06:26,11:13:00 AM,1 stop,8516
+Air India,2020-09-13,Delhi,Goa,DEL-MUM-GOA,22:38,01:59,03:21:00 AM,1 stop,4801
+Air India,2019-01-07,Pune,Cochin,PUN-BHU-IND-GUW-COC,03:40,09:31,05:51:00 AM,3 stops,6649
+Star Air,2024-02-21,Delhi,Jaipur,DEL-MUM-KOL-JAI,17:09,18:31,01:22:00 AM,2 stops,11575
+Akasa Air,2021-04-04,Mumbai,Chennai,MUM-SUR-VAR-CHE,23:08,04:35,05:27:00 AM,2 stops,13132
+TruJet,2025-08-09,Cochin,Hyderabad,COC-LUC-CHE-HYD,12:18,16:08,03:50:00 AM,2 stops,12917
+AirAsia India,2025-12-09,Chennai,Pune,CHE-PUN,12:16,02:48,02:32:00 PM,non-stop,6298
+Star Air,2019-09-07,Jaipur,Raipur,JAI-RAI,04:58,17:35,12:37:00 PM,non-stop,7015
+GoAir,2021-11-15,Varanasi,Jaipur,VAR-HYD-LUC-PUN-JAI,10:45,06:58,08:13:00 PM,3 stops,11977
+Alliance Air,2020-12-27,Kolkata,Guwahati,KOL-DEL-HYD-GUW,05:18,18:26,01:08:00 PM,2 stops,7809
+IndiGo,2022-05-06,Ahmedabad,Indore,AHM-IND,17:22,05:55,12:33:00 PM,non-stop,2505
+GoAir,2024-11-26,Pune,Goa,PUN-GOA,16:33,23:46,07:13:00 AM,non-stop,10610
+GoAir,2023-02-13,Chennai,Indore,CHE-GOA-IND,04:34,06:24,01:50:00 AM,1 stop,5274
+SpiceJet,2024-07-10,Lucknow,Ahmedabad,LUC-CHE-KOL-AHM,18:55,01:21,06:26:00 AM,2 stops,6749
+Air India,2020-08-06,Guwahati,Kolkata,GUW-GOA-PUN-IND-KOL,21:46,15:19,05:33:00 PM,3 stops,13920
+SpiceJet,2023-07-12,Indore,Raipur,IND-HYD-MUM-GOA-RAI,00:06,15:26,03:20:00 PM,3 stops,14499
+Air India,2024-09-19,Indore,Varanasi,IND-VAR,15:29,15:14,11:45:00 PM,non-stop,9535
+AirAsia India,2025-10-09,Mumbai,Goa,MUM-KOL-NAG-GOA,22:13,04:35,06:22:00 AM,2 stops,7317
+Alliance Air,2025-08-09,Surat,Guwahati,SUR-GUW,11:56,19:51,07:55:00 AM,non-stop,10613
+IndiGo,2024-06-24,Goa,Surat,GOA-GUW-BHU-SUR,00:34,08:39,08:05:00 AM,2 stops,12864
+GoAir,2024-07-11,Bhubaneswar,Delhi,BHU-VAR-BAN-DEL,05:59,11:06,05:07:00 AM,2 stops,6886
+SpiceJet,2020-05-17,Kolkata,Guwahati,KOL-PAT-COC-CHE-GUW,07:35,13:02,05:27:00 AM,3 stops,15185
+GoAir,2022-01-07,Pune,Mumbai,PUN-MUM,11:27,06:12,06:45:00 PM,non-stop,4825
+TruJet,2024-05-25,Indore,Patna,IND-BHU-PAT,03:48,21:04,05:16:00 PM,1 stop,9491
+SpiceJet,2024-11-16,Bangalore,Ahmedabad,BAN-COC-LUC-AHM,05:11,20:37,03:26:00 PM,2 stops,12398
+Vistara,2023-04-24,Nagpur,Raipur,NAG-PAT-RAI,09:16,03:09,05:53:00 PM,1 stop,5263
+SpiceJet,2023-06-22,Patna,Raipur,PAT-SUR-RAI,06:15,05:32,11:17:00 PM,1 stop,9439
+Alliance Air,2023-08-03,Nagpur,Jaipur,NAG-BHU-JAI,04:31,12:32,08:01:00 AM,1 stop,7784
+IndiGo,2022-09-04,Goa,Pune,GOA-VAR-DEL-IND-PUN,21:10,02:52,05:42:00 AM,3 stops,13248
+GoAir,2025-04-01,Bhubaneswar,Raipur,BHU-PUN-GUW-VAR-RAI,15:36,11:45,08:09:00 PM,3 stops,16857
+Vistara,2020-09-19,Varanasi,Pune,VAR-CHE-IND-SUR-PUN,08:31,01:53,05:22:00 PM,3 stops,11404
+GoAir,2020-08-02,Delhi,Lucknow,DEL-NAG-LUC,17:14,20:22,03:08:00 AM,1 stop,6410
+AirAsia India,2025-01-05,Jaipur,Bangalore,JAI-RAI-DEL-HYD-BAN,18:31,06:36,12:05:00 PM,3 stops,13112
+Akasa Air,2019-01-07,Varanasi,Delhi,VAR-DEL,08:06,00:39,04:33:00 PM,non-stop,8936
+TruJet,2019-10-10,Guwahati,Varanasi,GUW-VAR,05:24,17:42,12:18:00 PM,non-stop,11211
+IndiGo,2023-02-25,Guwahati,Delhi,GUW-DEL,18:54,13:51,06:57:00 PM,non-stop,5654
+IndiGo,2022-07-11,Jaipur,Goa,JAI-RAI-KOL-NAG-GOA,07:21,07:48,12:27:00 AM,3 stops,8164
+IndiGo,2025-12-16,Bangalore,Bhubaneswar,BAN-PAT-BHU,05:43,10:26,04:43:00 AM,1 stop,13006
+AirAsia India,2023-02-22,Indore,Nagpur,IND-COC-NAG,04:04,08:12,04:08:00 AM,1 stop,10807
+SpiceJet,2019-01-16,Delhi,Nagpur,DEL-AHM-NAG,18:00,07:17,01:17:00 PM,1 stop,5108
+AirAsia India,2021-01-02,Raipur,Varanasi,RAI-CHE-JAI-VAR,10:52,09:52,11:00:00 PM,2 stops,10400
+Akasa Air,2022-08-22,Cochin,Hyderabad,COC-DEL-AHM-HYD,00:34,04:27,03:53:00 AM,2 stops,10435
+Air India,2021-05-25,Lucknow,Patna,LUC-VAR-NAG-PAT,15:08,13:20,10:12:00 PM,2 stops,4728
+Vistara,2019-01-06,Kolkata,Delhi,KOL-BHU-DEL,14:50,19:32,04:42:00 AM,1 stop,8710
+IndiGo,2024-09-02,Lucknow,Chennai,LUC-CHE,00:15,04:16,04:01:00 AM,non-stop,5123
+Akasa Air,2019-10-09,Indore,Delhi,IND-COC-DEL,01:23,12:00,10:37:00 AM,1 stop,12721
+Vistara,2025-11-01,Cochin,Nagpur,COC-NAG,10:23,21:34,11:11:00 AM,non-stop,3760
+TruJet,2022-08-19,Mumbai,Surat,MUM-RAI-IND-DEL-SUR,07:45,16:00,08:15:00 AM,3 stops,7811
+Air India,2023-04-07,Kolkata,Hyderabad,KOL-BHU-NAG-COC-HYD,06:43,22:49,04:06:00 PM,3 stops,11488
+Akasa Air,2025-07-09,Nagpur,Indore,NAG-IND,19:06,07:01,11:55:00 AM,non-stop,9023
+SpiceJet,2023-09-19,Cochin,Jaipur,COC-PAT-CHE-JAI,18:36,02:45,08:09:00 AM,2 stops,5548
+GoAir,2024-04-07,Raipur,Bangalore,RAI-BAN,13:49,19:27,05:38:00 AM,non-stop,7339
+Akasa Air,2020-01-05,Pune,Varanasi,PUN-VAR,13:22,08:02,06:40:00 PM,non-stop,6684
+Vistara,2023-01-06,Lucknow,Kolkata,LUC-GOA-COC-KOL,08:41,20:38,11:57:00 AM,2 stops,8107
+Air India,2024-07-05,Pune,Jaipur,PUN-LUC-DEL-JAI,02:07,08:02,05:55:00 AM,2 stops,10497
+TruJet,2022-12-04,Mumbai,Chennai,MUM-KOL-HYD-CHE,13:26,15:24,01:58:00 AM,2 stops,12578
+IndiGo,2020-07-27,Delhi,Varanasi,DEL-COC-IND-GOA-VAR,03:13,08:16,05:03:00 AM,3 stops,7989
+GoAir,2019-05-04,Mumbai,Ahmedabad,MUM-PAT-NAG-SUR-AHM,16:17,17:27,01:10:00 AM,3 stops,9061
+GoAir,2023-06-26,Chennai,Bangalore,CHE-LUC-COC-BAN,00:40,02:30,01:50:00 AM,2 stops,12053
+Alliance Air,2021-02-21,Ahmedabad,Bangalore,AHM-IND-BAN,16:20,09:30,05:10:00 PM,1 stop,5704
+SpiceJet,2023-10-24,Varanasi,Delhi,VAR-DEL,02:13,20:00,05:47:00 PM,non-stop,4106
+Star Air,2025-01-03,Nagpur,Ahmedabad,NAG-AHM,13:59,05:26,03:27:00 PM,non-stop,9642
+SpiceJet,2021-01-28,Chennai,Pune,CHE-IND-KOL-VAR-PUN,21:42,10:27,12:45:00 PM,3 stops,9565
+GoAir,2023-11-21,Indore,Varanasi,IND-VAR,16:21,06:20,01:59:00 PM,non-stop,5992
+Vistara,2024-03-03,Bhubaneswar,Chennai,BHU-CHE,16:24,17:36,01:12:00 AM,non-stop,8004
+Alliance Air,2022-05-11,Indore,Ahmedabad,IND-JAI-HYD-PUN-AHM,01:38,13:26,11:48:00 AM,3 stops,14334
+AirAsia India,2025-01-04,Goa,Ahmedabad,GOA-JAI-IND-PAT-AHM,22:11,00:34,02:23:00 AM,3 stops,8726
+GoAir,2021-05-08,Surat,Indore,SUR-VAR-GUW-IND,11:14,18:52,07:38:00 AM,2 stops,9362
+TruJet,2024-02-17,Surat,Delhi,SUR-HYD-COC-BHU-DEL,07:10,13:39,06:29:00 AM,3 stops,14994
+Alliance Air,2022-06-18,Jaipur,Varanasi,JAI-LUC-DEL-KOL-VAR,16:27,20:02,03:35:00 AM,3 stops,9197
+SpiceJet,2019-03-26,Nagpur,Guwahati,NAG-JAI-SUR-GUW,21:44,19:01,09:17:00 PM,2 stops,4535
+AirAsia India,2021-12-17,Surat,Bhubaneswar,SUR-JAI-BHU,15:07,10:24,07:17:00 PM,1 stop,10031
+AirAsia India,2020-06-13,Cochin,Ahmedabad,COC-PUN-GOA-AHM,23:58,05:46,05:48:00 AM,2 stops,14734
+SpiceJet,2025-07-01,Indore,Mumbai,IND-HYD-AHM-RAI-MUM,00:51,01:22,12:31:00 AM,3 stops,14161
+AirAsia India,2019-10-02,Delhi,Surat,DEL-SUR,06:58,14:27,07:29:00 AM,non-stop,7801
+Air India,2024-07-24,Bhubaneswar,Raipur,BHU-RAI,23:21,13:27,02:06:00 PM,non-stop,3452
+GoAir,2021-09-22,Guwahati,Nagpur,GUW-PAT-NAG,07:53,17:50,09:57:00 AM,1 stop,4296
+Star Air,2021-04-18,Varanasi,Cochin,VAR-COC,12:26,04:22,03:56:00 PM,non-stop,4118
+TruJet,2024-02-01,Mumbai,Ahmedabad,MUM-AHM,12:44,00:36,11:52:00 AM,non-stop,2697
+AirAsia India,2022-05-05,Lucknow,Indore,LUC-IND,06:15,08:43,02:28:00 AM,non-stop,7067
+Star Air,2022-03-25,Bangalore,Hyderabad,BAN-IND-HYD,21:52,01:54,04:02:00 AM,1 stop,11986
+IndiGo,2019-05-17,Surat,Delhi,SUR-NAG-GUW-DEL,09:37,07:10,09:33:00 PM,2 stops,14346
+Alliance Air,2019-02-16,Indore,Goa,IND-BAN-PUN-GOA,18:38,18:02,11:24:00 PM,2 stops,5565
+AirAsia India,2019-11-09,Kolkata,Jaipur,KOL-MUM-HYD-JAI,10:50,10:32,11:42:00 PM,2 stops,12007
+Air India,2022-10-15,Surat,Bhubaneswar,SUR-BHU,16:52,22:33,05:41:00 AM,non-stop,2708
+Star Air,2024-12-04,Ahmedabad,Lucknow,AHM-CHE-HYD-VAR-LUC,13:12,23:06,09:54:00 AM,3 stops,13535
+Akasa Air,2023-12-16,Nagpur,Cochin,NAG-IND-CHE-COC,20:52,20:43,11:51:00 PM,2 stops,9526
+Alliance Air,2025-09-16,Nagpur,Ahmedabad,NAG-HYD-AHM,07:06,04:53,09:47:00 PM,1 stop,9946
+GoAir,2019-05-25,Surat,Bangalore,SUR-PAT-CHE-BAN,04:32,15:47,11:15:00 AM,2 stops,13447
+Star Air,2019-02-14,Mumbai,Bhubaneswar,MUM-LUC-BAN-BHU,18:44,23:50,05:06:00 AM,2 stops,13090
+Akasa Air,2022-07-14,Lucknow,Pune,LUC-PUN,20:38,17:17,08:39:00 PM,non-stop,7047
+Alliance Air,2020-07-16,Surat,Varanasi,SUR-RAI-IND-BHU-VAR,00:36,15:25,02:49:00 PM,3 stops,11562
+Vistara,2022-09-13,Varanasi,Patna,VAR-MUM-PAT,16:44,11:56,07:12:00 PM,1 stop,13239
+Vistara,2022-07-13,Raipur,Surat,RAI-SUR,05:46,16:41,10:55:00 AM,non-stop,3094
+GoAir,2025-05-23,Patna,Guwahati,PAT-KOL-DEL-HYD-GUW,09:21,06:34,09:13:00 PM,3 stops,17307
+SpiceJet,2020-11-03,Pune,Jaipur,PUN-JAI,13:06,14:12,01:06:00 AM,non-stop,8921
+IndiGo,2021-09-01,Lucknow,Surat,LUC-HYD-CHE-PAT-SUR,13:17,22:49,09:32:00 AM,3 stops,8118
+AirAsia India,2022-10-18,Goa,Raipur,GOA-RAI,22:04,08:40,10:36:00 AM,non-stop,11430
+SpiceJet,2024-08-01,Varanasi,Bangalore,VAR-RAI-BAN,14:02,07:29,05:27:00 PM,1 stop,9771
+Star Air,2024-04-01,Jaipur,Indore,JAI-PUN-IND,12:36,21:24,08:48:00 AM,1 stop,13491
+TruJet,2019-07-11,Delhi,Goa,DEL-RAI-LUC-GUW-GOA,06:07,13:41,07:34:00 AM,3 stops,15241
+Alliance Air,2019-06-05,Surat,Raipur,SUR-VAR-RAI,07:10,11:28,04:18:00 AM,1 stop,4870
+IndiGo,2019-05-23,Kolkata,Chennai,KOL-CHE,13:16,00:33,11:17:00 AM,non-stop,9187
+AirAsia India,2025-06-28,Nagpur,Bangalore,NAG-HYD-BAN,04:10,20:20,04:10:00 PM,1 stop,9672
+GoAir,2021-03-25,Guwahati,Bangalore,GUW-NAG-COC-BAN,08:52,07:22,10:30:00 PM,2 stops,13521
+Star Air,2020-09-01,Goa,Mumbai,GOA-DEL-COC-MUM,06:03,18:25,12:22:00 PM,2 stops,14753
+Akasa Air,2023-05-20,Surat,Varanasi,SUR-VAR,04:10,22:51,06:41:00 PM,non-stop,3601
+GoAir,2025-12-26,Pune,Surat,PUN-RAI-SUR,16:23,22:40,06:17:00 AM,1 stop,6725
+Air India,2019-11-02,Patna,Hyderabad,PAT-IND-VAR-HYD,02:48,10:59,08:11:00 AM,2 stops,10802
+Vistara,2020-08-01,Mumbai,Delhi,MUM-JAI-NAG-CHE-DEL,17:43,12:31,06:48:00 PM,3 stops,10976
+AirAsia India,2020-09-12,Jaipur,Goa,JAI-VAR-GOA,01:40,11:48,10:08:00 AM,1 stop,6384
+TruJet,2021-08-02,Hyderabad,Mumbai,HYD-JAI-NAG-MUM,10:12,23:06,12:54:00 PM,2 stops,5576
+SpiceJet,2022-08-17,Bhubaneswar,Bangalore,BHU-HYD-KOL-BAN,05:23,01:31,08:08:00 PM,2 stops,9737
+Akasa Air,2019-11-24,Bangalore,Varanasi,BAN-GOA-VAR,09:40,04:10,06:30:00 PM,1 stop,12952
+TruJet,2023-03-19,Kolkata,Pune,KOL-GUW-IND-LUC-PUN,11:06,00:19,01:13:00 PM,3 stops,16460
+Alliance Air,2024-01-20,Delhi,Kolkata,DEL-KOL,15:51,17:00,01:09:00 AM,non-stop,6621
+Air India,2021-02-22,Pune,Jaipur,PUN-AHM-PAT-JAI,07:14,00:18,05:04:00 PM,2 stops,6707
+AirAsia India,2023-06-01,Delhi,Hyderabad,DEL-AHM-CHE-HYD,01:40,16:23,02:43:00 PM,2 stops,9180
+Air India,2024-05-05,Jaipur,Guwahati,JAI-LUC-PUN-GUW,22:59,03:07,04:08:00 AM,2 stops,8907
+Star Air,2021-04-12,Surat,Raipur,SUR-RAI,07:32,18:41,11:09:00 AM,non-stop,3408
+SpiceJet,2021-03-11,Raipur,Bhubaneswar,RAI-PUN-AHM-IND-BHU,00:05,03:44,03:39:00 AM,3 stops,14426
+Air India,2021-02-03,Raipur,Bangalore,RAI-MUM-BHU-BAN,20:12,09:03,12:51:00 PM,2 stops,8466
+IndiGo,2020-07-28,Raipur,Chennai,RAI-AHM-KOL-SUR-CHE,05:08,18:11,01:03:00 PM,3 stops,8336
+Vistara,2022-07-27,Varanasi,Jaipur,VAR-JAI,13:28,00:20,10:52:00 AM,non-stop,9422
+AirAsia India,2019-03-03,Hyderabad,Goa,HYD-JAI-GOA,09:18,14:00,04:42:00 AM,1 stop,12765
+Star Air,2022-09-01,Bangalore,Lucknow,BAN-BHU-SUR-LUC,10:47,13:49,03:02:00 AM,2 stops,4440
+TruJet,2022-05-24,Bangalore,Nagpur,BAN-HYD-BHU-MUM-NAG,01:07,13:10,12:03:00 PM,3 stops,13838
+SpiceJet,2021-10-20,Varanasi,Raipur,VAR-SUR-GUW-PUN-RAI,09:00,07:25,10:25:00 PM,3 stops,17310
+IndiGo,2019-08-05,Raipur,Indore,RAI-IND,03:44,06:16,02:32:00 AM,non-stop,6239
+Star Air,2022-10-19,Jaipur,Goa,JAI-PUN-HYD-GOA,19:26,07:05,11:39:00 AM,2 stops,9242
+IndiGo,2023-12-19,Pune,Bhubaneswar,PUN-BHU,02:46,20:48,06:02:00 PM,non-stop,10664
+IndiGo,2021-06-23,Varanasi,Nagpur,VAR-BHU-COC-NAG,10:42,00:11,01:29:00 PM,2 stops,10371
+IndiGo,2021-11-19,Bhubaneswar,Mumbai,BHU-MUM,12:23,21:38,09:15:00 AM,non-stop,2868
+IndiGo,2023-10-09,Guwahati,Pune,GUW-PAT-NAG-VAR-PUN,20:10,18:16,10:06:00 PM,3 stops,10843
+IndiGo,2023-03-06,Nagpur,Cochin,NAG-PAT-RAI-CHE-COC,19:54,22:48,02:54:00 AM,3 stops,13930
+GoAir,2022-06-19,Bangalore,Varanasi,BAN-VAR,13:59,07:34,05:35:00 PM,non-stop,2594
+Air India,2022-04-18,Bhubaneswar,Nagpur,BHU-NAG,21:04,01:19,04:15:00 AM,non-stop,5303
+Air India,2023-07-06,Indore,Guwahati,IND-VAR-BAN-COC-GUW,06:03,08:16,02:13:00 AM,3 stops,11672
+IndiGo,2023-09-18,Cochin,Hyderabad,COC-HYD,02:26,08:25,05:59:00 AM,non-stop,4115
+AirAsia India,2021-02-28,Goa,Guwahati,GOA-PUN-AHM-CHE-GUW,07:06,10:13,03:07:00 AM,3 stops,11269
+SpiceJet,2020-08-04,Kolkata,Ahmedabad,KOL-GOA-GUW-BAN-AHM,13:46,19:36,05:50:00 AM,3 stops,13672
+Alliance Air,2025-05-13,Delhi,Guwahati,DEL-IND-HYD-GUW,22:34,22:31,11:57:00 PM,2 stops,7233
+Alliance Air,2025-01-12,Kolkata,Hyderabad,KOL-GUW-HYD,16:59,00:51,07:52:00 AM,1 stop,9757
+SpiceJet,2021-05-05,Mumbai,Pune,MUM-PUN,10:50,10:53,12:03:00 AM,non-stop,11848
+Vistara,2020-11-05,Chennai,Bhubaneswar,CHE-JAI-KOL-RAI-BHU,10:23,21:40,11:17:00 AM,3 stops,8244
+AirAsia India,2022-06-23,Chennai,Pune,CHE-JAI-PUN,22:05,13:19,03:14:00 PM,1 stop,12729
+Star Air,2019-12-09,Goa,Hyderabad,GOA-HYD,18:19,23:27,05:08:00 AM,non-stop,8657
+GoAir,2021-09-25,Cochin,Pune,COC-SUR-CHE-KOL-PUN,10:46,06:23,07:37:00 PM,3 stops,8144
+Akasa Air,2025-04-11,Jaipur,Mumbai,JAI-CHE-BAN-MUM,07:54,04:59,09:05:00 PM,2 stops,14376
+SpiceJet,2020-11-01,Surat,Hyderabad,SUR-GOA-LUC-HYD,03:01,22:34,07:33:00 PM,2 stops,10514
+AirAsia India,2019-02-03,Lucknow,Varanasi,LUC-PAT-SUR-VAR,21:49,08:22,10:33:00 AM,2 stops,7716
+IndiGo,2024-04-26,Lucknow,Indore,LUC-KOL-JAI-BAN-IND,22:11,23:41,01:30:00 AM,3 stops,11849
+TruJet,2019-05-17,Mumbai,Goa,MUM-VAR-BHU-GOA,22:25,07:42,09:17:00 AM,2 stops,7618
+GoAir,2019-03-15,Nagpur,Mumbai,NAG-RAI-MUM,17:17,00:55,07:38:00 AM,1 stop,8086
+GoAir,2024-05-26,Surat,Delhi,SUR-PAT-KOL-HYD-DEL,08:36,06:08,09:32:00 PM,3 stops,9773
+Vistara,2021-03-25,Kolkata,Patna,KOL-VAR-PUN-PAT,01:14,20:44,07:30:00 PM,2 stops,13198
+IndiGo,2021-08-07,Guwahati,Goa,GUW-BAN-GOA,04:42,03:06,10:24:00 PM,1 stop,10251
+AirAsia India,2022-09-25,Varanasi,Chennai,VAR-DEL-PUN-CHE,06:22,03:11,08:49:00 PM,2 stops,10592
+Alliance Air,2022-03-01,Raipur,Cochin,RAI-LUC-PUN-PAT-COC,07:17,08:48,01:31:00 AM,3 stops,9473
+AirAsia India,2020-03-14,Chennai,Cochin,CHE-NAG-HYD-PUN-COC,08:12,17:11,08:59:00 AM,3 stops,15158
+Star Air,2020-09-07,Mumbai,Lucknow,MUM-CHE-VAR-LUC,22:14,14:01,03:47:00 PM,2 stops,15409
+SpiceJet,2024-02-08,Ahmedabad,Mumbai,AHM-HYD-COC-MUM,12:55,11:27,10:32:00 PM,2 stops,11683
+Alliance Air,2020-10-22,Delhi,Kolkata,DEL-NAG-GUW-LUC-KOL,18:31,19:50,01:19:00 AM,3 stops,13253
+GoAir,2023-04-26,Varanasi,Mumbai,VAR-GOA-IND-MUM,01:44,00:21,10:37:00 PM,2 stops,12063
+AirAsia India,2021-05-24,Guwahati,Varanasi,GUW-COC-RAI-VAR,13:32,09:33,08:01:00 PM,2 stops,9317
+Vistara,2023-04-04,Hyderabad,Chennai,HYD-MUM-GUW-COC-CHE,23:15,01:57,02:42:00 AM,3 stops,13887
+GoAir,2019-05-05,Lucknow,Pune,LUC-DEL-PUN,05:43,15:40,09:57:00 AM,1 stop,9553
+Vistara,2024-01-18,Jaipur,Indore,JAI-KOL-LUC-COC-IND,07:01,15:16,08:15:00 AM,3 stops,10723
+Vistara,2023-09-09,Nagpur,Jaipur,NAG-AHM-LUC-JAI,11:31,15:00,03:29:00 AM,2 stops,9541
+AirAsia India,2019-06-22,Indore,Delhi,IND-DEL,00:28,02:56,02:28:00 AM,non-stop,3660
+AirAsia India,2022-01-11,Jaipur,Ahmedabad,JAI-MUM-RAI-PUN-AHM,19:33,19:45,12:12:00 AM,3 stops,14036
+Alliance Air,2023-02-13,Nagpur,Delhi,NAG-KOL-LUC-GOA-DEL,15:29,20:38,05:09:00 AM,3 stops,10263
+GoAir,2021-09-05,Indore,Bhubaneswar,IND-BHU,22:15,22:41,12:26:00 AM,non-stop,10463
+GoAir,2022-01-02,Lucknow,Bangalore,LUC-NAG-BAN,11:06,04:39,05:33:00 PM,1 stop,9452
+GoAir,2025-07-01,Ahmedabad,Surat,AHM-NAG-CHE-COC-SUR,22:35,00:01,01:26:00 AM,3 stops,13049
+Air India,2022-05-21,Raipur,Bhubaneswar,RAI-IND-SUR-BHU,11:48,17:56,06:08:00 AM,2 stops,9612
+Vistara,2025-01-21,Guwahati,Nagpur,GUW-RAI-KOL-NAG,21:25,04:59,07:34:00 AM,2 stops,10557
+GoAir,2023-12-01,Guwahati,Varanasi,GUW-GOA-LUC-DEL-VAR,16:40,16:08,11:28:00 PM,3 stops,7144
+Alliance Air,2021-06-22,Ahmedabad,Guwahati,AHM-GUW,17:46,06:38,12:52:00 PM,non-stop,11667
+GoAir,2021-05-04,Cochin,Mumbai,COC-MUM,11:20,04:13,04:53:00 PM,non-stop,3829
+Akasa Air,2020-05-07,Patna,Chennai,PAT-AHM-KOL-CHE,16:27,10:36,06:09:00 PM,2 stops,5229
+AirAsia India,2022-02-08,Chennai,Lucknow,CHE-LUC,08:37,19:20,10:43:00 AM,non-stop,6993
+SpiceJet,2025-09-14,Pune,Hyderabad,PUN-NAG-BHU-LUC-HYD,07:04,10:14,03:10:00 AM,3 stops,12729
+Air India,2020-05-27,Chennai,Lucknow,CHE-DEL-SUR-BHU-LUC,03:38,19:10,03:32:00 PM,3 stops,11971
+IndiGo,2025-12-08,Guwahati,Goa,GUW-GOA,17:11,04:21,11:10:00 AM,non-stop,8282
+Alliance Air,2020-08-18,Bangalore,Hyderabad,BAN-HYD,00:05,18:42,06:37:00 PM,non-stop,10374
+AirAsia India,2020-04-11,Pune,Hyderabad,PUN-RAI-MUM-VAR-HYD,13:40,21:35,07:55:00 AM,3 stops,14193
+Alliance Air,2020-01-18,Mumbai,Ahmedabad,MUM-GUW-AHM,19:46,18:20,10:34:00 PM,1 stop,4619
+Star Air,2023-06-22,Raipur,Indore,RAI-BAN-IND,12:18,04:25,04:07:00 PM,1 stop,6891
+IndiGo,2024-05-08,Goa,Mumbai,GOA-MUM,16:12,16:01,11:49:00 PM,non-stop,3925
+GoAir,2020-09-05,Patna,Goa,PAT-IND-HYD-GOA,00:44,14:11,01:27:00 PM,2 stops,11333
+Star Air,2025-12-01,Indore,Cochin,IND-GUW-GOA-AHM-COC,01:09,20:31,07:22:00 PM,3 stops,13883
+TruJet,2023-06-28,Bhubaneswar,Raipur,BHU-NAG-PUN-HYD-RAI,07:50,06:09,10:19:00 PM,3 stops,13552
+IndiGo,2020-09-02,Delhi,Raipur,DEL-RAI,11:33,21:38,10:05:00 AM,non-stop,4345
+Star Air,2024-03-01,Jaipur,Indore,JAI-COC-BAN-GUW-IND,05:48,16:47,10:59:00 AM,3 stops,13455
+GoAir,2024-11-28,Chennai,Guwahati,CHE-GUW,19:26,09:36,02:10:00 PM,non-stop,9657
+AirAsia India,2021-10-02,Goa,Patna,GOA-JAI-DEL-SUR-PAT,09:28,20:07,10:39:00 AM,3 stops,8109
+Alliance Air,2024-09-01,Goa,Jaipur,GOA-BAN-BHU-JAI,04:36,05:47,01:11:00 AM,2 stops,10538
+GoAir,2021-09-16,Jaipur,Bangalore,JAI-GUW-DEL-PAT-BAN,21:37,13:03,03:26:00 PM,3 stops,17118
+AirAsia India,2025-05-01,Lucknow,Pune,LUC-PUN,20:21,20:30,12:09:00 AM,non-stop,3796
+SpiceJet,2023-04-25,Varanasi,Patna,VAR-KOL-PAT,23:33,20:38,09:05:00 PM,1 stop,10332
+Vistara,2022-01-09,Surat,Hyderabad,SUR-COC-NAG-GUW-HYD,11:14,08:52,09:38:00 PM,3 stops,11623
+Akasa Air,2023-06-04,Bhubaneswar,Surat,BHU-DEL-CHE-SUR,19:19,18:10,10:51:00 PM,2 stops,6338
+GoAir,2021-02-15,Kolkata,Bhubaneswar,KOL-DEL-BHU,08:11,03:34,07:23:00 PM,1 stop,6758
+TruJet,2025-07-05,Bangalore,Bhubaneswar,BAN-RAI-BHU,11:11,09:01,09:50:00 PM,1 stop,8795
+AirAsia India,2023-11-14,Raipur,Jaipur,RAI-PUN-BHU-MUM-JAI,05:07,20:40,03:33:00 PM,3 stops,14763
+Air India,2024-02-13,Ahmedabad,Cochin,AHM-COC,21:54,12:15,02:21:00 PM,non-stop,7457
+TruJet,2023-02-25,Patna,Indore,PAT-LUC-IND,13:21,22:11,08:50:00 AM,1 stop,10713
+IndiGo,2020-07-21,Guwahati,Delhi,GUW-LUC-GOA-VAR-DEL,03:13,22:35,07:22:00 PM,3 stops,8082
+TruJet,2020-02-20,Varanasi,Guwahati,VAR-KOL-GUW,22:17,21:24,11:07:00 PM,1 stop,7745
+Alliance Air,2022-09-27,Mumbai,Hyderabad,MUM-HYD,17:43,05:06,11:23:00 AM,non-stop,7918
+Alliance Air,2025-05-07,Pune,Cochin,PUN-LUC-KOL-COC,09:25,11:31,02:06:00 AM,2 stops,9575
+Vistara,2020-11-08,Jaipur,Nagpur,JAI-IND-VAR-GUW-NAG,13:04,17:35,04:31:00 AM,3 stops,12776
+GoAir,2022-11-19,Ahmedabad,Bangalore,AHM-BHU-VAR-BAN,08:40,10:01,01:21:00 AM,2 stops,5817
+SpiceJet,2023-04-12,Jaipur,Indore,JAI-GUW-RAI-IND,06:19,12:32,06:13:00 AM,2 stops,11635
+Alliance Air,2021-09-25,Cochin,Goa,COC-CHE-SUR-GOA,06:41,16:48,10:07:00 AM,2 stops,5637
+Alliance Air,2024-12-27,Chennai,Pune,CHE-JAI-BHU-PUN,12:12,20:59,08:47:00 AM,2 stops,10217
+Akasa Air,2025-09-21,Chennai,Delhi,CHE-BHU-DEL,03:54,18:19,02:25:00 PM,1 stop,4066
+Air India,2024-11-20,Mumbai,Varanasi,MUM-SUR-VAR,15:40,16:52,01:12:00 AM,1 stop,4194
+IndiGo,2025-06-10,Hyderabad,Raipur,HYD-KOL-LUC-RAI,18:59,16:49,09:50:00 PM,2 stops,9443
+Air India,2020-08-27,Goa,Delhi,GOA-DEL,05:36,06:20,12:44:00 AM,non-stop,6581
+IndiGo,2019-08-11,Lucknow,Nagpur,LUC-NAG,02:30,16:06,01:36:00 PM,non-stop,11967
+Star Air,2025-10-13,Jaipur,Surat,JAI-SUR,11:08,00:06,12:58:00 PM,non-stop,11423
+GoAir,2022-01-07,Ahmedabad,Lucknow,AHM-HYD-JAI-CHE-LUC,09:43,03:50,06:07:00 PM,3 stops,8360
+GoAir,2025-04-28,Varanasi,Goa,VAR-MUM-GOA,09:00,23:57,02:57:00 PM,1 stop,10029
+AirAsia India,2023-09-14,Guwahati,Mumbai,GUW-MUM,01:38,00:13,10:35:00 PM,non-stop,11822
+TruJet,2020-03-20,Surat,Raipur,SUR-KOL-COC-HYD-RAI,12:43,17:57,05:14:00 AM,3 stops,7534
+IndiGo,2022-06-08,Pune,Surat,PUN-AHM-SUR,18:11,00:25,06:14:00 AM,1 stop,7488
+AirAsia India,2023-12-15,Bangalore,Nagpur,BAN-PUN-RAI-NAG,23:58,01:29,01:31:00 AM,2 stops,5609
+Vistara,2020-04-08,Kolkata,Hyderabad,KOL-HYD,19:52,01:27,05:35:00 AM,non-stop,11587
+GoAir,2019-09-13,Delhi,Surat,DEL-CHE-PAT-JAI-SUR,09:58,00:21,02:23:00 PM,3 stops,15631
+SpiceJet,2019-10-20,Goa,Patna,GOA-PAT,17:05,19:05,02:00:00 AM,non-stop,4888
+Vistara,2022-12-22,Goa,Indore,GOA-IND,10:29,00:41,02:12:00 PM,non-stop,7801
+SpiceJet,2022-08-14,Guwahati,Cochin,GUW-IND-COC,17:03,15:23,10:20:00 PM,1 stop,11349
+Star Air,2024-08-09,Chennai,Delhi,CHE-MUM-AHM-COC-DEL,08:07,14:58,06:51:00 AM,3 stops,8397
+AirAsia India,2021-05-23,Indore,Hyderabad,IND-DEL-LUC-HYD,11:28,13:59,02:31:00 AM,2 stops,13181
+TruJet,2019-08-26,Ahmedabad,Jaipur,AHM-HYD-GUW-JAI,01:55,17:22,03:27:00 PM,2 stops,9878
+AirAsia India,2019-08-23,Bhubaneswar,Varanasi,BHU-PAT-AHM-RAI-VAR,07:27,11:39,04:12:00 AM,3 stops,6860
+Air India,2021-03-02,Mumbai,Goa,MUM-AHM-GOA,04:57,17:34,12:37:00 PM,1 stop,7157
+SpiceJet,2019-03-17,Delhi,Kolkata,DEL-PUN-PAT-BHU-KOL,23:51,08:17,08:26:00 AM,3 stops,9088
+SpiceJet,2023-02-23,Hyderabad,Bangalore,HYD-LUC-VAR-BAN,17:19,02:56,09:37:00 AM,2 stops,8041
+TruJet,2022-07-05,Bangalore,Delhi,BAN-DEL,15:33,22:30,06:57:00 AM,non-stop,2616
+Vistara,2022-05-15,Nagpur,Mumbai,NAG-IND-MUM,22:31,23:53,01:22:00 AM,1 stop,5469
+Star Air,2023-09-05,Indore,Mumbai,IND-DEL-MUM,14:30,15:56,01:26:00 AM,1 stop,4507
+AirAsia India,2021-11-10,Bhubaneswar,Mumbai,BHU-KOL-GUW-MUM,16:52,05:57,01:05:00 PM,2 stops,12000
+SpiceJet,2022-05-08,Kolkata,Guwahati,KOL-RAI-CHE-GUW,08:12,06:38,10:26:00 PM,2 stops,7219
+SpiceJet,2022-07-01,Hyderabad,Surat,HYD-RAI-COC-PAT-SUR,04:10,19:41,03:31:00 PM,3 stops,12442
+Star Air,2020-12-16,Mumbai,Varanasi,MUM-SUR-VAR,03:07,12:27,09:20:00 AM,1 stop,6693
+Vistara,2019-01-21,Ahmedabad,Lucknow,AHM-JAI-RAI-LUC,14:51,20:40,05:49:00 AM,2 stops,11731
+Akasa Air,2019-12-20,Mumbai,Pune,MUM-PUN,18:53,00:25,05:32:00 AM,non-stop,3715
+Air India,2019-04-17,Varanasi,Raipur,VAR-JAI-BAN-KOL-RAI,13:35,00:06,10:31:00 AM,3 stops,10957
+Akasa Air,2025-12-14,Jaipur,Guwahati,JAI-DEL-GUW,22:25,09:10,10:45:00 AM,1 stop,12291
+Star Air,2025-04-06,Mumbai,Kolkata,MUM-BAN-GOA-COC-KOL,20:09,12:48,04:39:00 PM,3 stops,9970
+TruJet,2021-08-01,Surat,Hyderabad,SUR-BAN-VAR-HYD,00:52,21:50,08:58:00 PM,2 stops,14095
+Alliance Air,2020-11-23,Patna,Chennai,PAT-CHE,22:00,08:42,10:42:00 AM,non-stop,6054
+IndiGo,2020-12-20,Indore,Chennai,IND-KOL-SUR-CHE,09:39,23:47,02:08:00 PM,2 stops,13257
+TruJet,2019-09-08,Varanasi,Bangalore,VAR-AHM-BAN,15:41,17:20,01:39:00 AM,1 stop,5662
+IndiGo,2023-02-01,Bangalore,Chennai,BAN-GOA-VAR-CHE,01:55,08:37,06:42:00 AM,2 stops,13147
+GoAir,2024-03-07,Chennai,Hyderabad,CHE-HYD,12:14,05:03,04:49:00 PM,non-stop,8849
+Vistara,2022-07-16,Ahmedabad,Cochin,AHM-CHE-SUR-JAI-COC,15:12,02:10,10:58:00 AM,3 stops,9228
+Akasa Air,2020-01-20,Nagpur,Lucknow,NAG-RAI-GOA-LUC,19:02,01:37,06:35:00 AM,2 stops,12148
+Air India,2025-02-06,Surat,Pune,SUR-BAN-LUC-KOL-PUN,12:55,11:33,10:38:00 PM,3 stops,8981
+Air India,2023-03-15,Patna,Guwahati,PAT-AHM-GUW,06:58,03:56,08:58:00 PM,1 stop,10132
+Air India,2022-09-04,Guwahati,Surat,GUW-BHU-PAT-VAR-SUR,13:50,23:56,10:06:00 AM,3 stops,7648
+AirAsia India,2020-07-26,Guwahati,Kolkata,GUW-PAT-PUN-KOL,11:16,06:02,06:46:00 PM,2 stops,12663
+GoAir,2019-03-02,Kolkata,Indore,KOL-NAG-PUN-IND,04:18,10:01,05:43:00 AM,2 stops,15052
+TruJet,2019-01-16,Hyderabad,Guwahati,HYD-GUW,10:29,22:02,11:33:00 AM,non-stop,10568
+Air India,2024-10-14,Kolkata,Guwahati,KOL-GUW,23:10,20:24,09:14:00 PM,non-stop,4974
+Vistara,2025-12-20,Patna,Bhubaneswar,PAT-GOA-NAG-BHU,10:51,09:26,10:35:00 PM,2 stops,6897
+IndiGo,2025-11-03,Nagpur,Raipur,NAG-JAI-COC-RAI,07:49,00:50,05:01:00 PM,2 stops,11349
+IndiGo,2019-11-28,Goa,Patna,GOA-COC-NAG-HYD-PAT,05:26,00:21,06:55:00 PM,3 stops,15130
+SpiceJet,2024-05-21,Delhi,Kolkata,DEL-KOL,08:27,06:49,10:22:00 PM,non-stop,6901
+IndiGo,2025-10-17,Nagpur,Indore,NAG-COC-PAT-IND,05:50,00:44,06:54:00 PM,2 stops,14340
+AirAsia India,2021-12-03,Cochin,Mumbai,COC-MUM,02:19,03:41,01:22:00 AM,non-stop,6437
+Star Air,2022-03-16,Guwahati,Goa,GUW-GOA,18:49,12:18,05:29:00 PM,non-stop,6426
+GoAir,2020-01-01,Pune,Goa,PUN-HYD-PAT-GOA,00:47,20:51,08:04:00 PM,2 stops,9341
+SpiceJet,2024-03-14,Varanasi,Guwahati,VAR-PUN-BHU-GUW,02:43,10:29,07:46:00 AM,2 stops,13278
+IndiGo,2020-05-27,Goa,Bangalore,GOA-HYD-VAR-RAI-BAN,17:38,13:57,08:19:00 PM,3 stops,13367
+Star Air,2022-05-08,Cochin,Bangalore,COC-AHM-BAN,14:35,12:53,10:18:00 PM,1 stop,12682
+GoAir,2024-09-02,Surat,Nagpur,SUR-KOL-COC-NAG,01:24,02:32,01:08:00 AM,2 stops,7545
+SpiceJet,2024-10-19,Guwahati,Chennai,GUW-PAT-CHE,00:14,04:57,04:43:00 AM,1 stop,9808
+Alliance Air,2021-12-06,Delhi,Nagpur,DEL-LUC-NAG,15:49,05:46,01:57:00 PM,1 stop,10193
+Alliance Air,2024-11-14,Lucknow,Bangalore,LUC-HYD-BAN,17:36,07:55,02:19:00 PM,1 stop,10818
+AirAsia India,2021-04-19,Indore,Delhi,IND-DEL,10:08,21:29,11:21:00 AM,non-stop,10604
+Akasa Air,2025-06-28,Cochin,Mumbai,COC-BHU-MUM,21:42,11:00,01:18:00 PM,1 stop,11730
+GoAir,2019-12-27,Chennai,Jaipur,CHE-RAI-GOA-BAN-JAI,11:48,09:02,09:14:00 PM,3 stops,13973
+SpiceJet,2024-03-11,Varanasi,Patna,VAR-COC-MUM-PAT,07:16,08:10,12:54:00 AM,2 stops,13883
+Star Air,2022-07-06,Mumbai,Indore,MUM-GUW-PUN-IND,06:54,08:51,01:57:00 AM,2 stops,11170
+Akasa Air,2025-10-07,Bhubaneswar,Patna,BHU-PAT,00:47,06:52,06:05:00 AM,non-stop,11220
+Vistara,2020-12-13,Ahmedabad,Bhubaneswar,AHM-PAT-LUC-BAN-BHU,15:49,13:30,09:41:00 PM,3 stops,8431
+GoAir,2024-10-28,Chennai,Raipur,CHE-RAI,02:37,10:49,08:12:00 AM,non-stop,5938
+GoAir,2025-11-15,Indore,Hyderabad,IND-GUW-PUN-RAI-HYD,17:17,21:52,04:35:00 AM,3 stops,13004
+IndiGo,2024-01-03,Jaipur,Delhi,JAI-DEL,21:17,14:38,05:21:00 PM,non-stop,9143
+Alliance Air,2024-01-03,Mumbai,Surat,MUM-COC-KOL-SUR,21:56,04:01,06:05:00 AM,2 stops,15284
+Akasa Air,2023-08-08,Indore,Goa,IND-BAN-VAR-LUC-GOA,19:58,02:42,06:44:00 AM,3 stops,8293
+IndiGo,2019-11-10,Raipur,Patna,RAI-COC-PAT,15:42,16:14,12:32:00 AM,1 stop,5481
+Akasa Air,2019-03-24,Patna,Kolkata,PAT-KOL,01:44,04:41,02:57:00 AM,non-stop,3833
+AirAsia India,2022-09-06,Ahmedabad,Jaipur,AHM-JAI,01:09,18:30,05:21:00 PM,non-stop,11801
+IndiGo,2023-11-25,Pune,Guwahati,PUN-HYD-LUC-VAR-GUW,01:29,23:50,10:21:00 PM,3 stops,11048
+Vistara,2020-05-21,Indore,Cochin,IND-MUM-COC,14:43,11:44,09:01:00 PM,1 stop,13226
+Star Air,2020-01-27,Jaipur,Varanasi,JAI-BHU-IND-VAR,05:54,04:35,10:41:00 PM,2 stops,5916
+Star Air,2022-01-04,Chennai,Ahmedabad,CHE-COC-KOL-AHM,18:47,23:03,04:16:00 AM,2 stops,11992
+TruJet,2024-10-21,Jaipur,Bangalore,JAI-AHM-BAN,05:18,19:42,02:24:00 PM,1 stop,7980
+Vistara,2020-06-20,Varanasi,Mumbai,VAR-CHE-KOL-RAI-MUM,13:58,05:17,03:19:00 PM,3 stops,16801
+TruJet,2019-05-27,Jaipur,Indore,JAI-IND,04:49,10:21,05:32:00 AM,non-stop,10074
+SpiceJet,2020-05-22,Goa,Surat,GOA-SUR,18:42,05:24,10:42:00 AM,non-stop,3732
+Vistara,2023-03-13,Varanasi,Raipur,VAR-CHE-PAT-BHU-RAI,12:27,17:55,05:28:00 AM,3 stops,16215
+Akasa Air,2023-03-28,Patna,Pune,PAT-KOL-PUN,09:55,19:12,09:17:00 AM,1 stop,7958
+SpiceJet,2021-09-20,Patna,Chennai,PAT-CHE,08:34,05:30,08:56:00 PM,non-stop,9936
+SpiceJet,2025-11-18,Bhubaneswar,Surat,BHU-AHM-NAG-HYD-SUR,02:50,08:22,05:32:00 AM,3 stops,7390
+Alliance Air,2023-05-18,Goa,Raipur,GOA-RAI,19:24,17:50,10:26:00 PM,non-stop,3182
+Vistara,2020-03-22,Raipur,Mumbai,RAI-BAN-KOL-COC-MUM,14:16,18:55,04:39:00 AM,3 stops,11537
+AirAsia India,2022-01-18,Bhubaneswar,Mumbai,BHU-MUM,19:59,16:13,08:14:00 PM,non-stop,3004
+AirAsia India,2023-02-28,Delhi,Mumbai,DEL-MUM,22:54,23:13,12:19:00 AM,non-stop,3350
+Star Air,2019-10-17,Chennai,Hyderabad,CHE-HYD,21:04,02:51,05:47:00 AM,non-stop,8629
+AirAsia India,2025-08-25,Lucknow,Guwahati,LUC-GUW,19:17,21:43,02:26:00 AM,non-stop,9145
+TruJet,2024-08-17,Delhi,Jaipur,DEL-GUW-HYD-JAI,17:15,06:06,12:51:00 PM,2 stops,14477
+TruJet,2024-06-18,Guwahati,Goa,GUW-SUR-GOA,03:31,06:16,02:45:00 AM,1 stop,5918
+Star Air,2020-02-07,Delhi,Indore,DEL-IND,05:39,17:03,11:24:00 AM,non-stop,4722
+Alliance Air,2021-11-24,Surat,Nagpur,SUR-NAG,07:13,09:52,02:39:00 AM,non-stop,4507
+IndiGo,2023-01-11,Hyderabad,Raipur,HYD-DEL-GOA-BAN-RAI,04:50,01:51,09:01:00 PM,3 stops,11857
+SpiceJet,2022-05-24,Varanasi,Hyderabad,VAR-HYD,12:59,15:50,02:51:00 AM,non-stop,5344
+Vistara,2021-03-19,Bhubaneswar,Guwahati,BHU-COC-GUW,18:54,14:28,07:34:00 PM,1 stop,8100
+Air India,2019-06-16,Varanasi,Bangalore,VAR-DEL-BAN,22:40,03:06,04:26:00 AM,1 stop,12598
+TruJet,2020-08-23,Hyderabad,Bhubaneswar,HYD-BHU,09:43,11:06,01:23:00 AM,non-stop,8867
+Alliance Air,2021-01-11,Lucknow,Cochin,LUC-HYD-MUM-KOL-COC,09:18,19:58,10:40:00 AM,3 stops,9234
+GoAir,2020-06-19,Jaipur,Mumbai,JAI-MUM,08:17,18:23,10:06:00 AM,non-stop,10198
+Star Air,2019-04-15,Nagpur,Surat,NAG-COC-MUM-SUR,17:37,01:10,07:33:00 AM,2 stops,7221
+Alliance Air,2024-09-08,Bangalore,Nagpur,BAN-VAR-NAG,04:20,16:51,12:31:00 PM,1 stop,3862
+TruJet,2022-06-14,Nagpur,Guwahati,NAG-PAT-IND-GUW,15:03,07:38,04:35:00 PM,2 stops,6688
+IndiGo,2020-03-28,Bhubaneswar,Chennai,BHU-CHE,00:58,09:28,08:30:00 AM,non-stop,2547
+GoAir,2022-01-04,Surat,Mumbai,SUR-PAT-MUM,09:07,10:22,01:15:00 AM,1 stop,6650
+IndiGo,2024-05-22,Ahmedabad,Hyderabad,AHM-HYD,03:24,06:04,02:40:00 AM,non-stop,6150
+Alliance Air,2025-04-14,Chennai,Jaipur,CHE-JAI,17:06,19:51,02:45:00 AM,non-stop,8981
+Alliance Air,2023-12-21,Varanasi,Indore,VAR-BAN-CHE-RAI-IND,08:12,22:35,02:23:00 PM,3 stops,7052
+TruJet,2019-03-01,Hyderabad,Patna,HYD-RAI-PAT,16:00,20:10,04:10:00 AM,1 stop,11787
+AirAsia India,2021-07-04,Bangalore,Hyderabad,BAN-GOA-COC-HYD,14:29,07:48,05:19:00 PM,2 stops,12729
+TruJet,2022-12-28,Guwahati,Varanasi,GUW-COC-RAI-VAR,18:54,05:56,11:02:00 AM,2 stops,12108
+Air India,2019-11-19,Goa,Raipur,GOA-PUN-COC-RAI,00:04,19:14,07:10:00 PM,2 stops,9897
+Air India,2019-07-09,Surat,Hyderabad,SUR-BHU-IND-HYD,10:56,00:49,01:53:00 PM,2 stops,8887
+AirAsia India,2025-09-16,Surat,Lucknow,SUR-LUC,16:21,10:02,05:41:00 PM,non-stop,6384
+Star Air,2021-11-03,Hyderabad,Varanasi,HYD-PAT-COC-GOA-VAR,22:40,19:25,08:45:00 PM,3 stops,8757
+Air India,2022-05-24,Ahmedabad,Surat,AHM-SUR,15:56,18:45,02:49:00 AM,non-stop,4702
+Alliance Air,2023-07-16,Kolkata,Delhi,KOL-AHM-DEL,21:46,07:32,09:46:00 AM,1 stop,11978
+Star Air,2020-05-26,Nagpur,Surat,NAG-GUW-IND-SUR,16:50,01:14,08:24:00 AM,2 stops,13559
+Alliance Air,2025-04-11,Ahmedabad,Raipur,AHM-BHU-GOA-HYD-RAI,14:15,06:31,04:16:00 PM,3 stops,13472
+IndiGo,2025-07-26,Surat,Hyderabad,SUR-HYD,03:47,06:14,02:27:00 AM,non-stop,4163
+Star Air,2021-11-28,Kolkata,Hyderabad,KOL-HYD,06:48,13:20,06:32:00 AM,non-stop,3708
+Akasa Air,2021-08-11,Bhubaneswar,Nagpur,BHU-NAG,03:12,09:14,06:02:00 AM,non-stop,8287
+Akasa Air,2022-06-14,Raipur,Kolkata,RAI-KOL,10:28,16:48,06:20:00 AM,non-stop,11557
+Vistara,2019-06-03,Varanasi,Patna,VAR-PUN-IND-PAT,04:18,03:45,11:27:00 PM,2 stops,13211
+SpiceJet,2024-03-27,Pune,Kolkata,PUN-IND-KOL,13:08,12:16,11:08:00 PM,1 stop,8146
+Air India,2022-02-23,Chennai,Pune,CHE-KOL-AHM-BHU-PUN,02:37,21:30,06:53:00 PM,3 stops,11066
+IndiGo,2022-05-14,Delhi,Goa,DEL-PUN-KOL-GOA,13:06,01:00,11:54:00 AM,2 stops,12479
+IndiGo,2022-06-15,Varanasi,Guwahati,VAR-SUR-PUN-MUM-GUW,12:43,12:10,11:27:00 PM,3 stops,12202
+SpiceJet,2022-10-08,Bhubaneswar,Surat,BHU-VAR-MUM-SUR,10:08,11:27,01:19:00 AM,2 stops,8110
+SpiceJet,2021-09-22,Mumbai,Delhi,MUM-SUR-DEL,22:30,14:41,04:11:00 PM,1 stop,6276
+Akasa Air,2025-02-24,Delhi,Kolkata,DEL-RAI-SUR-NAG-KOL,02:20,21:53,07:33:00 PM,3 stops,12631
+Vistara,2025-11-14,Nagpur,Hyderabad,NAG-COC-BHU-SUR-HYD,15:33,04:23,12:50:00 PM,3 stops,8536
+GoAir,2024-09-06,Mumbai,Delhi,MUM-DEL,12:33,01:18,12:45:00 PM,non-stop,5799
+GoAir,2024-08-12,Bangalore,Mumbai,BAN-RAI-MUM,06:27,03:58,09:31:00 PM,1 stop,4613
+AirAsia India,2019-01-23,Varanasi,Guwahati,VAR-BHU-GUW,14:56,22:47,07:51:00 AM,1 stop,10128
+TruJet,2022-10-22,Chennai,Goa,CHE-GOA,16:09,21:22,05:13:00 AM,non-stop,11126
+Akasa Air,2019-04-06,Goa,Mumbai,GOA-AHM-BAN-MUM,10:08,12:35,02:27:00 AM,2 stops,8129
+SpiceJet,2021-09-12,Mumbai,Jaipur,MUM-PAT-IND-JAI,14:46,20:59,06:13:00 AM,2 stops,7988
+GoAir,2020-05-18,Surat,Nagpur,SUR-PUN-BAN-IND-NAG,19:34,08:29,12:55:00 PM,3 stops,7373
+Vistara,2024-02-12,Raipur,Lucknow,RAI-MUM-DEL-IND-LUC,21:30,22:22,12:52:00 AM,3 stops,7406
+Air India,2021-05-12,Goa,Lucknow,GOA-BHU-LUC,06:23,00:46,06:23:00 PM,1 stop,9804
+Vistara,2022-09-07,Jaipur,Indore,JAI-HYD-MUM-IND,04:58,16:48,11:50:00 AM,2 stops,10568
+Star Air,2020-09-21,Pune,Goa,PUN-NAG-RAI-GOA,05:16,18:16,01:00:00 PM,2 stops,11377
+GoAir,2019-01-26,Bangalore,Surat,BAN-PUN-NAG-SUR,12:07,10:47,10:40:00 PM,2 stops,10071
+IndiGo,2020-10-01,Guwahati,Kolkata,GUW-MUM-KOL,02:40,09:28,06:48:00 AM,1 stop,5602
+TruJet,2022-01-23,Chennai,Goa,CHE-GOA,06:08,02:37,08:29:00 PM,non-stop,10598
+Akasa Air,2022-06-16,Bangalore,Hyderabad,BAN-SUR-DEL-HYD,12:44,05:49,05:05:00 PM,2 stops,13109
+GoAir,2019-02-15,Bhubaneswar,Delhi,BHU-PUN-RAI-DEL,01:15,23:42,10:27:00 PM,2 stops,7286
+Air India,2019-10-08,Chennai,Goa,CHE-GOA,13:08,06:05,04:57:00 PM,non-stop,11979
+TruJet,2022-10-25,Delhi,Jaipur,DEL-LUC-MUM-JAI,13:59,16:23,02:24:00 AM,2 stops,5962
+Akasa Air,2020-05-16,Raipur,Cochin,RAI-DEL-VAR-COC,05:44,00:39,06:55:00 PM,2 stops,10639
+TruJet,2021-03-02,Pune,Guwahati,PUN-CHE-GUW,22:07,20:03,09:56:00 PM,1 stop,5058
+Akasa Air,2022-12-04,Indore,Mumbai,IND-VAR-DEL-NAG-MUM,04:56,23:51,06:55:00 PM,3 stops,6787
+GoAir,2022-08-22,Chennai,Hyderabad,CHE-KOL-HYD,00:25,17:31,05:06:00 PM,1 stop,10670
+IndiGo,2021-09-05,Guwahati,Delhi,GUW-CHE-HYD-DEL,16:37,18:18,01:41:00 AM,2 stops,8202
+GoAir,2025-01-16,Cochin,Pune,COC-KOL-RAI-PUN,21:14,07:46,10:32:00 AM,2 stops,11066
+IndiGo,2023-11-17,Surat,Jaipur,SUR-CHE-JAI,16:22,12:13,07:51:00 PM,1 stop,8000
+Air India,2022-08-13,Jaipur,Pune,JAI-BAN-PUN,22:52,01:37,02:45:00 AM,1 stop,9454
+TruJet,2024-06-12,Chennai,Varanasi,CHE-DEL-VAR,23:24,18:55,07:31:00 PM,1 stop,8795
+Alliance Air,2019-11-08,Delhi,Ahmedabad,DEL-CHE-AHM,11:45,23:18,11:33:00 AM,1 stop,4788
+GoAir,2024-11-14,Bhubaneswar,Indore,BHU-GOA-IND,19:57,10:05,02:08:00 PM,1 stop,4332
+Star Air,2019-11-11,Goa,Bhubaneswar,GOA-BHU,20:49,02:42,05:53:00 AM,non-stop,11429
+Air India,2021-04-05,Raipur,Ahmedabad,RAI-AHM,17:13,22:41,05:28:00 AM,non-stop,6650
+TruJet,2020-10-24,Jaipur,Varanasi,JAI-CHE-HYD-VAR,02:46,05:26,02:40:00 AM,2 stops,11802
+Air India,2022-07-01,Pune,Nagpur,PUN-IND-LUC-CHE-NAG,06:17,16:36,10:19:00 AM,3 stops,9823
+Air India,2020-11-20,Ahmedabad,Patna,AHM-LUC-PAT,23:28,13:28,02:00:00 PM,1 stop,7052
+Alliance Air,2025-03-01,Delhi,Nagpur,DEL-HYD-VAR-GUW-NAG,18:43,03:58,09:15:00 AM,3 stops,16113
+Akasa Air,2021-09-22,Raipur,Chennai,RAI-SUR-MUM-CHE,23:35,18:34,06:59:00 PM,2 stops,12847
+TruJet,2022-02-13,Bangalore,Jaipur,BAN-JAI,06:51,16:53,10:02:00 AM,non-stop,4971
+GoAir,2021-08-08,Raipur,Indore,RAI-IND,13:15,21:25,08:10:00 AM,non-stop,7650
+Vistara,2020-03-08,Surat,Cochin,SUR-GOA-LUC-COC,12:25,01:34,01:09:00 PM,2 stops,12775
+TruJet,2021-09-23,Goa,Nagpur,GOA-IND-NAG,18:42,20:23,01:41:00 AM,1 stop,8276
+GoAir,2023-11-06,Varanasi,Nagpur,VAR-IND-NAG,07:06,03:06,08:00:00 PM,1 stop,10774
+Akasa Air,2025-09-16,Bangalore,Nagpur,BAN-DEL-NAG,13:57,05:46,03:49:00 PM,1 stop,7299
+TruJet,2020-11-23,Delhi,Bangalore,DEL-CHE-SUR-BAN,08:15,06:37,10:22:00 PM,2 stops,10779
+AirAsia India,2023-03-16,Chennai,Lucknow,CHE-RAI-LUC,16:59,05:14,12:15:00 PM,1 stop,6386
+TruJet,2021-02-14,Kolkata,Bangalore,KOL-VAR-BAN,20:19,02:11,05:52:00 AM,1 stop,8206
+Akasa Air,2021-10-05,Bhubaneswar,Kolkata,BHU-DEL-KOL,22:06,10:16,12:10:00 PM,1 stop,12177
+GoAir,2023-03-19,Cochin,Jaipur,COC-JAI,22:52,22:07,11:15:00 PM,non-stop,2609
+IndiGo,2021-01-13,Guwahati,Mumbai,GUW-NAG-MUM,01:39,09:53,08:14:00 AM,1 stop,6474
+TruJet,2019-05-08,Jaipur,Nagpur,JAI-NAG,14:37,17:09,02:32:00 AM,non-stop,11062
+SpiceJet,2019-03-25,Jaipur,Surat,JAI-SUR,15:27,03:01,11:34:00 AM,non-stop,7839
+Air India,2023-02-07,Pune,Mumbai,PUN-BHU-COC-MUM,22:06,00:45,02:39:00 AM,2 stops,13566
+SpiceJet,2022-10-18,Kolkata,Lucknow,KOL-RAI-COC-LUC,05:11,23:19,06:08:00 PM,2 stops,11357
+AirAsia India,2023-02-11,Chennai,Goa,CHE-GOA,09:02,22:28,01:26:00 PM,non-stop,11992
+Akasa Air,2024-08-03,Bhubaneswar,Goa,BHU-LUC-GOA,12:21,01:32,01:11:00 PM,1 stop,13310
+SpiceJet,2024-10-10,Delhi,Ahmedabad,DEL-CHE-IND-AHM,00:16,15:18,03:02:00 PM,2 stops,14922
+Akasa Air,2021-03-01,Delhi,Raipur,DEL-LUC-RAI,02:10,06:42,04:32:00 AM,1 stop,6628
+AirAsia India,2019-07-14,Delhi,Indore,DEL-IND,04:05,17:24,01:19:00 PM,non-stop,10354
+AirAsia India,2023-05-02,Patna,Varanasi,PAT-VAR,06:29,07:48,01:19:00 AM,non-stop,2889
+Air India,2024-08-17,Nagpur,Surat,NAG-AHM-CHE-GOA-SUR,08:45,22:54,02:09:00 PM,3 stops,8466
+Akasa Air,2025-05-24,Lucknow,Raipur,LUC-RAI,05:34,11:25,05:51:00 AM,non-stop,3810
+SpiceJet,2025-01-17,Varanasi,Jaipur,VAR-AHM-PUN-JAI,23:26,11:26,12:00:00 PM,2 stops,9490
+Alliance Air,2021-09-21,Kolkata,Cochin,KOL-JAI-GOA-MUM-COC,14:10,10:21,08:11:00 PM,3 stops,13428
+SpiceJet,2023-02-19,Ahmedabad,Mumbai,AHM-HYD-COC-MUM,03:55,09:03,05:08:00 AM,2 stops,8471
+SpiceJet,2022-11-26,Jaipur,Surat,JAI-KOL-AHM-DEL-SUR,19:07,01:41,06:34:00 AM,3 stops,15094
+Vistara,2022-09-11,Pune,Cochin,PUN-KOL-IND-COC,15:32,11:21,07:49:00 PM,2 stops,12858
+IndiGo,2022-01-11,Delhi,Guwahati,DEL-GUW,18:17,19:59,01:42:00 AM,non-stop,5527
+AirAsia India,2021-05-25,Indore,Varanasi,IND-VAR,22:45,02:07,03:22:00 AM,non-stop,9619
+GoAir,2022-02-27,Delhi,Cochin,DEL-HYD-VAR-PUN-COC,04:09,06:44,02:35:00 AM,3 stops,12289
+Akasa Air,2023-01-13,Kolkata,Bhubaneswar,KOL-PUN-DEL-IND-BHU,00:48,02:43,01:55:00 AM,3 stops,12499
+GoAir,2021-01-27,Jaipur,Mumbai,JAI-MUM,21:24,16:46,07:22:00 PM,non-stop,6832
+Star Air,2025-04-06,Patna,Raipur,PAT-PUN-GOA-CHE-RAI,15:08,07:20,04:12:00 PM,3 stops,9773
+Star Air,2020-04-26,Delhi,Goa,DEL-HYD-GOA,22:06,18:28,08:22:00 PM,1 stop,11516
+TruJet,2023-03-07,Hyderabad,Delhi,HYD-COC-AHM-PUN-DEL,14:12,21:10,06:58:00 AM,3 stops,14341
+GoAir,2019-08-10,Goa,Kolkata,GOA-KOL,02:58,09:43,06:45:00 AM,non-stop,5208
+AirAsia India,2021-09-23,Goa,Indore,GOA-AHM-CHE-IND,03:16,13:43,10:27:00 AM,2 stops,7933
+Alliance Air,2019-11-05,Lucknow,Pune,LUC-PUN,07:53,15:40,07:47:00 AM,non-stop,10864
+AirAsia India,2024-04-07,Goa,Bangalore,GOA-DEL-KOL-IND-BAN,16:36,21:19,04:43:00 AM,3 stops,7401
+Akasa Air,2023-03-03,Pune,Indore,PUN-IND,01:17,22:17,09:00:00 PM,non-stop,10363
+Alliance Air,2021-07-19,Lucknow,Nagpur,LUC-NAG,18:57,17:47,10:50:00 PM,non-stop,3531
+Star Air,2020-10-18,Bangalore,Nagpur,BAN-MUM-PAT-BHU-NAG,02:46,17:01,02:15:00 PM,3 stops,14970
+Alliance Air,2020-09-02,Pune,Jaipur,PUN-RAI-AHM-JAI,12:42,12:10,11:28:00 PM,2 stops,5194
+GoAir,2023-02-05,Hyderabad,Indore,HYD-VAR-GUW-IND,03:03,07:45,04:42:00 AM,2 stops,10798
+IndiGo,2021-05-14,Raipur,Surat,RAI-HYD-AHM-VAR-SUR,09:06,13:49,04:43:00 AM,3 stops,14063
+GoAir,2023-03-03,Nagpur,Kolkata,NAG-AHM-IND-KOL,03:55,04:40,12:45:00 AM,2 stops,9318
+Vistara,2019-06-22,Bangalore,Nagpur,BAN-CHE-NAG,00:11,07:13,07:02:00 AM,1 stop,5169
+SpiceJet,2020-10-17,Surat,Patna,SUR-IND-BHU-VAR-PAT,02:13,13:48,11:35:00 AM,3 stops,9005
+Vistara,2021-03-21,Indore,Varanasi,IND-DEL-PUN-VAR,06:13,13:26,07:13:00 AM,2 stops,9527
+AirAsia India,2022-09-13,Delhi,Ahmedabad,DEL-AHM,18:09,00:13,06:04:00 AM,non-stop,9518
+Alliance Air,2022-02-19,Cochin,Bhubaneswar,COC-LUC-BHU,04:47,19:58,03:11:00 PM,1 stop,12591
+Star Air,2024-08-09,Raipur,Ahmedabad,RAI-PUN-GOA-AHM,21:56,01:29,03:33:00 AM,2 stops,9102
+IndiGo,2019-08-20,Surat,Varanasi,SUR-VAR,14:52,17:09,02:17:00 AM,non-stop,4852
+Star Air,2020-03-20,Nagpur,Goa,NAG-HYD-IND-GUW-GOA,18:56,04:45,09:49:00 AM,3 stops,15626
+IndiGo,2025-06-09,Chennai,Pune,CHE-IND-PUN,13:53,11:04,09:11:00 PM,1 stop,4097
+Alliance Air,2024-04-02,Guwahati,Mumbai,GUW-DEL-MUM,20:52,00:56,04:04:00 AM,1 stop,11356
+IndiGo,2020-10-06,Bangalore,Nagpur,BAN-DEL-IND-BHU-NAG,10:24,12:27,02:03:00 AM,3 stops,15625
+AirAsia India,2022-02-11,Raipur,Bangalore,RAI-BAN,21:22,07:15,09:53:00 AM,non-stop,6150
+Star Air,2022-06-22,Lucknow,Hyderabad,LUC-GUW-RAI-HYD,17:43,17:23,11:40:00 PM,2 stops,10396
+Star Air,2022-03-12,Pune,Kolkata,PUN-COC-BHU-KOL,05:19,10:16,04:57:00 AM,2 stops,4684
+IndiGo,2025-11-07,Goa,Nagpur,GOA-NAG,10:24,02:40,04:16:00 PM,non-stop,6649
+Air India,2024-02-08,Indore,Goa,IND-GUW-GOA,14:06,15:37,01:31:00 AM,1 stop,6079
+GoAir,2021-08-04,Delhi,Goa,DEL-VAR-GOA,08:25,21:44,01:19:00 PM,1 stop,9024
+Vistara,2019-05-01,Delhi,Ahmedabad,DEL-COC-VAR-AHM,09:12,13:32,04:20:00 AM,2 stops,12022
+Star Air,2019-09-24,Cochin,Patna,COC-PAT,04:32,05:16,12:44:00 AM,non-stop,7371
+IndiGo,2023-10-17,Hyderabad,Nagpur,HYD-NAG,18:48,09:52,03:04:00 PM,non-stop,4483
+GoAir,2024-12-02,Chennai,Lucknow,CHE-LUC,14:55,16:54,01:59:00 AM,non-stop,7867
+SpiceJet,2024-11-21,Surat,Indore,SUR-IND,00:15,16:05,03:50:00 PM,non-stop,2637
+Star Air,2020-08-14,Surat,Patna,SUR-PAT,04:56,12:08,07:12:00 AM,non-stop,5239
+SpiceJet,2023-01-28,Ahmedabad,Mumbai,AHM-MUM,13:11,20:41,07:30:00 AM,non-stop,8466
+SpiceJet,2020-02-10,Nagpur,Lucknow,NAG-JAI-IND-PUN-LUC,00:33,15:07,02:34:00 PM,3 stops,16281
+GoAir,2022-05-10,Indore,Bhubaneswar,IND-PAT-GOA-BHU,01:36,20:23,06:47:00 PM,2 stops,6652
+Star Air,2024-02-02,Chennai,Surat,CHE-SUR,02:38,09:57,07:19:00 AM,non-stop,10770
+Vistara,2022-08-06,Pune,Hyderabad,PUN-IND-BHU-GOA-HYD,13:58,00:23,10:25:00 AM,3 stops,9943
+GoAir,2024-08-22,Chennai,Indore,CHE-IND,08:26,13:11,04:45:00 AM,non-stop,4302
+Vistara,2020-04-28,Raipur,Varanasi,RAI-IND-BHU-NAG-VAR,00:45,18:36,05:51:00 PM,3 stops,15558
+Air India,2020-02-26,Ahmedabad,Surat,AHM-GOA-SUR,16:21,08:37,04:16:00 PM,1 stop,7193
+TruJet,2023-07-17,Raipur,Patna,RAI-AHM-PAT,05:06,07:41,02:35:00 AM,1 stop,7157
+SpiceJet,2025-11-04,Pune,Nagpur,PUN-CHE-VAR-AHM-NAG,17:37,23:43,06:06:00 AM,3 stops,11427
+Akasa Air,2021-12-22,Chennai,Cochin,CHE-COC,18:40,18:34,11:54:00 PM,non-stop,10738
+Air India,2024-11-02,Bangalore,Lucknow,BAN-LUC,00:04,09:49,09:45:00 AM,non-stop,5839
+Air India,2021-07-28,Surat,Lucknow,SUR-BAN-LUC,20:49,14:00,05:11:00 PM,1 stop,10439
+Vistara,2022-05-02,Mumbai,Pune,MUM-AHM-PAT-PUN,18:37,03:18,08:41:00 AM,2 stops,7726
+AirAsia India,2020-07-18,Bangalore,Cochin,BAN-IND-COC,11:05,06:27,07:22:00 PM,1 stop,5607
+TruJet,2021-11-12,Kolkata,Patna,KOL-COC-HYD-LUC-PAT,19:32,15:29,07:57:00 PM,3 stops,15859
+GoAir,2021-07-08,Delhi,Surat,DEL-SUR,00:25,04:57,04:32:00 AM,non-stop,10772
+SpiceJet,2019-09-22,Delhi,Hyderabad,DEL-HYD,13:40,19:47,06:07:00 AM,non-stop,3155
+Star Air,2019-09-09,Hyderabad,Guwahati,HYD-AHM-PUN-IND-GUW,20:26,18:54,10:28:00 PM,3 stops,7206
+AirAsia India,2019-01-18,Cochin,Nagpur,COC-GOA-BHU-NAG,20:28,06:34,10:06:00 AM,2 stops,6607
+SpiceJet,2023-07-01,Pune,Varanasi,PUN-VAR,19:29,17:45,10:16:00 PM,non-stop,7496
+Star Air,2025-05-13,Raipur,Cochin,RAI-IND-CHE-COC,04:05,05:14,01:09:00 AM,2 stops,11923
+IndiGo,2023-11-17,Nagpur,Varanasi,NAG-MUM-DEL-VAR,13:55,18:10,04:15:00 AM,2 stops,6100
+SpiceJet,2019-12-19,Lucknow,Guwahati,LUC-GUW,07:09,19:13,12:04:00 PM,non-stop,11141
+Alliance Air,2019-12-19,Bangalore,Chennai,BAN-CHE,21:12,17:30,08:18:00 PM,non-stop,8953
+Vistara,2024-01-02,Nagpur,Guwahati,NAG-SUR-IND-GUW,02:07,09:34,07:27:00 AM,2 stops,12488
+Alliance Air,2024-06-07,Bhubaneswar,Guwahati,BHU-AHM-GUW,14:26,18:52,04:26:00 AM,1 stop,11574
+TruJet,2019-11-02,Cochin,Bhubaneswar,COC-NAG-VAR-MUM-BHU,17:12,17:18,12:06:00 AM,3 stops,16935
+Vistara,2023-06-28,Bhubaneswar,Jaipur,BHU-BAN-PAT-JAI,21:04,01:28,04:24:00 AM,2 stops,11565
+Alliance Air,2021-01-07,Mumbai,Goa,MUM-GOA,08:56,03:34,06:38:00 PM,non-stop,2553
+AirAsia India,2023-01-14,Indore,Hyderabad,IND-AHM-LUC-HYD,04:59,11:19,06:20:00 AM,2 stops,10682
+Vistara,2019-04-06,Jaipur,Pune,JAI-DEL-PUN,12:33,08:54,08:21:00 PM,1 stop,5060
+Akasa Air,2025-04-18,Kolkata,Mumbai,KOL-COC-DEL-MUM,09:35,07:35,10:00:00 PM,2 stops,5947
+SpiceJet,2025-07-24,Delhi,Goa,DEL-HYD-PAT-JAI-GOA,00:57,12:41,11:44:00 AM,3 stops,12137
+Akasa Air,2020-10-04,Hyderabad,Lucknow,HYD-LUC,04:57,11:23,06:26:00 AM,non-stop,10728
+GoAir,2024-02-07,Goa,Pune,GOA-PUN,12:05,15:20,03:15:00 AM,non-stop,4906
+Air India,2023-10-24,Guwahati,Delhi,GUW-LUC-DEL,17:38,04:34,10:56:00 AM,1 stop,9788
+IndiGo,2023-02-05,Jaipur,Guwahati,JAI-GUW,22:11,03:59,05:48:00 AM,non-stop,5948
+Vistara,2022-04-10,Cochin,Lucknow,COC-LUC,16:31,07:34,03:03:00 PM,non-stop,10032
+Air India,2024-06-26,Lucknow,Jaipur,LUC-COC-JAI,15:16,23:33,08:17:00 AM,1 stop,13032
+Star Air,2023-11-24,Patna,Indore,PAT-DEL-IND,21:30,00:06,02:36:00 AM,1 stop,7281
+Akasa Air,2022-04-11,Chennai,Raipur,CHE-RAI,09:08,12:29,03:21:00 AM,non-stop,3413
+Vistara,2024-03-10,Pune,Guwahati,PUN-PAT-KOL-MUM-GUW,22:16,06:24,08:08:00 AM,3 stops,8504
+TruJet,2024-07-17,Raipur,Varanasi,RAI-VAR,03:20,01:11,09:51:00 PM,non-stop,6848
+Air India,2025-08-21,Bhubaneswar,Guwahati,BHU-GOA-RAI-PAT-GUW,23:48,13:24,01:36:00 PM,3 stops,12742
+TruJet,2020-12-07,Bangalore,Raipur,BAN-BHU-GUW-RAI,02:47,19:50,05:03:00 PM,2 stops,7473
+SpiceJet,2022-06-03,Indore,Cochin,IND-COC,19:37,21:28,01:51:00 AM,non-stop,5194
+Star Air,2025-01-16,Nagpur,Bangalore,NAG-HYD-VAR-BAN,00:44,16:41,03:57:00 PM,2 stops,13017
+GoAir,2020-08-06,Ahmedabad,Nagpur,AHM-HYD-KOL-PAT-NAG,02:18,16:28,02:10:00 PM,3 stops,11884
+AirAsia India,2024-03-08,Nagpur,Ahmedabad,NAG-AHM,01:59,20:27,06:28:00 PM,non-stop,7428
+Alliance Air,2022-04-25,Patna,Raipur,PAT-AHM-LUC-RAI,15:31,18:47,03:16:00 AM,2 stops,13097
+Akasa Air,2020-02-21,Pune,Raipur,PUN-GUW-RAI,09:39,07:34,09:55:00 PM,1 stop,13012
+SpiceJet,2021-03-28,Jaipur,Nagpur,JAI-HYD-NAG,10:23,12:34,02:11:00 AM,1 stop,3551
+SpiceJet,2025-07-23,Kolkata,Delhi,KOL-JAI-LUC-DEL,09:39,08:39,11:00:00 PM,2 stops,11824
+GoAir,2020-04-07,Pune,Lucknow,PUN-RAI-KOL-PAT-LUC,09:26,11:49,02:23:00 AM,3 stops,12781
+Air India,2025-09-05,Varanasi,Surat,VAR-RAI-KOL-GOA-SUR,16:52,13:09,08:17:00 PM,3 stops,11187
+AirAsia India,2022-05-25,Cochin,Indore,COC-IND,04:15,02:36,10:21:00 PM,non-stop,5308
+SpiceJet,2021-09-21,Nagpur,Indore,NAG-GUW-GOA-IND,18:36,20:22,01:46:00 AM,2 stops,11944
+GoAir,2021-05-06,Bhubaneswar,Guwahati,BHU-CHE-LUC-BAN-GUW,16:54,12:41,07:47:00 PM,3 stops,6262
+Star Air,2022-03-11,Mumbai,Chennai,MUM-CHE,04:34,13:58,09:24:00 AM,non-stop,8055
+Star Air,2022-05-23,Varanasi,Patna,VAR-GOA-NAG-PAT,14:21,08:04,05:43:00 PM,2 stops,10994
+IndiGo,2019-04-27,Jaipur,Ahmedabad,JAI-BHU-AHM,23:54,19:49,07:55:00 PM,1 stop,10076
+Akasa Air,2025-08-17,Kolkata,Cochin,KOL-PAT-COC,19:42,13:18,05:36:00 PM,1 stop,8588
+Air India,2020-03-24,Indore,Hyderabad,IND-BAN-VAR-HYD,02:15,23:10,08:55:00 PM,2 stops,7547
+Air India,2024-03-26,Nagpur,Guwahati,NAG-JAI-RAI-GUW,22:40,11:49,01:09:00 PM,2 stops,8449
+AirAsia India,2024-03-16,Varanasi,Bhubaneswar,VAR-BHU,00:29,10:39,10:10:00 AM,non-stop,10849
+Alliance Air,2019-09-24,Bangalore,Chennai,BAN-AHM-PUN-CHE,02:38,23:21,08:43:00 PM,2 stops,12018
+SpiceJet,2022-05-28,Surat,Raipur,SUR-AHM-HYD-GOA-RAI,19:19,13:51,06:32:00 PM,3 stops,11484
+TruJet,2023-10-13,Patna,Varanasi,PAT-VAR,20:37,01:20,04:43:00 AM,non-stop,3137
+Akasa Air,2024-11-18,Raipur,Lucknow,RAI-PAT-LUC,15:49,12:40,08:51:00 PM,1 stop,4231
+GoAir,2023-02-17,Nagpur,Surat,NAG-CHE-GOA-SUR,20:28,18:32,10:04:00 PM,2 stops,8240
+AirAsia India,2020-07-10,Guwahati,Surat,GUW-VAR-SUR,07:05,22:01,02:56:00 PM,1 stop,6273
+Alliance Air,2023-05-10,Kolkata,Indore,KOL-MUM-IND,06:39,13:56,07:17:00 AM,1 stop,8132
+Star Air,2019-01-01,Chennai,Jaipur,CHE-JAI,19:07,20:58,01:51:00 AM,non-stop,9546
+IndiGo,2021-05-19,Pune,Hyderabad,PUN-HYD,16:27,23:12,06:45:00 AM,non-stop,9490
+Alliance Air,2023-12-11,Varanasi,Patna,VAR-NAG-PAT,04:21,02:32,10:11:00 PM,1 stop,5031
+Air India,2020-11-25,Goa,Pune,GOA-NAG-PUN,09:53,03:24,05:31:00 PM,1 stop,4785
+TruJet,2021-06-09,Mumbai,Indore,MUM-IND,07:48,01:03,05:15:00 PM,non-stop,7772
+TruJet,2020-01-16,Chennai,Mumbai,CHE-MUM,00:59,15:16,02:17:00 PM,non-stop,8645
+AirAsia India,2022-06-12,Mumbai,Raipur,MUM-AHM-BAN-RAI,05:56,00:01,06:05:00 PM,2 stops,7788
+GoAir,2022-01-27,Kolkata,Goa,KOL-PUN-NAG-VAR-GOA,07:22,03:40,08:18:00 PM,3 stops,11167
+Star Air,2019-09-22,Pune,Guwahati,PUN-IND-PAT-AHM-GUW,13:27,18:37,05:10:00 AM,3 stops,16653
+GoAir,2020-03-05,Bhubaneswar,Delhi,BHU-NAG-GUW-MUM-DEL,09:52,18:47,08:55:00 AM,3 stops,13270
+Alliance Air,2024-09-02,Bhubaneswar,Nagpur,BHU-PUN-NAG,13:14,20:53,07:39:00 AM,1 stop,5060
+AirAsia India,2025-07-16,Bangalore,Lucknow,BAN-GUW-AHM-LUC,13:40,14:27,12:47:00 AM,2 stops,11241
+Vistara,2020-03-14,Hyderabad,Mumbai,HYD-AHM-MUM,02:48,14:38,11:50:00 AM,1 stop,4797
+Vistara,2025-11-09,Cochin,Mumbai,COC-RAI-JAI-PAT-MUM,14:31,04:47,02:16:00 PM,3 stops,15629
+SpiceJet,2022-11-02,Bangalore,Cochin,BAN-GUW-NAG-COC,15:01,16:21,01:20:00 AM,2 stops,4072
+Alliance Air,2020-03-22,Bangalore,Hyderabad,BAN-PAT-COC-HYD,03:58,06:34,02:36:00 AM,2 stops,9194
+GoAir,2024-11-17,Jaipur,Patna,JAI-RAI-LUC-BHU-PAT,09:18,18:34,09:16:00 AM,3 stops,7892
+Akasa Air,2020-07-21,Patna,Chennai,PAT-BAN-NAG-CHE,07:54,19:20,11:26:00 AM,2 stops,5503
+IndiGo,2019-03-08,Bangalore,Mumbai,BAN-SUR-RAI-HYD-MUM,01:49,16:31,02:42:00 PM,3 stops,15220
+Alliance Air,2024-08-21,Raipur,Lucknow,RAI-LUC,18:32,03:53,09:21:00 AM,non-stop,3375
+SpiceJet,2019-01-19,Nagpur,Bangalore,NAG-PAT-BAN,13:37,03:20,01:43:00 PM,1 stop,11136
+SpiceJet,2025-01-22,Surat,Varanasi,SUR-VAR,09:25,18:39,09:14:00 AM,non-stop,11383
+TruJet,2024-07-08,Bangalore,Patna,BAN-GUW-JAI-AHM-PAT,04:49,13:23,08:34:00 AM,3 stops,9639
+Alliance Air,2019-01-09,Nagpur,Kolkata,NAG-BHU-VAR-KOL,05:58,18:30,12:32:00 PM,2 stops,8469
+Air India,2024-03-14,Ahmedabad,Varanasi,AHM-MUM-VAR,00:24,16:54,04:30:00 PM,1 stop,10293
+GoAir,2023-03-28,Jaipur,Pune,JAI-PUN,21:18,01:41,04:23:00 AM,non-stop,9556
+Star Air,2025-02-26,Kolkata,Pune,KOL-BHU-PUN,05:27,15:58,10:31:00 AM,1 stop,6202
+Star Air,2025-01-24,Bhubaneswar,Kolkata,BHU-NAG-BAN-LUC-KOL,20:09,15:01,06:52:00 PM,3 stops,8126
+Air India,2020-12-06,Goa,Hyderabad,GOA-KOL-DEL-COC-HYD,04:09,22:16,06:07:00 PM,3 stops,15960
+Star Air,2023-11-09,Patna,Surat,PAT-HYD-SUR,15:49,13:29,09:40:00 PM,1 stop,7303
+SpiceJet,2022-11-23,Mumbai,Nagpur,MUM-GUW-BAN-NAG,18:13,10:46,04:33:00 PM,2 stops,7432
+Alliance Air,2020-12-08,Bangalore,Jaipur,BAN-JAI,06:43,03:42,08:59:00 PM,non-stop,11680
+Akasa Air,2019-01-26,Bangalore,Indore,BAN-RAI-AHM-IND,19:29,09:57,02:28:00 PM,2 stops,7599
+Alliance Air,2022-03-13,Bangalore,Varanasi,BAN-VAR,13:53,14:29,12:36:00 AM,non-stop,10069
+Vistara,2023-07-06,Surat,Jaipur,SUR-GOA-JAI,06:02,01:51,07:49:00 PM,1 stop,4531
+Vistara,2019-09-15,Lucknow,Mumbai,LUC-PAT-KOL-MUM,00:35,03:49,03:14:00 AM,2 stops,5653
+GoAir,2019-09-07,Ahmedabad,Raipur,AHM-COC-RAI,18:42,02:10,07:28:00 AM,1 stop,6560
+Star Air,2021-04-12,Lucknow,Bhubaneswar,LUC-DEL-SUR-IND-BHU,04:09,17:15,01:06:00 PM,3 stops,14339

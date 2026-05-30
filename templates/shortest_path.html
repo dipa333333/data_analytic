@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="space-y-6">
+    <div class="bg-gray-900 rounded-2xl border border-gray-800 p-6 shadow-xl">
+        <div class="mb-6">
+            <h3 class="text-2xl font-bold flex items-center gap-2"><span>🗺️</span> Find Optimal Flight Routes</h3>
+            <p class="text-gray-400 text-sm mt-1">Gunakan algoritma Shortest Path (Dijkstra) untuk mencari rute penerbangan terbaik antar kota.</p>
+        </div>
+
+        <form method="POST" id="routeForm" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="flex flex-col gap-2">
+                <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Kota Asal</label>
+                <select name="source" id="sourceCity" class="bg-gray-800 p-4 rounded-xl border border-gray-700 text-white focus:outline-none focus:border-cyan-500 transition shadow-inner">
+                    {% for city in cities %}
+                    <option value="{{ city }}" {% if request.form.get('source') == city %}selected{% endif %}>{{ city }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="flex flex-col gap-2">
+                <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Kota Tujuan</label>
+                <select name="target" id="targetCity" class="bg-gray-800 p-4 rounded-xl border border-gray-700 text-white focus:outline-none focus:border-cyan-500 transition shadow-inner">
+                    {% for city in cities %}
+                    <option value="{{ city }}" {% if request.form.get('target') == city %}selected{% endif %}>{{ city }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="flex flex-col gap-2">
+                <label class="text-xs font-semibold text-gray-400 uppercase tracking-wider">Metrik Optimasi</label>
+                <select name="weight_type" class="bg-gray-800 p-4 rounded-xl border border-gray-700 text-white focus:outline-none focus:border-cyan-500 transition shadow-inner">
+                    <option value="price" {% if request.form.get('weight_type') == 'price' %}selected{% endif %}>Rute Termurah (Price)</option>
+                    <option value="duration" {% if request.form.get('weight_type') == 'duration' %}selected{% endif %}>Rute Tercepat (Duration)</option>
+                </select>
+            </div>
+
+            <div class="flex flex-col justify-end">
+                <button type="submit" class="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 active:scale-95 text-gray-950 font-extrabold p-4 rounded-xl transition duration-200 shadow-[0_0_15px_rgba(6,182,212,0.4)] h-[58px]">
+                    🔍 Cari Rute Optimal
+                </button>
+            </div>
+        </form>
+    </div>
+
+    {% if path_result %}
+    <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 shadow-xl animate-fade-in">
+        <h3 class="text-xl font-bold mb-6 text-gray-200 flex items-center gap-2">
+            <span>📊</span> Hasil Analisis Jalur Penerbangan
+        </h3>
+
+        {% if path_result == ["No Path Found"] %}
+        <div class="bg-red-500/10 border border-red-500/30 text-red-400 p-5 rounded-xl text-center flex flex-col items-center gap-2">
+            <span class="text-3xl">⚠️</span>
+            <strong>Penerbangan Tidak Ditemukan!</strong>
+            <p class="text-sm">Tidak ada jalur penerbangan langsung maupun transit yang menghubungkan kedua kota tersebut.</p>
+        </div>
+        {% else %}
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="lg:col-span-2 bg-gray-800/40 border border-gray-800 p-6 rounded-xl flex flex-col justify-center relative overflow-hidden">
+                <div class="absolute right-0 top-0 w-32 h-32 bg-cyan-500/5 rounded-full blur-3xl"></div>
+                <p class="text-xs text-gray-400 uppercase font-bold mb-5 tracking-wider relative z-10">Rute Perjalanan (Transit Node)</p>
+                <div class="flex flex-wrap items-center gap-3 relative z-10">
+                    {% for city in path_result %}
+                        <div class="bg-gray-950 border border-cyan-500/30 text-cyan-400 px-5 py-3 rounded-xl font-bold shadow-lg flex items-center gap-2">
+                            {% if loop.first %}🛫{% elif loop.last %}🛬{% else %}🔄{% endif %}
+                            {{ city }}
+                        </div>
+                        {% if not loop.last %}
+                            <span class="text-cyan-500 font-bold text-xl animate-pulse">➔</span>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 p-6 rounded-xl flex flex-col justify-between shadow-lg relative overflow-hidden">
+                <div class="absolute -right-4 -bottom-4 text-8xl opacity-5">{% if request.form.get('weight_type') == 'price' %}₹{% else %}⏱️{% endif %}</div>
+                <div class="relative z-10">
+                    <p class="text-xs text-gray-400 uppercase font-bold tracking-wider">Total Transisi Rute</p>
+                    <div class="mt-2 inline-flex items-center gap-2 bg-gray-950 px-3 py-1.5 rounded-lg border border-gray-800">
+                        <span class="text-xl">{% if path_result|length > 2 %}🔀{% else %}✈️{% endif %}</span>
+                        <h4 class="text-sm text-gray-300 font-semibold">Total Transit: <span class="font-bold text-cyan-400">{{ path_result|length - 2 if path_result|length > 2 else 'Langsung (0)' }}</span></h4>
+                    </div>
+                </div>
+                
+                <div class="mt-6 pt-5 border-t border-gray-700 relative z-10">
+                    <p class="text-xs text-gray-400 uppercase font-bold tracking-wider mb-1">
+                        {% if request.form.get('weight_type') == 'price' %} Total Estimasi Harga {% else %} Total Estimasi Durasi {% endif %}
+                    </p>
+                    
+                    <p class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r {% if request.form.get('weight_type') == 'price' %}from-green-400 to-emerald-600{% else %}from-cyan-400 to-blue-500{% endif %} mt-1 font-mono drop-shadow-sm">
+                        {% if request.form.get('weight_type') == 'price' %}
+                            ₹ {{ "{:,.0f}".format(total_cost) if total_cost is number else total_cost }}
+                        {% else %}
+                            {% set total_mins = total_cost | int %}
+                            {% set hours = (total_mins // 60) | int %}
+                            {% set mins = (total_mins % 60) | int %}
+                            
+                            {% if hours > 0 %}
+                                {{ hours }}<span class="text-lg text-gray-400 font-sans mx-1">Jam</span>
+                            {% endif %}
+                            {{ mins }}<span class="text-lg text-gray-400 font-sans ml-1">Menit</span>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+
+<script>
+    document.getElementById('routeForm').addEventListener('submit', function(e) {
+        var source = document.getElementById('sourceCity').value;
+        var target = document.getElementById('targetCity').value;
+        
+        if (source === target) {
+            e.preventDefault(); // Mencegah form dikirim ke backend
+            alert("⚠️ Waduh! Kota Asal dan Kota Tujuan tidak boleh sama ya. Silakan pilih rute yang benar.");
+        }
+    });
+</script>
+
+<style>
+    .animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+{% endblock %}
