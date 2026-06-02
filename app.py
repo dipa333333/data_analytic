@@ -36,7 +36,7 @@ total_edges = G.number_of_edges()
 
 centrality_df = calculate_centrality(G)
 
-top_centrality = centrality_df.head(10).to_dict(
+top_centrality = centrality_df.to_dict(
     orient="records"
 )
 
