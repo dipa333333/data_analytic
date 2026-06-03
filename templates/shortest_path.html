@@ -150,25 +150,20 @@
         if (source === target) {
             alert("⚠️ Waduh! Kota Asal dan Kota Tujuan tidak boleh sama ya. Silakan pilih rute yang benar.");
         } else {
-            // 1. Animasi loading di Tombol
             btn.classList.add('cursor-not-allowed', 'opacity-80');
             btnIcon.innerHTML = `<svg class="animate-spin h-5 w-5 text-gray-950" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>`;
             btnText.innerText = "Mengkalkulasi...";
 
-            // 2. MUNCULKAN KOTAK LOADING DI AREA HASIL BAWAH
             var loadingState = document.getElementById('loadingState');
             loadingState.classList.remove('hidden');
 
-            // 3. SEMBUNYIKAN HASIL LAMA (Jika sebelumnya user sudah pernah mencari rute)
             var resultState = document.getElementById('resultState');
             if (resultState) {
                 resultState.classList.add('hidden');
             }
 
-            // 4. Scroll layar sedikit ke bawah supaya animasi loadingnya kelihatan
             loadingState.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-            // 5. Tahan selama 1,5 detik, baru benar-benar dikirim ke backend Python
             setTimeout(function() {
                 document.getElementById('routeForm').submit();
             }, 1500);
@@ -177,7 +172,6 @@
 </script>
 
 <style>
-    /* CSS Animasi Slide-Up Bertahap (Staggered) */
     .animate-slide-up { 
         animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; 
     }

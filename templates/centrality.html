@@ -147,13 +147,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-    // 1. Terima seluruh data dari Python
     const rawData = '{{ top_centrality | tojson | safe }}';
     const centralityData = JSON.parse(rawData);
 
-    // 2. Fungsi Pembangun Grafik Otomatis
     function createTop5Chart(canvasId, metricKey, colorStart, colorEnd, borderColor) {
-        // Sortir data secara menurun berdasarkan metrik yang diminta, lalu ambil 5 teratas
         const sortedData = [...centralityData].sort((a, b) => b[metricKey] - a[metricKey]).slice(0, 5);
         
         const labels = sortedData.map(item => item.city);
@@ -178,7 +175,7 @@
                 }]
             },
             options: {
-                indexAxis: 'y', // Tetap Horizontal
+                indexAxis: 'y',
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
@@ -196,8 +193,6 @@
         });
     }
 
-    // 3. Eksekusi Pembuatan 3 Grafik
-    // Format warna: Start (Transparan), End (Solid), Border
     createTop5Chart('degreeChart', 'degree', 'rgba(6, 182, 212, 0.2)', 'rgba(6, 182, 212, 0.9)', '#06b6d4'); // Cyan
     createTop5Chart('betweennessChart', 'betweenness', 'rgba(168, 85, 247, 0.2)', 'rgba(168, 85, 247, 0.9)', '#a855f7'); // Purple
     createTop5Chart('closenessChart', 'closeness', 'rgba(34, 197, 94, 0.2)', 'rgba(34, 197, 94, 0.9)', '#22c55e'); // Green

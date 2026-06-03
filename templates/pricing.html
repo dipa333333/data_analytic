@@ -1,15 +1,36 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<style>
+.animate-slide-up {
+    opacity: 0;
+    animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+
 <div class="space-y-6">
     
-    <div class="bg-gray-900 rounded-2xl border border-gray-800 p-6 shadow-xl">
+    <!-- HEADER-->
+    <div class="bg-gray-900 rounded-2xl border border-gray-800 p-6 shadow-xl animate-slide-up" style="animation-delay: 0.1s;">
         <h2 class="text-3xl font-bold mb-1">Ticket Price Analytics</h2>
         <p class="text-gray-400 text-sm">Analisis komprehensif distribusi harga, pengaruh jumlah transit, serta korelasi durasi terbang terhadap tarif tiket.</p>
     </div>
 
+    <!-- STATS CARDS -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 flex items-center justify-between group transition-all duration-300 ease-out hover:-translate-y-2 hover:border-green-500/50 hover:shadow-[0_0_25px_rgba(34,197,94,0.25)] cursor-default">
+        <!-- Rata-rata -->
+        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 flex items-center justify-between group transition-all duration-300 ease-out hover:-translate-y-2 hover:border-green-500/50 hover:shadow-[0_0_25px_rgba(34,197,94,0.25)] cursor-default animate-slide-up" style="animation-delay: 0.2s;">
             <div>
                 <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider group-hover:text-green-300 transition-colors">Harga Rata-Rata (Mean)</p>
                 <h3 class="text-3xl font-extrabold text-green-400 mt-2 font-mono animate-count drop-shadow-md" data-value="{{ pricing_data.avg_price }}" data-prefix="₹">0</h3>
@@ -17,7 +38,8 @@
             <div class="text-3xl bg-green-500/10 p-3 rounded-xl text-green-400 group-hover:scale-110 group-hover:bg-green-500/20 transition-all duration-300">📊</div>
         </div>
         
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 flex items-center justify-between group transition-all duration-300 ease-out hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-[0_0_25px_rgba(59,130,246,0.25)] cursor-default">
+        <!-- Terendah -->
+        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 flex items-center justify-between group transition-all duration-300 ease-out hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-[0_0_25px_rgba(59,130,246,0.25)] cursor-default animate-slide-up" style="animation-delay: 0.3s;">
             <div>
                 <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider group-hover:text-blue-300 transition-colors">Harga Terendah (Min)</p>
                 <h3 class="text-3xl font-extrabold text-blue-400 mt-2 font-mono animate-count drop-shadow-md" data-value="{{ pricing_data.min_price }}" data-prefix="₹">0</h3>
@@ -25,7 +47,8 @@
             <div class="text-3xl bg-blue-500/10 p-3 rounded-xl text-blue-400 group-hover:scale-110 group-hover:bg-blue-500/20 transition-all duration-300">📉</div>
         </div>
         
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 flex items-center justify-between group transition-all duration-300 ease-out hover:-translate-y-2 hover:border-red-500/50 hover:shadow-[0_0_25px_rgba(239,68,68,0.25)] cursor-default">
+        <!-- Tertinggi -->
+        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 flex items-center justify-between group transition-all duration-300 ease-out hover:-translate-y-2 hover:border-red-500/50 hover:shadow-[0_0_25px_rgba(239,68,68,0.25)] cursor-default animate-slide-up" style="animation-delay: 0.4s;">
             <div>
                 <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider group-hover:text-red-300 transition-colors">Harga Tertinggi (Max)</p>
                 <h3 class="text-3xl font-extrabold text-red-400 mt-2 font-mono animate-count drop-shadow-md" data-value="{{ pricing_data.max_price }}" data-prefix="₹">0</h3>
@@ -34,9 +57,11 @@
         </div>
     </div>
 
+    <!-- ROW 1: AIRLINE CHART & AI INSIGHTS -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
         
-        <div class="lg:col-span-2 bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl">
+        <!-- Bar Chart -->
+        <div class="lg:col-span-2 bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl animate-slide-up" style="animation-delay: 0.5s;">
             <div class="mb-4">
                 <h3 class="text-lg font-bold text-white">Distribusi Komparatif Maskapai</h3>
                 <p class="text-xs text-gray-400">Urutan maskapai dari tarif rata-rata tertinggi hingga terendah.</p>
@@ -46,7 +71,8 @@
             </div>
         </div>
 
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl flex flex-col justify-between relative overflow-hidden">
+        <!-- AI Insights -->
+        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl flex flex-col justify-between relative overflow-hidden animate-slide-up" style="animation-delay: 0.6s;">
             <div class="absolute -right-4 -top-4 text-7xl opacity-5">💡</div>
             
             <div>
@@ -75,9 +101,11 @@
         </div>
     </div>
 
+    <!-- ROW 2: TRANSIT CHART & SCATTER PLOT -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
         
-        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl">
+        <!-- Stops Chart -->
+        <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl animate-slide-up" style="animation-delay: 0.7s;">
             <div class="mb-4">
                 <h3 class="text-lg font-bold text-white flex items-center gap-2"><span>🔀</span> Tarif vs Transit</h3>
                 <p class="text-xs text-gray-400 mt-1">Perbandingan rata-rata tarif (₹)</p>
@@ -87,7 +115,8 @@
             </div>
         </div>
 
-        <div class="lg:col-span-2 bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl">
+        <!-- Scatter Plot -->
+        <div class="lg:col-span-2 bg-gray-900 p-6 rounded-2xl border border-gray-800 shadow-xl animate-slide-up" style="animation-delay: 0.8s;">
             <div class="mb-4">
                 <h3 class="text-lg font-bold text-white flex items-center gap-2"><span>⏱️</span> Korelasi Durasi terhadap Harga</h3>
                 <p class="text-xs text-gray-400 mt-1">Pola penyebaran tarif tiket (Sumbu Y) berdasarkan total waktu tempuh penerbangan (Sumbu X).</p>
@@ -101,130 +130,251 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 
 <script>
-    // FORMAT MATA UANG RUPEE UNTUK TOOLTIP
     const formatRupee = (val) => '₹' + Number(val).toLocaleString('en-US', { minimumFractionDigits: 0 });
 
-    // 1. DATA AIRLINE CHART
-    const rawAirline = '{{ pricing_data.airline_avg | tojson | safe }}';
-    const airlineData = JSON.parse(rawAirline);
-    const ctxAirline = document.getElementById('airlineDetailedChart').getContext('2d');
-    
-    const gradAirline = ctxAirline.createLinearGradient(0, 0, 0, 300);
-    gradAirline.addColorStop(0, 'rgba(236, 72, 153, 0.85)'); // Pink
-    gradAirline.addColorStop(1, 'rgba(79, 70, 229, 0.15)');  // Indigo
+    function animateStaggeredBars(chart, finalValues, staggerMs = 80, duration = 700) {
+        const totalBars = finalValues.length;
+        const startTimes = new Array(totalBars).fill(null);
+        const started = new Array(totalBars).fill(false);
 
-    new Chart(ctxAirline, {
-        type: 'bar',
-        data: {
-            labels: Object.keys(airlineData),
-            datasets: [{
-                data: Object.values(airlineData),
-                backgroundColor: gradAirline,
-                borderColor: '#ec4899',
-                borderWidth: 1.5,
-                borderRadius: 6
-            }]
-        },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            plugins: { 
-                legend: { display: false },
-                tooltip: { callbacks: { label: (c) => ' Rata-rata: ' + formatRupee(c.raw) } }
-            },
-            scales: {
-                x: { grid: { display: false }, ticks: { color: '#9ca3af' } },
-                y: { grid: { color: 'rgba(75, 85, 99, 0.1)' }, ticks: { color: '#9ca3af', callback: formatRupee } }
+        chart.data.datasets[0].data = finalValues.map(() => 0);
+        chart.update('none');
+
+        function easeOutCubic(t) {
+            return 1 - Math.pow(1 - t, 3);
+        }
+
+        let frameId;
+        const globalStart = performance.now();
+
+        function tick(now) {
+            let stillRunning = false;
+
+            finalValues.forEach((targetValue, i) => {
+                const barStartTime = globalStart + i * staggerMs;
+
+                if (now < barStartTime) {
+                    stillRunning = true;
+                    return;
+                }
+
+                if (!started[i]) {
+                    startTimes[i] = now;
+                    started[i] = true;
+                }
+
+                const elapsed = now - startTimes[i];
+                const progress = Math.min(elapsed / duration, 1);
+                const eased = easeOutCubic(progress);
+                chart.data.datasets[0].data[i] = targetValue * eased;
+
+                if (progress < 1) stillRunning = true;
+            });
+
+            chart.update('none');
+
+            if (stillRunning) {
+                frameId = requestAnimationFrame(tick);
+            } else {
+                chart.data.datasets[0].data = [...finalValues];
+                chart.update('none');
             }
         }
-    });
 
-    // 2. DATA TRANSIT (STOPS) CHART
-    const rawStops = '{{ pricing_data.stops_avg | tojson | safe }}';
-    const stopsData = JSON.parse(rawStops);
-    const ctxStops = document.getElementById('stopsChart').getContext('2d');
-    
-    const gradStops = ctxStops.createLinearGradient(0, 0, 0, 300);
-    gradStops.addColorStop(0, 'rgba(245, 158, 11, 0.85)'); // Amber
-    gradStops.addColorStop(1, 'rgba(234, 88, 12, 0.15)');  // Orange
+        frameId = requestAnimationFrame(tick);
+        return () => cancelAnimationFrame(frameId); 
+    }
 
-    new Chart(ctxStops, {
-        type: 'bar',
-        data: {
-            labels: Object.keys(stopsData),
-            datasets: [{
-                data: Object.values(stopsData),
-                backgroundColor: gradStops,
-                borderColor: '#f59e0b',
-                borderWidth: 1.5,
-                borderRadius: 6
-            }]
-        },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            plugins: { 
-                legend: { display: false },
-                tooltip: { callbacks: { label: (c) => ' Harga: ' + formatRupee(c.raw) } }
+    function observeAndAnimate(canvasId, buildFn) {
+        const canvas = document.getElementById(canvasId);
+        if (!canvas) return;
+
+        let hasAnimated = false;
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !hasAnimated) {
+                    hasAnimated = true;
+                    observer.disconnect();
+                    buildFn();
+                }
+            });
+        }, {
+            threshold: 0.3
+        });
+
+        observer.observe(canvas.closest('.animate-slide-up') || canvas.parentElement);
+    }
+
+    // =======================
+    // 1. AIRLINE CHART
+    // =======================
+    const airlineData = JSON.parse('{{ pricing_data.airline_avg | tojson | safe }}');
+
+    observeAndAnimate('airlineDetailedChart', () => {
+        const ctx = document.getElementById('airlineDetailedChart').getContext('2d');
+        const grad = ctx.createLinearGradient(0, 0, 0, 300);
+        grad.addColorStop(0, 'rgba(236, 72, 153, 0.85)');
+        grad.addColorStop(1, 'rgba(79, 70, 229, 0.15)');
+
+        const values = Object.values(airlineData);
+
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(airlineData),
+                datasets: [{
+                    data: values.map(() => 0),
+                    backgroundColor: grad,
+                    borderColor: '#ec4899',
+                    borderWidth: 1.5,
+                    borderRadius: 6,
+                    hoverBorderWidth: 3
+                }]
             },
-            scales: {
-                x: { grid: { display: false }, ticks: { color: '#9ca3af', font: {size: 10} } },
-                y: { grid: { color: 'rgba(75, 85, 99, 0.1)' }, ticks: { color: '#9ca3af', font: {size: 10}, callback: formatRupee } }
-            }
-        }
-    });
-
-    // 3. DATA SCATTER PLOT (DURATION VS PRICE)
-    const rawScatter = '{{ pricing_data.scatter_data | tojson | safe }}';
-    const scatterData = JSON.parse(rawScatter);
-    const ctxScatter = document.getElementById('scatterChart').getContext('2d');
-
-    new Chart(ctxScatter, {
-        type: 'scatter',
-        data: {
-            datasets: [{
-                label: 'Sampel Penerbangan',
-                data: scatterData,
-                backgroundColor: 'rgba(16, 185, 129, 0.5)', // Emerald transparent
-                borderColor: 'rgba(16, 185, 129, 0.8)',
-                borderWidth: 1,
-                pointRadius: 4,
-                pointHoverRadius: 7
-            }]
-        },
-        options: {
-            responsive: true, maintainAspectRatio: false,
-            plugins: {
-                legend: { display: false },
-                tooltip: {
-                    backgroundColor: '#1f2937',
-                    titleColor: '#fff',
-                    bodyColor: '#34d399',
-                    callbacks: {
-                        label: function(context) {
-                            const mins = context.raw.x;
-                            const hours = Math.floor(mins / 60);
-                            const remainingMins = mins % 60;
-                            const timeText = hours > 0 ? `${hours} Jam ${remainingMins} Mnt` : `${mins} Mnt`;
-                            return ` ${timeText} ➔ Harga: ${formatRupee(context.raw.y)}`;
-                        }
+            options: {
+                animation: false,
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { label: (c) => ' Rata-rata: ' + formatRupee(c.raw) } }
+                },
+                scales: {
+                    x: { grid: { display: false }, ticks: { color: '#9ca3af' } },
+                    y: {
+                        grid: { color: 'rgba(75, 85, 99, 0.1)' },
+                        ticks: { color: '#9ca3af', callback: formatRupee },
+                        max: Math.max(...values) * 1.1
                     }
                 }
+            }
+        });
+
+        animateStaggeredBars(chart, values, 80, 700);
+    });
+
+    // =======================
+    // 2. STOPS CHART
+    // =======================
+    const stopsData = JSON.parse('{{ pricing_data.stops_avg | tojson | safe }}');
+
+    observeAndAnimate('stopsChart', () => {
+        const ctx = document.getElementById('stopsChart').getContext('2d');
+        const grad = ctx.createLinearGradient(0, 0, 0, 300);
+        grad.addColorStop(0, 'rgba(245, 158, 11, 0.85)');
+        grad.addColorStop(1, 'rgba(234, 88, 12, 0.15)');
+
+        const values = Object.values(stopsData);
+
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(stopsData),
+                datasets: [{
+                    data: values.map(() => 0),
+                    backgroundColor: grad,
+                    borderColor: '#f59e0b',
+                    borderWidth: 1.5,
+                    borderRadius: 6,
+                    hoverBorderWidth: 3
+                }]
             },
-            scales: {
-                x: {
-                    title: { display: true, text: 'Durasi Penerbangan (Menit)', color: '#6b7280', font: {size: 11} },
-                    grid: { color: 'rgba(75, 85, 99, 0.1)' },
-                    ticks: { color: '#9ca3af' }
+            options: {
+                animation: false,
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { label: (c) => ' Harga: ' + formatRupee(c.raw) } }
                 },
-                y: {
-                    title: { display: true, text: 'Harga Tiket (₹)', color: '#6b7280', font: {size: 11} },
-                    grid: { color: 'rgba(75, 85, 99, 0.1)' },
-                    ticks: { color: '#9ca3af', callback: formatRupee }
+                scales: {
+                    x: { grid: { display: false }, ticks: { color: '#9ca3af', font: { size: 10 } } },
+                    y: {
+                        grid: { color: 'rgba(75, 85, 99, 0.1)' },
+                        ticks: { color: '#9ca3af', font: { size: 10 }, callback: formatRupee },
+                        max: Math.max(...values) * 1.1
+                    }
                 }
             }
+        });
+
+        animateStaggeredBars(chart, values, 150, 700);
+    });
+
+    // =======================
+    // 3. SCATTER CHART
+    // =======================
+    const scatterData = JSON.parse('{{ pricing_data.scatter_data | tojson | safe }}');
+
+    observeAndAnimate('scatterChart', () => {
+        const ctx = document.getElementById('scatterChart').getContext('2d');
+
+        const chart = new Chart(ctx, {
+            type: 'scatter',
+            data: {
+                datasets: [{
+                    label: 'Sampel Penerbangan',
+                    data: [],
+                    backgroundColor: 'rgba(16, 185, 129, 0.5)',
+                    borderColor: 'rgba(16, 185, 129, 0.8)',
+                    borderWidth: 1,
+                    pointRadius: 4,
+                    pointHoverRadius: 7,
+                    pointHoverBorderWidth: 2
+                }]
+            },
+            options: {
+                animation: false,
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: '#1f2937',
+                        titleColor: '#fff',
+                        bodyColor: '#34d399',
+                        callbacks: {
+                            label: function (context) {
+                                const mins = context.raw.x;
+                                const hours = Math.floor(mins / 60);
+                                const remainingMins = mins % 60;
+                                const timeText = hours > 0 ? `${hours} Jam ${remainingMins} Mnt` : `${mins} Mnt`;
+                                return ` ${timeText} ➔ Harga: ${formatRupee(context.raw.y)}`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        title: { display: true, text: 'Durasi Penerbangan (Menit)', color: '#6b7280', font: { size: 11 } },
+                        grid: { color: 'rgba(75, 85, 99, 0.1)' },
+                        ticks: { color: '#9ca3af' }
+                    },
+                    y: {
+                        title: { display: true, text: 'Harga Tiket (₹)', color: '#6b7280', font: { size: 11 } },
+                        grid: { color: 'rgba(75, 85, 99, 0.1)' },
+                        ticks: { color: '#9ca3af', callback: formatRupee }
+                    }
+                }
+            }
+        });
+
+        const batchSize = Math.ceil(scatterData.length / 10);
+        let currentBatch = 0;
+
+        function addBatch() {
+            if (currentBatch * batchSize >= scatterData.length) return;
+            chart.data.datasets[0].data = scatterData.slice(0, (currentBatch + 1) * batchSize);
+            chart.update('none');
+            currentBatch++;
+            setTimeout(addBatch, 100);
         }
+
+        addBatch();
     });
 </script>
 {% endblock %}

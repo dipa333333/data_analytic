@@ -1,18 +1,15 @@
 import os
 import networkx as nx
 from pyvis.network import Network
-from datetime import datetime  # <-- Tambahkan import ini
+from datetime import datetime  
 
 def convert_duration_to_minutes(duration_str):
     duration_str = str(duration_str).strip()
     
-    # 1. Membaca format waktu dari Excel
     try:
         t = datetime.strptime(duration_str, "%I:%M:%S %p")
         hours = t.hour
         
-        # BUG FIX: Excel membungkus durasi 24 jam+ menjadi "12:XX AM" (0 Jam)
-        # Jika Python membaca 0 jam, kita kembalikan ke 24 jam!
         if hours == 0 and "AM" in duration_str:
             hours = 24
             
@@ -20,7 +17,6 @@ def convert_duration_to_minutes(duration_str):
     except ValueError:
         pass
         
-    # 2. Format lama (jika datanya aman berbentuk "2h 30m" atau angka)
     duration_str = duration_str.lower()
     if duration_str.replace('.', '', 1).isdigit():
         return int(float(duration_str))
@@ -49,27 +45,21 @@ def build_graph(df):
         price = float(row['Price'])
         duration = convert_duration_to_minutes(row['Duration'])
         
-        # Cegah durasi 0 agar Dijkstra tidak error
         if duration <= 0:
             duration = 1 
 
-        # LOGIKA BARU: Cek apakah rute ini sudah ada di dalam graf
         if G.has_edge(source, destination):
-            # Ambil data harga dan durasi yang sudah tersimpan sebelumnya
             old_price = G[source][destination]['price']
             old_duration = G[source][destination]['duration']
             
-            # Bandingkan! Simpan yang paling murah (price) dan paling cepat (duration)
             best_price = min(old_price, price)
             best_duration = min(old_duration, duration)
             
-            # Update rute dengan nilai terbaik
             G[source][destination]['price'] = best_price
             G[source][destination]['duration'] = best_duration
             G[source][destination]['title'] = f"Best Price: ₹{best_price:,.0f} <br> Best Duration: {best_duration} mins"
             
         else:
-            # Jika rute belum ada, buat garis baru
             G.add_edge(
                 source,
                 destination,
@@ -82,7 +72,6 @@ def build_graph(df):
 
 
 def generate_network_html(G):
-    # KUNCI PERBAIKAN: Tambahkan cdn_resources='remote'
     net = Network(
         height="750px",
         width="100%",
@@ -123,8 +112,6 @@ def generate_network_html(G):
         damping=0.9
     )
 
-    # Memastikan folder 'static/graphs' ada sebelum file disimpan
     os.makedirs("static/graphs", exist_ok=True)
     
-    # Menyimpan file HTML
     net.save_graph("static/graphs/network.html")

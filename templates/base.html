@@ -10,7 +10,7 @@
 <body class="bg-gray-950 text-white">
 
     <div class="flex min-h-screen">
-        <aside class="w-72 bg-gray-900 border-r border-gray-800 p-6 flex flex-col justify-between">
+        <aside class="w-72 bg-gray-900 border-r border-gray-800 p-6 flex flex-col justify-between sticky top-0 h-screen overflow-y-auto">
             <div>
                 <h1 class="text-3xl font-bold mb-10 text-cyan-400 flex items-center gap-2">
                     <span>✈️</span> Flight Analytics
@@ -68,15 +68,13 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            // Cari semua elemen yang punya class 'animate-count'
             const counters = document.querySelectorAll('.animate-count');
-            const duration = 2000; // Durasi animasi 2 detik (2000 ms)
+            const duration = 2000; 
 
             counters.forEach(counter => {
                 const target = parseFloat(counter.getAttribute('data-value'));
                 const prefix = counter.getAttribute('data-prefix') || '';
                 
-                // Jika data tidak valid, tampilkan apa adanya
                 if (isNaN(target)) return;
 
                 let startTime = null;
@@ -85,17 +83,14 @@
                     if (!startTime) startTime = timestamp;
                     const progress = Math.min((timestamp - startTime) / duration, 1);
                     
-                    // Efek easeOutQuart (Makin ke ujung makin melambat/smooth)
                     const easeProgress = 1 - Math.pow(1 - progress, 4);
                     const current = Math.floor(easeProgress * target);
 
-                    // Render angka dengan koma dan prefix (contoh: ₹23,382)
                     counter.innerText = prefix + current.toLocaleString('en-US');
 
                     if (progress < 1) {
                         window.requestAnimationFrame(step);
                     } else {
-                        // Pastikan angka terakhir presisi sesuai target
                         counter.innerText = prefix + target.toLocaleString('en-US');
                     }
                 };

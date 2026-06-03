@@ -1,17 +1,13 @@
 import pandas as pd
 from datetime import datetime
 
-# Fungsi membaca format waktu durasi (sama dengan di graph_builder agar aman)
 def convert_duration_to_minutes(duration_str):
     duration_str = str(duration_str).strip()
     
-    # 1. Membaca format waktu dari Excel
     try:
         t = datetime.strptime(duration_str, "%I:%M:%S %p")
         hours = t.hour
         
-        # BUG FIX: Excel membungkus durasi 24 jam+ menjadi "12:XX AM" (0 Jam)
-        # Jika Python membaca 0 jam, kita kembalikan ke 24 jam!
         if hours == 0 and "AM" in duration_str:
             hours = 24
             
@@ -19,7 +15,6 @@ def convert_duration_to_minutes(duration_str):
     except ValueError:
         pass
         
-    # 2. Format lama (jika datanya aman berbentuk "2h 30m" atau angka)
     duration_str = duration_str.lower()
     if duration_str.replace('.', '', 1).isdigit():
         return int(float(duration_str))
@@ -55,20 +50,18 @@ def analyze_ticket_prices(df):
 
     # 3. Rata-rata Berdasarkan Jumlah Transit
     stops_avg_raw = df.groupby('Total_Stops')['Price'].mean().round(2).to_dict()
-    # Mengurutkan kategori transit agar rapi di grafik
     stop_order = ['non-stop', '1 stop', '2 stops', '3 stops', '4 stops']
     stops_avg = {}
     for stop in stop_order:
         if stop in stops_avg_raw:
             stops_avg[stop] = stops_avg_raw[stop]
-    for k, v in stops_avg_raw.items(): # Masukkan sisanya jika ada
+    for k, v in stops_avg_raw.items(): 
         if k not in stops_avg: stops_avg[k] = v
 
     # 4. Data Scatter Plot (Durasi vs Harga)
     df_copy = df.copy()
     df_copy['Duration_Mins'] = df_copy['Duration'].apply(convert_duration_to_minutes)
     
-    # Ambil sampel acak maksimal 1000 data agar browser pengguna tidak lag/ngehang saat merender titik
     sample_df = df_copy.sample(n=min(1000, len(df_copy)), random_state=42)
     
     scatter_data = [
